@@ -1,0 +1,17 @@
+{
+    "name": "calalog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@anzerr/fs.copy": "^1.0.12",
+        "@anzerr/fs.find": "^1.0.3",
+        "@anzerr/fs.remove": "^1.0.15"
+    }
+}

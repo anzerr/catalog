@@ -1,0 +1,31 @@
+name: "Sync fork"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    name: "Sync"
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.BOT_TOKEN }}
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: sync
+        run: |
+          cd .github/workflows
+          npm ci
+          node index.js
+      - name: Pull upstream "main" and update
+        run: |
+          git config --global user.email "anzerr@users.noreply.github.com"
+          git config --global user.name "anzerr"
+
+          git add --all
+          git commit -sm "Update with fork" || exit 0
+          git push
