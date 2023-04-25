@@ -20,7 +20,8 @@ class Sync {
         'lidarr',
         'radarr',
         'jackett',
-        'unpackerr'
+        'unpackerr',
+        'readarr'
     ];
 
     static exec(c, o) {
