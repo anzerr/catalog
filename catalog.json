@@ -57,9 +57,9 @@
 			"location": "/home/runner/work/catalog/catalog/stable/metube",
 			"healthy": true,
 			"healthy_error": null,
-			"latest_version": "7.0.8",
+			"latest_version": "7.0.9",
 			"latest_app_version": "2023",
-			"latest_human_version": "2023_7.0.8",
+			"latest_human_version": "2023_7.0.9",
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/metube.png"
 		},
 		"unpackerr": {
@@ -71,9 +71,9 @@
 			"location": "/home/runner/work/catalog/catalog/stable/unpackerr",
 			"healthy": true,
 			"healthy_error": null,
-			"latest_version": "9.0.8",
+			"latest_version": "9.0.9",
 			"latest_app_version": "0.11.1",
-			"latest_human_version": "0.11.1_9.0.8",
+			"latest_human_version": "0.11.1_9.0.9",
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/unpackerr.png"
 		},
 		"postgresql": {
@@ -85,9 +85,9 @@
 			"location": "/home/runner/work/catalog/catalog/stable/postgresql",
 			"healthy": true,
 			"healthy_error": null,
-			"latest_version": "13.0.8",
+			"latest_version": "13.0.9",
 			"latest_app_version": "14.7.0",
-			"latest_human_version": "14.7.0_13.0.8",
+			"latest_human_version": "14.7.0_13.0.9",
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/postgresql.png"
 		},
 		"lidarr": {
@@ -99,9 +99,9 @@
 			"location": "/home/runner/work/catalog/catalog/stable/lidarr",
 			"healthy": true,
 			"healthy_error": null,
-			"latest_version": "16.0.2",
+			"latest_version": "16.0.3",
 			"latest_app_version": "1.1.3.2982",
-			"latest_human_version": "1.1.3.2982_16.0.2",
+			"latest_human_version": "1.1.3.2982_16.0.3",
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.png"
 		},
 		"sonarr": {
@@ -113,9 +113,9 @@
 			"location": "/home/runner/work/catalog/catalog/stable/sonarr",
 			"healthy": true,
 			"healthy_error": null,
-			"latest_version": "15.0.9",
+			"latest_version": "15.0.10",
 			"latest_app_version": "3.0.9.1549",
-			"latest_human_version": "3.0.9.1549_15.0.9",
+			"latest_human_version": "3.0.9.1549_15.0.10",
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/sonarr.png"
 		},
 		"nextcloud": {
@@ -141,9 +141,9 @@
 			"location": "/home/runner/work/catalog/catalog/stable/readarr",
 			"healthy": true,
 			"healthy_error": null,
-			"latest_version": "16.0.2",
+			"latest_version": "16.0.3",
 			"latest_app_version": "0.1.4.1596",
-			"latest_human_version": "0.1.4.1596_16.0.2",
+			"latest_human_version": "0.1.4.1596_16.0.3",
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/readarr.png"
 		},
 		"radarr": {
@@ -155,9 +155,9 @@
 			"location": "/home/runner/work/catalog/catalog/stable/radarr",
 			"healthy": true,
 			"healthy_error": null,
-			"latest_version": "16.0.3",
+			"latest_version": "16.0.4",
 			"latest_app_version": "4.4.4.7068",
-			"latest_human_version": "4.4.4.7068_16.0.3",
+			"latest_human_version": "4.4.4.7068_16.0.4",
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.png"
 		},
 		"jackett": {
@@ -170,9 +170,9 @@
 			"location": "/home/runner/work/catalog/catalog/stable/jackett",
 			"healthy": true,
 			"healthy_error": null,
-			"latest_version": "14.0.8",
+			"latest_version": "14.0.9",
 			"latest_app_version": "0.20.2297",
-			"latest_human_version": "0.20.2297_14.0.8",
+			"latest_human_version": "0.20.2297_14.0.9",
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png"
 		},
 		"jellyseerr": {
@@ -184,9 +184,9 @@
 			"location": "/home/runner/work/catalog/catalog/stable/jellyseerr",
 			"healthy": true,
 			"healthy_error": null,
-			"latest_version": "5.0.8",
+			"latest_version": "5.0.9",
 			"latest_app_version": "1.4.1",
-			"latest_human_version": "1.4.1_5.0.8",
+			"latest_human_version": "1.4.1_5.0.9",
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jellyseerr.png"
 		},
 		"jellyfin": {
@@ -198,9 +198,9 @@
 			"location": "/home/runner/work/catalog/catalog/stable/jellyfin",
 			"healthy": true,
 			"healthy_error": null,
-			"latest_version": "14.0.10",
+			"latest_version": "14.0.11",
 			"latest_app_version": "10.8.10",
-			"latest_human_version": "10.8.10_14.0.10",
+			"latest_human_version": "10.8.10_14.0.11",
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jellyfin.png"
 		}
 	},
