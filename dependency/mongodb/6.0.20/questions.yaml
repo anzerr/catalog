@@ -145,82 +145,89 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: hostNetwork
-          label: "Host Networking"
+        - variable: expertPodOpts
+          label: "Expert - Pod Options"
           schema:
             type: boolean
             default: false
-        - variable: dnsConfig
-          label: "DNS Configuration"
-          schema:
-            type: dict
-            additional_attrs: true
-            attrs:
-              - variable: options
-                label: "Options"
+            show_subquestions_if: true
+            subquestions:
+              - variable: hostNetwork
+                label: "Host Networking"
                 schema:
-                  type: list
-                  default: [{"name": "ndots", "value": "2"}]
-                  items:
-                    - variable: optionsEntry
-                      label: "Option Entry"
+                  type: boolean
+                  default: false
+              - variable: dnsConfig
+                label: "DNS Configuration"
+                schema:
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: options
+                      label: "Options"
                       schema:
-                        type: dict
-                        additional_attrs: true
-                        attrs:
-                          - variable: name
-                            label: "Name"
+                        type: list
+                        default: [{"name": "ndots", "value": "2"}]
+                        items:
+                          - variable: optionsEntry
+                            label: "Option Entry"
+                            schema:
+                              type: dict
+                              additional_attrs: true
+                              attrs:
+                                - variable: name
+                                  label: "Name"
+                                  schema:
+                                    type: string
+                                    required: true
+                                - variable: value
+                                  label: "Value"
+                                  schema:
+                                    type: string
+                    - variable: nameservers
+                      label: "Nameservers"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: nsEntry
+                            label: "Nameserver Entry"
                             schema:
                               type: string
                               required: true
-                          - variable: value
-                            label: "Value"
+                    - variable: searches
+                      label: "Searches"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: searchEntry
+                            label: "Search Entry"
                             schema:
                               type: string
-              - variable: nameservers
-                label: "Nameservers"
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: nsEntry
-                      label: "Nameserver Entry"
-                      schema:
-                        type: string
-                        required: true
-              - variable: searches
-                label: "Searches"
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: searchEntry
-                      label: "Search Entry"
-                      schema:
-                        type: string
-                        required: true
-  - variable: mariadbDatabase
+                              required: true
+  - variable: mongodbDatabase
     group: "App Configuration"
     label: "Database Name"
     schema:
       type: string
       default: "mydatabase"
       required: true
-  - variable: mariadbUsername
+  - variable: mongodbUsername
     group: "App Configuration"
     label: "Database User"
     schema:
       type: string
       default: "mydatabaseuser"
       required: true
-  - variable: mariadbPassword
+  - variable: mongodbPassword
     group: "App Configuration"
     label: "Database Password"
     schema:
       type: string
       default: ""
       required: true
-  - variable: mariadbRootPassword
+  - variable: mongodbRootPassword
     group: "App Configuration"
     label: "Root Password"
     schema:
@@ -282,7 +289,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 3306
+                              default: 27017
                               required: true
   - variable: serviceexpert
     group: Networking and Services

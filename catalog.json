@@ -169,9 +169,9 @@
 			"location": "/home/runner/work/catalog/catalog/dependency/mongodb",
 			"healthy": true,
 			"healthy_error": null,
-			"latest_version": "6.0.19",
+			"latest_version": "6.0.20",
 			"latest_app_version": "6.0.5",
-			"latest_human_version": "6.0.5_6.0.19",
+			"latest_human_version": "6.0.5_6.0.20",
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png"
 		},
 		"mariadb": {
@@ -183,9 +183,9 @@
 			"location": "/home/runner/work/catalog/catalog/dependency/mariadb",
 			"healthy": true,
 			"healthy_error": null,
-			"latest_version": "7.0.18",
+			"latest_version": "7.0.19",
 			"latest_app_version": "10.11.2",
-			"latest_human_version": "10.11.2_7.0.18",
+			"latest_human_version": "10.11.2_7.0.19",
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
 		},
 		"redis": {
@@ -198,9 +198,9 @@
 			"location": "/home/runner/work/catalog/catalog/dependency/redis",
 			"healthy": true,
 			"healthy_error": null,
-			"latest_version": "6.0.35",
+			"latest_version": "6.0.36",
 			"latest_app_version": "7.0.11",
-			"latest_human_version": "7.0.11_6.0.35",
+			"latest_human_version": "7.0.11_6.0.36",
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png"
 		}
 	},

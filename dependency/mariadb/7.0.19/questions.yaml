@@ -145,63 +145,91 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: hostNetwork
-          label: "Host Networking"
+        - variable: expertPodOpts
+          label: "Expert - Pod Options"
           schema:
             type: boolean
             default: false
-        - variable: dnsConfig
-          label: "DNS Configuration"
-          schema:
-            type: dict
-            additional_attrs: true
-            attrs:
-              - variable: options
-                label: "Options"
+            show_subquestions_if: true
+            subquestions:
+              - variable: hostNetwork
+                label: "Host Networking"
                 schema:
-                  type: list
-                  default: [{"name": "ndots", "value": "2"}]
-                  items:
-                    - variable: optionsEntry
-                      label: "Option Entry"
+                  type: boolean
+                  default: false
+              - variable: dnsConfig
+                label: "DNS Configuration"
+                schema:
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: options
+                      label: "Options"
                       schema:
-                        type: dict
-                        additional_attrs: true
-                        attrs:
-                          - variable: name
-                            label: "Name"
+                        type: list
+                        default: [{"name": "ndots", "value": "2"}]
+                        items:
+                          - variable: optionsEntry
+                            label: "Option Entry"
+                            schema:
+                              type: dict
+                              additional_attrs: true
+                              attrs:
+                                - variable: name
+                                  label: "Name"
+                                  schema:
+                                    type: string
+                                    required: true
+                                - variable: value
+                                  label: "Value"
+                                  schema:
+                                    type: string
+                    - variable: nameservers
+                      label: "Nameservers"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: nsEntry
+                            label: "Nameserver Entry"
                             schema:
                               type: string
                               required: true
-                          - variable: value
-                            label: "Value"
+                    - variable: searches
+                      label: "Searches"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: searchEntry
+                            label: "Search Entry"
                             schema:
                               type: string
-              - variable: nameservers
-                label: "Nameservers"
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: nsEntry
-                      label: "Nameserver Entry"
-                      schema:
-                        type: string
-                        required: true
-              - variable: searches
-                label: "Searches"
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: searchEntry
-                      label: "Search Entry"
-                      schema:
-                        type: string
-                        required: true
-  - variable: redisPassword
+                              required: true
+  - variable: mariadbDatabase
     group: "App Configuration"
-    label: "Redis Password"
+    label: "Database Name"
+    schema:
+      type: string
+      default: "mydatabase"
+      required: true
+  - variable: mariadbUsername
+    group: "App Configuration"
+    label: "Database User"
+    schema:
+      type: string
+      default: "mydatabaseuser"
+      required: true
+  - variable: mariadbPassword
+    group: "App Configuration"
+    label: "Database Password"
+    schema:
+      type: string
+      default: ""
+      required: true
+  - variable: mariadbRootPassword
+    group: "App Configuration"
+    label: "Root Password"
     schema:
       type: string
       default: ""
@@ -261,7 +289,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 6379
+                              default: 3306
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -488,7 +516,7 @@ questions:
                                   schema:
                                     type: int
                                     required: true
-  - variable: volumeClaimTemplates
+  - variable: persistence
     label: Integrated Persistent Storage
     description: Integrated Persistent Storage
     group: Storage and Persistence
@@ -496,12 +524,15 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
+      additional_attrs: true
+      type: dict
+      attrs:
         - variable: data
-          label: "App Data Storage"
-          description: "Stores the Application Data."
+          label: "DB Storage"
+          description: "Stores the old Application Database."
           schema:
-            additional_attrs: true
             type: dict
+            hidden: true
             attrs:
               - variable: type
                 label: Type of Storage
@@ -678,7 +709,7 @@ questions:
                   default: 568
               - variable: runAsGroup
                 label: "runAsGroup"
-                description: "The groupID this App of the user running the application"
+                description: "The groupID of the user running the application"
                 schema:
                   type: int
                   default: 0
