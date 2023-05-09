@@ -4,6 +4,15 @@
 
 
 
+## [unpackerr-9.0.12](https://github.com/truecharts/charts/compare/unpackerr-9.0.11...unpackerr-9.0.12) (2023-05-08)
+
+### Chore
+
+- update container image tccr.io/truecharts/unpackerr to v0.11.2 ([#8843](https://github.com/truecharts/charts/issues/8843))
+  
+  
+
+
 ## [unpackerr-9.0.11](https://github.com/truecharts/charts/compare/unpackerr-9.0.10...unpackerr-9.0.11) (2023-05-05)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - bump common on the 222 ([#7959](https://github.com/truecharts/charts/issues/7959))
-  
-  
-
-
-## [unpackerr-9.0.1](https://github.com/truecharts/charts/compare/unpackerr-9.0.0...unpackerr-9.0.1) (2023-04-11)
-
-### Fix
-
-- bump common on the 222 ([#7927](https://github.com/truecharts/charts/issues/7927))
   
   
