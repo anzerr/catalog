@@ -1,23 +1,25 @@
 {
 	"charts": {},
 	"test": {},
-	"stable": {
-		"readarr": {
-			"app_readme": "<p>A fork of Radarr to work with Books &amp; AudioBooks</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/readarr\">https://truecharts.org/charts/stable/readarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+	"dev": {},
+	"dependency": {
+		"redis": {
+			"app_readme": "<p>Open source, advanced key-value store.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/redis\">https://truecharts.org/charts/dependency/redis</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
-				"media"
+				"database",
+				"cache"
 			],
-			"description": "A fork of Radarr to work with Books & AudioBooks",
+			"description": "Open source, advanced key-value store.",
 			"healthy": true,
 			"healthy_error": null,
-			"location": "/home/runner/work/catalog/catalog/stable/readarr",
-			"latest_version": "16.0.6",
-			"latest_app_version": "0.1.4.1596",
-			"latest_human_version": "0.1.4.1596_16.0.6",
-			"last_update": "2023-05-09 20:08:21",
-			"name": "readarr",
+			"location": "/home/runner/work/catalog/catalog/dependency/redis",
+			"latest_version": "6.0.39",
+			"latest_app_version": "7.0.11",
+			"latest_human_version": "7.0.11_6.0.39",
+			"last_update": "2023-05-10 10:00:19",
+			"name": "redis",
 			"recommended": false,
-			"title": "Readarr",
+			"title": "Redis",
 			"maintainers": [
 				{
 					"email": "info@truecharts.org",
@@ -25,124 +27,24 @@
 					"url": "https://truecharts.org"
 				}
 			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/readarr.png"
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png"
 		},
-		"metube": {
-			"app_readme": "<p>Web GUI for youtube-dl.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/metube\">https://truecharts.org/charts/stable/metube</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-			"categories": [
-				"media"
-			],
-			"description": "Web GUI for youtube-dl.",
-			"healthy": true,
-			"healthy_error": null,
-			"location": "/home/runner/work/catalog/catalog/stable/metube",
-			"latest_version": "7.0.12",
-			"latest_app_version": "2023",
-			"latest_human_version": "2023_7.0.12",
-			"last_update": "2023-05-09 20:08:21",
-			"name": "metube",
-			"recommended": false,
-			"title": "Metube",
-			"maintainers": [
-				{
-					"email": "info@truecharts.org",
-					"name": "TrueCharts",
-					"url": "https://truecharts.org"
-				}
-			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/metube.png"
-		},
-		"radarr": {
-			"app_readme": "<p>A fork of Sonarr to work with movies à la Couchpotato</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/radarr\">https://truecharts.org/charts/stable/radarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-			"categories": [
-				"media"
-			],
-			"description": "A fork of Sonarr to work with movies à la Couchpotato",
-			"healthy": true,
-			"healthy_error": null,
-			"location": "/home/runner/work/catalog/catalog/stable/radarr",
-			"latest_version": "16.0.7",
-			"latest_app_version": "4.4.4.7068",
-			"latest_human_version": "4.4.4.7068_16.0.7",
-			"last_update": "2023-05-09 20:08:21",
-			"name": "radarr",
-			"recommended": false,
-			"title": "Radarr",
-			"maintainers": [
-				{
-					"email": "info@truecharts.org",
-					"name": "TrueCharts",
-					"url": "https://truecharts.org"
-				}
-			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.png"
-		},
-		"lidarr": {
-			"app_readme": "<p>Looks and smells like Sonarr but made for music</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/lidarr\">https://truecharts.org/charts/stable/lidarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-			"categories": [
-				"media"
-			],
-			"description": "Looks and smells like Sonarr but made for music",
-			"healthy": true,
-			"healthy_error": null,
-			"location": "/home/runner/work/catalog/catalog/stable/lidarr",
-			"latest_version": "16.0.7",
-			"latest_app_version": "1.1.4.3027",
-			"latest_human_version": "1.1.4.3027_16.0.7",
-			"last_update": "2023-05-09 20:08:21",
-			"name": "lidarr",
-			"recommended": false,
-			"title": "Lidarr",
-			"maintainers": [
-				{
-					"email": "info@truecharts.org",
-					"name": "TrueCharts",
-					"url": "https://truecharts.org"
-				}
-			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.png"
-		},
-		"nextcloud": {
-			"app_readme": "<p>A private cloud server that puts the control and security of your own data back into your hands.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/nextcloud\">https://truecharts.org/charts/stable/nextcloud</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-			"categories": [
-				"cloud"
-			],
-			"description": "A private cloud server that puts the control and security of your own data back into your hands.",
-			"healthy": true,
-			"healthy_error": null,
-			"location": "/home/runner/work/catalog/catalog/stable/nextcloud",
-			"latest_version": "19.0.51",
-			"latest_app_version": "25.0.2",
-			"latest_human_version": "25.0.2_19.0.51",
-			"last_update": "2023-05-09 20:08:21",
-			"name": "nextcloud",
-			"recommended": false,
-			"title": "Nextcloud",
-			"maintainers": [
-				{
-					"email": "info@truecharts.org",
-					"name": "TrueCharts",
-					"url": "https://truecharts.org"
-				}
-			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png"
-		},
-		"postgresql": {
-			"app_readme": "<p>PostgresSQL</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/postgresql\">https://truecharts.org/charts/stable/postgresql</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+		"mongodb": {
+			"app_readme": "<p>Fast, reliable, scalable, and easy to use open-source no-sql database system.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/mongodb\">https://truecharts.org/charts/dependency/mongodb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
 				"database"
 			],
-			"description": "PostgresSQL",
+			"description": "Fast, reliable, scalable, and easy to use open-source no-sql database system.",
 			"healthy": true,
 			"healthy_error": null,
-			"location": "/home/runner/work/catalog/catalog/stable/postgresql",
-			"latest_version": "13.0.15",
-			"latest_app_version": "14.7.0",
-			"latest_human_version": "14.7.0_13.0.15",
-			"last_update": "2023-05-09 20:08:21",
-			"name": "postgresql",
+			"location": "/home/runner/work/catalog/catalog/dependency/mongodb",
+			"latest_version": "6.0.23",
+			"latest_app_version": "6.0.5",
+			"latest_human_version": "6.0.5_6.0.23",
+			"last_update": "2023-05-10 10:00:19",
+			"name": "mongodb",
 			"recommended": false,
-			"title": "Postgresql",
+			"title": "Mongodb",
 			"maintainers": [
 				{
 					"email": "info@truecharts.org",
@@ -150,7 +52,59 @@
 					"url": "https://truecharts.org"
 				}
 			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/postgresql.png"
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png"
+		},
+		"mariadb": {
+			"app_readme": "<p>Fast, reliable, scalable, and easy to use open-source relational database system.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/mariadb\">https://truecharts.org/charts/dependency/mariadb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+			"categories": [
+				"database"
+			],
+			"description": "Fast, reliable, scalable, and easy to use open-source relational database system.",
+			"healthy": true,
+			"healthy_error": null,
+			"location": "/home/runner/work/catalog/catalog/dependency/mariadb",
+			"latest_version": "7.0.22",
+			"latest_app_version": "10.11.2",
+			"latest_human_version": "10.11.2_7.0.22",
+			"last_update": "2023-05-10 10:00:19",
+			"name": "mariadb",
+			"recommended": false,
+			"title": "Mariadb",
+			"maintainers": [
+				{
+					"email": "info@truecharts.org",
+					"name": "TrueCharts",
+					"url": "https://truecharts.org"
+				}
+			],
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
+		}
+	},
+	"stable": {
+		"unpackerr": {
+			"app_readme": "<p>This application runs as a daemon on your download host. It checks for completed downloads and extracts them so Radarr, Lidarr, Sonarr, and Readarr may import them</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/unpackerr\">https://truecharts.org/charts/stable/unpackerr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+			"categories": [
+				"media"
+			],
+			"description": "This application runs as a daemon on your download host. It checks for completed downloads and extracts them so Radarr, Lidarr, Sonarr, and Readarr may import them",
+			"healthy": true,
+			"healthy_error": null,
+			"location": "/home/runner/work/catalog/catalog/stable/unpackerr",
+			"latest_version": "9.0.12",
+			"latest_app_version": "0.11.2",
+			"latest_human_version": "0.11.2_9.0.12",
+			"last_update": "2023-05-10 10:00:19",
+			"name": "unpackerr",
+			"recommended": false,
+			"title": "Unpackerr",
+			"maintainers": [
+				{
+					"email": "info@truecharts.org",
+					"name": "TrueCharts",
+					"url": "https://truecharts.org"
+				}
+			],
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/unpackerr.png"
 		},
 		"jellyseerr": {
 			"app_readme": "<p>Jellyseerr is a fork of Overseerr with support for Jellyfin and Emby. It can be used to manage requests for your media library.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/jellyseerr\">https://truecharts.org/charts/stable/jellyseerr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
@@ -164,7 +118,7 @@
 			"latest_version": "5.0.12",
 			"latest_app_version": "1.5.0",
 			"latest_human_version": "1.5.0_5.0.12",
-			"last_update": "2023-05-09 20:08:21",
+			"last_update": "2023-05-10 10:00:19",
 			"name": "jellyseerr",
 			"recommended": false,
 			"title": "Jellyseerr",
@@ -190,7 +144,7 @@
 			"latest_version": "14.0.14",
 			"latest_app_version": "0.20.2814",
 			"latest_human_version": "0.20.2814_14.0.14",
-			"last_update": "2023-05-09 20:08:21",
+			"last_update": "2023-05-10 10:00:19",
 			"name": "jackett",
 			"recommended": false,
 			"title": "Jackett",
@@ -203,22 +157,22 @@
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png"
 		},
-		"unpackerr": {
-			"app_readme": "<p>This application runs as a daemon on your download host. It checks for completed downloads and extracts them so Radarr, Lidarr, Sonarr, and Readarr may import them</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/unpackerr\">https://truecharts.org/charts/stable/unpackerr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+		"metube": {
+			"app_readme": "<p>Web GUI for youtube-dl.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/metube\">https://truecharts.org/charts/stable/metube</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
 				"media"
 			],
-			"description": "This application runs as a daemon on your download host. It checks for completed downloads and extracts them so Radarr, Lidarr, Sonarr, and Readarr may import them",
+			"description": "Web GUI for youtube-dl.",
 			"healthy": true,
 			"healthy_error": null,
-			"location": "/home/runner/work/catalog/catalog/stable/unpackerr",
-			"latest_version": "9.0.12",
-			"latest_app_version": "0.11.2",
-			"latest_human_version": "0.11.2_9.0.12",
-			"last_update": "2023-05-09 20:08:21",
-			"name": "unpackerr",
+			"location": "/home/runner/work/catalog/catalog/stable/metube",
+			"latest_version": "7.0.12",
+			"latest_app_version": "2023",
+			"latest_human_version": "2023_7.0.12",
+			"last_update": "2023-05-10 10:00:19",
+			"name": "metube",
 			"recommended": false,
-			"title": "Unpackerr",
+			"title": "Metube",
 			"maintainers": [
 				{
 					"email": "info@truecharts.org",
@@ -226,7 +180,7 @@
 					"url": "https://truecharts.org"
 				}
 			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/unpackerr.png"
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/metube.png"
 		},
 		"jellyfin": {
 			"app_readme": "<p>Jellyfin is a Free Software Media System</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/jellyfin\">https://truecharts.org/charts/stable/jellyfin</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
@@ -240,7 +194,7 @@
 			"latest_version": "14.0.13",
 			"latest_app_version": "10.8.10",
 			"latest_human_version": "10.8.10_14.0.13",
-			"last_update": "2023-05-09 20:08:21",
+			"last_update": "2023-05-10 10:00:19",
 			"name": "jellyfin",
 			"recommended": false,
 			"title": "Jellyfin",
@@ -252,6 +206,31 @@
 				}
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jellyfin.png"
+		},
+		"postgresql": {
+			"app_readme": "<p>PostgresSQL</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/postgresql\">https://truecharts.org/charts/stable/postgresql</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+			"categories": [
+				"database"
+			],
+			"description": "PostgresSQL",
+			"healthy": true,
+			"healthy_error": null,
+			"location": "/home/runner/work/catalog/catalog/stable/postgresql",
+			"latest_version": "13.0.15",
+			"latest_app_version": "14.7.0",
+			"latest_human_version": "14.7.0_13.0.15",
+			"last_update": "2023-05-10 10:00:19",
+			"name": "postgresql",
+			"recommended": false,
+			"title": "Postgresql",
+			"maintainers": [
+				{
+					"email": "info@truecharts.org",
+					"name": "TrueCharts",
+					"url": "https://truecharts.org"
+				}
+			],
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/postgresql.png"
 		},
 		"sonarr": {
 			"app_readme": "<p>Smart PVR for newsgroup and bittorrent users</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/sonarr\">https://truecharts.org/charts/stable/sonarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
@@ -265,7 +244,7 @@
 			"latest_version": "15.0.13",
 			"latest_app_version": "3.0.10.156",
 			"latest_human_version": "3.0.10.156_15.0.13",
-			"last_update": "2023-05-09 20:08:21",
+			"last_update": "2023-05-10 10:00:19",
 			"name": "sonarr",
 			"recommended": false,
 			"title": "Sonarr",
@@ -277,51 +256,23 @@
 				}
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/sonarr.png"
-		}
-	},
-	"incubator": {},
-	"dependency": {
-		"mongodb": {
-			"app_readme": "<p>Fast, reliable, scalable, and easy to use open-source no-sql database system.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/mongodb\">https://truecharts.org/charts/dependency/mongodb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-			"categories": [
-				"database"
-			],
-			"description": "Fast, reliable, scalable, and easy to use open-source no-sql database system.",
-			"healthy": true,
-			"healthy_error": null,
-			"location": "/home/runner/work/catalog/catalog/dependency/mongodb",
-			"latest_version": "6.0.23",
-			"latest_app_version": "6.0.5",
-			"latest_human_version": "6.0.5_6.0.23",
-			"last_update": "2023-05-09 20:08:21",
-			"name": "mongodb",
-			"recommended": false,
-			"title": "Mongodb",
-			"maintainers": [
-				{
-					"email": "info@truecharts.org",
-					"name": "TrueCharts",
-					"url": "https://truecharts.org"
-				}
-			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png"
 		},
-		"mariadb": {
-			"app_readme": "<p>Fast, reliable, scalable, and easy to use open-source relational database system.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/mariadb\">https://truecharts.org/charts/dependency/mariadb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+		"radarr": {
+			"app_readme": "<p>A fork of Sonarr to work with movies à la Couchpotato</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/radarr\">https://truecharts.org/charts/stable/radarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
-				"database"
+				"media"
 			],
-			"description": "Fast, reliable, scalable, and easy to use open-source relational database system.",
+			"description": "A fork of Sonarr to work with movies à la Couchpotato",
 			"healthy": true,
 			"healthy_error": null,
-			"location": "/home/runner/work/catalog/catalog/dependency/mariadb",
-			"latest_version": "7.0.22",
-			"latest_app_version": "10.11.2",
-			"latest_human_version": "10.11.2_7.0.22",
-			"last_update": "2023-05-09 20:08:21",
-			"name": "mariadb",
+			"location": "/home/runner/work/catalog/catalog/stable/radarr",
+			"latest_version": "16.0.7",
+			"latest_app_version": "4.4.4.7068",
+			"latest_human_version": "4.4.4.7068_16.0.7",
+			"last_update": "2023-05-10 10:00:19",
+			"name": "radarr",
 			"recommended": false,
-			"title": "Mariadb",
+			"title": "Radarr",
 			"maintainers": [
 				{
 					"email": "info@truecharts.org",
@@ -329,25 +280,24 @@
 					"url": "https://truecharts.org"
 				}
 			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.png"
 		},
-		"redis": {
-			"app_readme": "<p>Open source, advanced key-value store.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/redis\">https://truecharts.org/charts/dependency/redis</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+		"nextcloud": {
+			"app_readme": "<p>A private cloud server that puts the control and security of your own data back into your hands.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/nextcloud\">https://truecharts.org/charts/stable/nextcloud</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
-				"database",
-				"cache"
+				"cloud"
 			],
-			"description": "Open source, advanced key-value store.",
+			"description": "A private cloud server that puts the control and security of your own data back into your hands.",
 			"healthy": true,
 			"healthy_error": null,
-			"location": "/home/runner/work/catalog/catalog/dependency/redis",
-			"latest_version": "6.0.39",
-			"latest_app_version": "7.0.11",
-			"latest_human_version": "7.0.11_6.0.39",
-			"last_update": "2023-05-09 20:08:21",
-			"name": "redis",
+			"location": "/home/runner/work/catalog/catalog/stable/nextcloud",
+			"latest_version": "19.0.51",
+			"latest_app_version": "25.0.2",
+			"latest_human_version": "25.0.2_19.0.51",
+			"last_update": "2023-05-10 10:00:19",
+			"name": "nextcloud",
 			"recommended": false,
-			"title": "Redis",
+			"title": "Nextcloud",
 			"maintainers": [
 				{
 					"email": "info@truecharts.org",
@@ -355,9 +305,59 @@
 					"url": "https://truecharts.org"
 				}
 			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png"
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png"
+		},
+		"readarr": {
+			"app_readme": "<p>A fork of Radarr to work with Books &amp; AudioBooks</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/readarr\">https://truecharts.org/charts/stable/readarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+			"categories": [
+				"media"
+			],
+			"description": "A fork of Radarr to work with Books & AudioBooks",
+			"healthy": true,
+			"healthy_error": null,
+			"location": "/home/runner/work/catalog/catalog/stable/readarr",
+			"latest_version": "16.0.6",
+			"latest_app_version": "0.1.4.1596",
+			"latest_human_version": "0.1.4.1596_16.0.6",
+			"last_update": "2023-05-10 10:00:19",
+			"name": "readarr",
+			"recommended": false,
+			"title": "Readarr",
+			"maintainers": [
+				{
+					"email": "info@truecharts.org",
+					"name": "TrueCharts",
+					"url": "https://truecharts.org"
+				}
+			],
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/readarr.png"
+		},
+		"lidarr": {
+			"app_readme": "<p>Looks and smells like Sonarr but made for music</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/lidarr\">https://truecharts.org/charts/stable/lidarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+			"categories": [
+				"media"
+			],
+			"description": "Looks and smells like Sonarr but made for music",
+			"healthy": true,
+			"healthy_error": null,
+			"location": "/home/runner/work/catalog/catalog/stable/lidarr",
+			"latest_version": "16.0.7",
+			"latest_app_version": "1.1.4.3027",
+			"latest_human_version": "1.1.4.3027_16.0.7",
+			"last_update": "2023-05-10 10:00:19",
+			"name": "lidarr",
+			"recommended": false,
+			"title": "Lidarr",
+			"maintainers": [
+				{
+					"email": "info@truecharts.org",
+					"name": "TrueCharts",
+					"url": "https://truecharts.org"
+				}
+			],
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.png"
 		}
 	},
 	"enterprise": {},
-	"dev": {}
+	"incubator": {}
 }
