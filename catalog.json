@@ -12,11 +12,12 @@
 			"description": "Open source, advanced key-value store.",
 			"healthy": true,
 			"healthy_error": null,
+			"home": "https://truecharts.org/charts/dependency/redis",
 			"location": "/home/runner/work/catalog/catalog/dependency/redis",
 			"latest_version": "6.0.39",
 			"latest_app_version": "7.0.11",
 			"latest_human_version": "7.0.11_6.0.39",
-			"last_update": "2023-05-10 10:00:19",
+			"last_update": "2023-05-12 00:02:59",
 			"name": "redis",
 			"recommended": false,
 			"title": "Redis",
@@ -27,6 +28,7 @@
 					"url": "https://truecharts.org"
 				}
 			],
+			"tags": [],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png"
 		},
 		"mongodb": {
@@ -37,11 +39,12 @@
 			"description": "Fast, reliable, scalable, and easy to use open-source no-sql database system.",
 			"healthy": true,
 			"healthy_error": null,
+			"home": "https://truecharts.org/charts/dependency/mongodb",
 			"location": "/home/runner/work/catalog/catalog/dependency/mongodb",
 			"latest_version": "6.0.23",
 			"latest_app_version": "6.0.5",
 			"latest_human_version": "6.0.5_6.0.23",
-			"last_update": "2023-05-10 10:00:19",
+			"last_update": "2023-05-12 00:02:59",
 			"name": "mongodb",
 			"recommended": false,
 			"title": "Mongodb",
@@ -52,6 +55,7 @@
 					"url": "https://truecharts.org"
 				}
 			],
+			"tags": [],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png"
 		},
 		"mariadb": {
@@ -62,11 +66,12 @@
 			"description": "Fast, reliable, scalable, and easy to use open-source relational database system.",
 			"healthy": true,
 			"healthy_error": null,
+			"home": "https://truecharts.org/charts/dependency/mariadb",
 			"location": "/home/runner/work/catalog/catalog/dependency/mariadb",
 			"latest_version": "7.0.22",
 			"latest_app_version": "10.11.2",
 			"latest_human_version": "10.11.2_7.0.22",
-			"last_update": "2023-05-10 10:00:19",
+			"last_update": "2023-05-12 00:02:59",
 			"name": "mariadb",
 			"recommended": false,
 			"title": "Mariadb",
@@ -77,6 +82,7 @@
 					"url": "https://truecharts.org"
 				}
 			],
+			"tags": [],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
 		}
 	},
@@ -89,11 +95,12 @@
 			"description": "This application runs as a daemon on your download host. It checks for completed downloads and extracts them so Radarr, Lidarr, Sonarr, and Readarr may import them",
 			"healthy": true,
 			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/unpackerr",
 			"location": "/home/runner/work/catalog/catalog/stable/unpackerr",
 			"latest_version": "9.0.12",
 			"latest_app_version": "0.11.2",
 			"latest_human_version": "0.11.2_9.0.12",
-			"last_update": "2023-05-10 10:00:19",
+			"last_update": "2023-05-12 00:02:59",
 			"name": "unpackerr",
 			"recommended": false,
 			"title": "Unpackerr",
@@ -104,6 +111,7 @@
 					"url": "https://truecharts.org"
 				}
 			],
+			"tags": [],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/unpackerr.png"
 		},
 		"jellyseerr": {
@@ -114,11 +122,12 @@
 			"description": "Jellyseerr is a fork of Overseerr with support for Jellyfin and Emby. It can be used to manage requests for your media library.",
 			"healthy": true,
 			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/jellyseerr",
 			"location": "/home/runner/work/catalog/catalog/stable/jellyseerr",
 			"latest_version": "5.0.12",
 			"latest_app_version": "1.5.0",
 			"latest_human_version": "1.5.0_5.0.12",
-			"last_update": "2023-05-10 10:00:19",
+			"last_update": "2023-05-12 00:02:59",
 			"name": "jellyseerr",
 			"recommended": false,
 			"title": "Jellyseerr",
@@ -129,6 +138,7 @@
 					"url": "https://truecharts.org"
 				}
 			],
+			"tags": [],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jellyseerr.png"
 		},
 		"jackett": {
@@ -140,11 +150,12 @@
 			"description": "API Support for your favorite torrent trackers.",
 			"healthy": true,
 			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/jackett",
 			"location": "/home/runner/work/catalog/catalog/stable/jackett",
-			"latest_version": "14.0.14",
+			"latest_version": "14.0.15",
 			"latest_app_version": "0.20.2814",
-			"latest_human_version": "0.20.2814_14.0.14",
-			"last_update": "2023-05-10 10:00:19",
+			"latest_human_version": "0.20.2814_14.0.15",
+			"last_update": "2023-05-12 00:02:59",
 			"name": "jackett",
 			"recommended": false,
 			"title": "Jackett",
@@ -155,6 +166,7 @@
 					"url": "https://truecharts.org"
 				}
 			],
+			"tags": [],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png"
 		},
 		"metube": {
@@ -165,11 +177,12 @@
 			"description": "Web GUI for youtube-dl.",
 			"healthy": true,
 			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/metube",
 			"location": "/home/runner/work/catalog/catalog/stable/metube",
 			"latest_version": "7.0.12",
 			"latest_app_version": "2023",
 			"latest_human_version": "2023_7.0.12",
-			"last_update": "2023-05-10 10:00:19",
+			"last_update": "2023-05-12 00:02:59",
 			"name": "metube",
 			"recommended": false,
 			"title": "Metube",
@@ -180,6 +193,7 @@
 					"url": "https://truecharts.org"
 				}
 			],
+			"tags": [],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/metube.png"
 		},
 		"jellyfin": {
@@ -190,11 +204,12 @@
 			"description": "Jellyfin is a Free Software Media System",
 			"healthy": true,
 			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/jellyfin",
 			"location": "/home/runner/work/catalog/catalog/stable/jellyfin",
 			"latest_version": "14.0.13",
 			"latest_app_version": "10.8.10",
 			"latest_human_version": "10.8.10_14.0.13",
-			"last_update": "2023-05-10 10:00:19",
+			"last_update": "2023-05-12 00:02:59",
 			"name": "jellyfin",
 			"recommended": false,
 			"title": "Jellyfin",
@@ -205,6 +220,7 @@
 					"url": "https://truecharts.org"
 				}
 			],
+			"tags": [],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jellyfin.png"
 		},
 		"postgresql": {
@@ -215,11 +231,12 @@
 			"description": "PostgresSQL",
 			"healthy": true,
 			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/postgresql",
 			"location": "/home/runner/work/catalog/catalog/stable/postgresql",
 			"latest_version": "13.0.15",
 			"latest_app_version": "14.7.0",
 			"latest_human_version": "14.7.0_13.0.15",
-			"last_update": "2023-05-10 10:00:19",
+			"last_update": "2023-05-12 00:02:59",
 			"name": "postgresql",
 			"recommended": false,
 			"title": "Postgresql",
@@ -230,6 +247,7 @@
 					"url": "https://truecharts.org"
 				}
 			],
+			"tags": [],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/postgresql.png"
 		},
 		"sonarr": {
@@ -240,11 +258,12 @@
 			"description": "Smart PVR for newsgroup and bittorrent users",
 			"healthy": true,
 			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/sonarr",
 			"location": "/home/runner/work/catalog/catalog/stable/sonarr",
 			"latest_version": "15.0.13",
 			"latest_app_version": "3.0.10.156",
 			"latest_human_version": "3.0.10.156_15.0.13",
-			"last_update": "2023-05-10 10:00:19",
+			"last_update": "2023-05-12 00:02:59",
 			"name": "sonarr",
 			"recommended": false,
 			"title": "Sonarr",
@@ -255,6 +274,7 @@
 					"url": "https://truecharts.org"
 				}
 			],
+			"tags": [],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/sonarr.png"
 		},
 		"radarr": {
@@ -265,11 +285,12 @@
 			"description": "A fork of Sonarr to work with movies à la Couchpotato",
 			"healthy": true,
 			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/radarr",
 			"location": "/home/runner/work/catalog/catalog/stable/radarr",
 			"latest_version": "16.0.7",
 			"latest_app_version": "4.4.4.7068",
 			"latest_human_version": "4.4.4.7068_16.0.7",
-			"last_update": "2023-05-10 10:00:19",
+			"last_update": "2023-05-12 00:02:59",
 			"name": "radarr",
 			"recommended": false,
 			"title": "Radarr",
@@ -280,6 +301,7 @@
 					"url": "https://truecharts.org"
 				}
 			],
+			"tags": [],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.png"
 		},
 		"nextcloud": {
@@ -290,11 +312,12 @@
 			"description": "A private cloud server that puts the control and security of your own data back into your hands.",
 			"healthy": true,
 			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/nextcloud",
 			"location": "/home/runner/work/catalog/catalog/stable/nextcloud",
 			"latest_version": "19.0.51",
 			"latest_app_version": "25.0.2",
 			"latest_human_version": "25.0.2_19.0.51",
-			"last_update": "2023-05-10 10:00:19",
+			"last_update": "2023-05-12 00:02:59",
 			"name": "nextcloud",
 			"recommended": false,
 			"title": "Nextcloud",
@@ -305,6 +328,7 @@
 					"url": "https://truecharts.org"
 				}
 			],
+			"tags": [],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png"
 		},
 		"readarr": {
@@ -315,11 +339,12 @@
 			"description": "A fork of Radarr to work with Books & AudioBooks",
 			"healthy": true,
 			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/readarr",
 			"location": "/home/runner/work/catalog/catalog/stable/readarr",
 			"latest_version": "16.0.6",
 			"latest_app_version": "0.1.4.1596",
 			"latest_human_version": "0.1.4.1596_16.0.6",
-			"last_update": "2023-05-10 10:00:19",
+			"last_update": "2023-05-12 00:02:59",
 			"name": "readarr",
 			"recommended": false,
 			"title": "Readarr",
@@ -330,6 +355,7 @@
 					"url": "https://truecharts.org"
 				}
 			],
+			"tags": [],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/readarr.png"
 		},
 		"lidarr": {
@@ -340,11 +366,12 @@
 			"description": "Looks and smells like Sonarr but made for music",
 			"healthy": true,
 			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/lidarr",
 			"location": "/home/runner/work/catalog/catalog/stable/lidarr",
 			"latest_version": "16.0.7",
 			"latest_app_version": "1.1.4.3027",
 			"latest_human_version": "1.1.4.3027_16.0.7",
-			"last_update": "2023-05-10 10:00:19",
+			"last_update": "2023-05-12 00:02:59",
 			"name": "lidarr",
 			"recommended": false,
 			"title": "Lidarr",
@@ -355,6 +382,7 @@
 					"url": "https://truecharts.org"
 				}
 			],
+			"tags": [],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.png"
 		}
 	},
