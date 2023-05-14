@@ -30,7 +30,19 @@ groups:
   - name: Documentation
     description: Documentation
 questions:
-
+  - variable: global
+    group: General Settings
+    label: "Global Settings"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: stopAll
+          label: Stop All
+          description: "Stops All Running pods and hibernates cnpg"
+          schema:
+            type: boolean
+            default: false
   - variable: workload
     group: "Workload Settings"
     label: ""

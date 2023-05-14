@@ -30,7 +30,19 @@ groups:
   - name: Documentation
     description: Documentation
 questions:
-
+  - variable: global
+    group: General Settings
+    label: "Global Settings"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: stopAll
+          label: Stop All
+          description: "Stops All Running pods and hibernates cnpg"
+          schema:
+            type: boolean
+            default: false
   - variable: workload
     group: "Workload Settings"
     label: ""
@@ -206,9 +218,30 @@ questions:
                             schema:
                               type: string
                               required: true
-  - variable: redisPassword
+  - variable: mariadbDatabase
     group: "App Configuration"
-    label: "Redis Password"
+    label: "Database Name"
+    schema:
+      type: string
+      default: "mydatabase"
+      required: true
+  - variable: mariadbUsername
+    group: "App Configuration"
+    label: "Database User"
+    schema:
+      type: string
+      default: "mydatabaseuser"
+      required: true
+  - variable: mariadbPassword
+    group: "App Configuration"
+    label: "Database Password"
+    schema:
+      type: string
+      default: ""
+      required: true
+  - variable: mariadbRootPassword
+    group: "App Configuration"
+    label: "Root Password"
     schema:
       type: string
       default: ""
@@ -268,7 +301,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 6379
+                              default: 3306
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -495,7 +528,7 @@ questions:
                                   schema:
                                     type: int
                                     required: true
-  - variable: volumeClaimTemplates
+  - variable: persistence
     label: Integrated Persistent Storage
     description: Integrated Persistent Storage
     group: Storage and Persistence
@@ -503,12 +536,15 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
+      additional_attrs: true
+      type: dict
+      attrs:
         - variable: data
-          label: "App Data Storage"
-          description: "Stores the Application Data."
+          label: "DB Storage"
+          description: "Stores the old Application Database."
           schema:
-            additional_attrs: true
             type: dict
+            hidden: true
             attrs:
               - variable: type
                 label: Type of Storage
@@ -685,7 +721,7 @@ questions:
                   default: 568
               - variable: runAsGroup
                 label: "runAsGroup"
-                description: "The groupID this App of the user running the application"
+                description: "The groupID of the user running the application"
                 schema:
                   type: int
                   default: 0
