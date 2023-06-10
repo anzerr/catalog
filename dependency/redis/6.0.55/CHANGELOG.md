@@ -4,6 +4,15 @@
 
 
 
+## [redis-6.0.55](https://github.com/truecharts/charts/compare/redis-6.0.54...redis-6.0.55) (2023-06-09)
+
+### Chore
+
+- update helm chart common to 12.13.1 ([#9500](https://github.com/truecharts/charts/issues/9500))
+  
+  
+
+
 ## [redis-6.0.54](https://github.com/truecharts/charts/compare/redis-6.0.53...redis-6.0.54) (2023-06-07)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [redis-6.0.46](https://github.com/truecharts/charts/compare/redis-6.0.44...redis-6.0.46) (2023-05-25)
 
-### Chore
-
-- update helm chart common to 12.10.2 ([#9158](https://github.com/truecharts/charts/issues/9158))
-  - update helm chart common to 12.10.0 ([#9129](https://github.com/truecharts/charts/issues/9129))
-  
-  
-
-
-## [redis-6.0.46](https://github.com/truecharts/charts/compare/redis-6.0.44...redis-6.0.46) (2023-05-25)
