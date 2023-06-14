@@ -102,25 +102,18 @@ questions:
                               attrs:
 
 
-                                - variable: env
-                                  group: App Configuration
-                                  label: Image Environment
+                                - variable: autodiscovery
+                                  group: "App Configuration"
+                                  label: "Autodiscovery"
                                   schema:
                                     additional_attrs: true
                                     type: dict
                                     attrs:
-                                      - variable: OUTPUT_TEMPLATE
-                                        label: Output Template
-                                        description: The template for the filenames of the downloaded videos
-                                        schema:
-                                          type: string
-                                          default: "%(title)s.%(ext)s"
-                                      - variable: YTDL_OPTIONS
-                                        label: YTDL Options
-                                        description: Additional options to pass to youtube-dl, in JSON format
-                                        schema:
-                                          type: string
-                                          default: "{}"
+                                    - variable: enabled
+                                      label: "Enable Autodiscovery on LAN"
+                                      schema:
+                                        type: boolean
+                                        default: false
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -292,17 +285,17 @@ questions:
                   type: dict
                   attrs:
                     - variable: main
-                      label: Main Service Port Configuration
+                      label: "Main Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: Port
-                            description: This port exposes the container port on the service
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 10216
+                              default: 8096
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -531,8 +524,8 @@ questions:
       type: dict
       attrs:
         - variable: config
-          label: App Config Storage
-          description: Stores the Application Config.
+          label: "App Config Storage"
+          description: "Stores the Application Configuration."
           schema:
             additional_attrs: true
             type: dict
@@ -600,9 +593,9 @@ questions:
                   show_if: [["type", "=", "pvc"]]
                   type: string
                   default: 256Gi
-        - variable: downloads
-          label: App Downloads Storage
-          description: Stores the Application Downloads.
+        - variable: transcode
+          label: "App Transcode Storage"
+          description: "Storage for transcode, best to be set to emptyDir and if enough RAM, to Memory type."
           schema:
             additional_attrs: true
             type: dict
@@ -767,7 +760,7 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: Main Ingress
+          label: "Main Ingress"
           schema:
             additional_attrs: true
             type: dict

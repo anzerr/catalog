@@ -103,24 +103,33 @@ questions:
 
 
                                 - variable: env
-                                  group: App Configuration
-                                  label: Image Environment
+                                  group: "App Configuration"
+                                  label: "Image Environment"
                                   schema:
                                     additional_attrs: true
                                     type: dict
                                     attrs:
-                                      - variable: OUTPUT_TEMPLATE
-                                        label: Output Template
-                                        description: The template for the filenames of the downloaded videos
+                                      - variable: JELLYFIN_TYPE
+                                        label: "JELLYFIN_TYPE"
+                                        description: "For Emby users set this to emby, otherwise leave it blank"
                                         schema:
                                           type: string
-                                          default: "%(title)s.%(ext)s"
-                                      - variable: YTDL_OPTIONS
-                                        label: YTDL Options
-                                        description: Additional options to pass to youtube-dl, in JSON format
+                                          default: ""
+                                          enum:
+                                            - value: ""
+                                              description: ""
+                                            - value: "emby"
+                                              description: "emby"
+                                      - variable: LOG_LEVEL
+                                        label: "LOG_LEVEL"
                                         schema:
                                           type: string
-                                          default: "{}"
+                                          default: "info"
+                                          enum:
+                                            - value: "info"
+                                              description: "info"
+                                            - value: "debug"
+                                              description: "debug"
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -292,17 +301,17 @@ questions:
                   type: dict
                   attrs:
                     - variable: main
-                      label: Main Service Port Configuration
+                      label: "Main Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: Port
-                            description: This port exposes the container port on the service
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 10216
+                              default: 10241
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -531,78 +540,8 @@ questions:
       type: dict
       attrs:
         - variable: config
-          label: App Config Storage
-          description: Stores the Application Config.
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: type
-                label: Type of Storage
-                description: Sets the persistence type, Anything other than PVC could break rollback!
-                schema:
-                  type: string
-                  default: pvc
-                  enum:
-                    - value: pvc
-                      description: PVC
-                    - value: hostPath
-                      description: Host Path
-                    - value: emptyDir
-                      description: emptyDir
-                    - value: nfs
-                      description: NFS Share
-              - variable: server
-                label: NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: path
-                label: Path on NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
-              - variable: readOnly
-                label: Read Only
-                schema:
-                  type: boolean
-                  default: false
-              - variable: hostPath
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: hostpath
-              - variable: medium
-                label: EmptyDir Medium
-                schema:
-                  show_if: [["type", "=", "emptyDir"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: Default
-                    - value: Memory
-                      description: Memory
-              - variable: size
-                label: Size quotum of Storage (Do NOT REDUCE after installation)
-                description: This value can ONLY be INCREASED after the installation
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: 256Gi
-        - variable: downloads
-          label: App Downloads Storage
-          description: Stores the Application Downloads.
+          label: "App Config Storage"
+          description: "Stores the Application Configuration."
           schema:
             additional_attrs: true
             type: dict
@@ -767,7 +706,7 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: Main Ingress
+          label: "Main Ingress"
           schema:
             additional_attrs: true
             type: dict
