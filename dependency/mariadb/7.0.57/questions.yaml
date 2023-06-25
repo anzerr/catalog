@@ -218,28 +218,28 @@ questions:
                             schema:
                               type: string
                               required: true
-  - variable: mongodbDatabase
+  - variable: mariadbDatabase
     group: "App Configuration"
     label: "Database Name"
     schema:
       type: string
       default: "mydatabase"
       required: true
-  - variable: mongodbUsername
+  - variable: mariadbUsername
     group: "App Configuration"
     label: "Database User"
     schema:
       type: string
       default: "mydatabaseuser"
       required: true
-  - variable: mongodbPassword
+  - variable: mariadbPassword
     group: "App Configuration"
     label: "Database Password"
     schema:
       type: string
       default: ""
       required: true
-  - variable: mongodbRootPassword
+  - variable: mariadbRootPassword
     group: "App Configuration"
     label: "Root Password"
     schema:
@@ -301,7 +301,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 27017
+                              default: 3306
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -831,14 +831,14 @@ questions:
             attrs:
               - variable: cpu
                 label: CPU
-                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 4000m
                   valid_chars: '^(?!^0(\.0|m|)$)([0-9]+)(\.[0-9]|m?)$'
               - variable: memory
                 label: RAM
-                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 8Gi
@@ -852,7 +852,7 @@ questions:
             attrs:
               - variable: cpu
                 label: CPU
-                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 10m
@@ -860,7 +860,7 @@ questions:
                   valid_chars: '^(?!^0(\.0|m|)$)([0-9]+)(\.[0-9]|m?)$'
               - variable: memory
                 label: "RAM"
-                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 50Mi
