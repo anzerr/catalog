@@ -21,7 +21,11 @@ class Sync {
         'radarr',
         'jackett',
         'unpackerr',
-        'readarr'
+        'readarr',
+        'bazarr',
+        'prowlarr',
+        'tdarr',
+        'tdarr-node'
     ];
 
     static exec(c, o) {
