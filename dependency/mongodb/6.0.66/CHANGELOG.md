@@ -4,6 +4,15 @@
 
 
 
+## [mongodb-6.0.66](https://github.com/truecharts/charts/compare/mongodb-6.0.65...mongodb-6.0.66) (2023-07-18)
+
+### Chore
+
+- update container image tccr.io/truecharts/mongodb to v6.0.8 ([#10585](https://github.com/truecharts/charts/issues/10585))
+  
+  
+
+
 ## [mongodb-6.0.65](https://github.com/truecharts/charts/compare/mongodb-6.0.64...mongodb-6.0.65) (2023-07-11)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [mongodb-6.0.56](https://github.com/truecharts/charts/compare/mongodb-6.0.55...mongodb-6.0.56) (2023-06-25)
-
-### Chore
-
-- update helm chart common to 12.14.4 ([#9898](https://github.com/truecharts/charts/issues/9898))
-  
-  
-
-
-## [mongodb-6.0.55](https://github.com/truecharts/charts/compare/mongodb-6.0.54...mongodb-6.0.55) (2023-06-24)
 
 ### Chore
