@@ -25,7 +25,8 @@ class Sync {
         'bazarr',
         'prowlarr',
         'tdarr',
-        'tdarr-node'
+        'tdarr-node',
+        'qbittorrent'
     ];
 
     static exec(c, o) {
