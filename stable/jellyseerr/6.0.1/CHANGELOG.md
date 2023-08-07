@@ -4,6 +4,15 @@
 
 
 
+## [jellyseerr-6.0.1](https://github.com/truecharts/charts/compare/jellyseerr-6.0.0...jellyseerr-6.0.1) (2023-08-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/jellyseerr to v1.6.0 ([#11277](https://github.com/truecharts/charts/issues/11277))
+  
+  
+
+
 
 ## [jellyseerr-6.0.0](https://github.com/truecharts/charts/compare/jellyseerr-5.0.25...jellyseerr-6.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 
 
 ## [jellyseerr-5.0.17](https://github.com/truecharts/charts/compare/jellyseerr-5.0.16...jellyseerr-5.0.17) (2023-05-26)
-
-### Chore
-
-- update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [jellyseerr-5.0.16](https://github.com/truecharts/charts/compare/jellyseerr-5.0.15...jellyseerr-5.0.16) (2023-05-24)
 
