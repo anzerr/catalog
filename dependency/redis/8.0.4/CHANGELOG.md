@@ -4,6 +4,15 @@
 
 
 
+## [redis-8.0.4](https://github.com/truecharts/charts/compare/redis-8.0.3...redis-8.0.4) (2023-08-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/redis to v7.0.12 ([#11311](https://github.com/truecharts/charts/issues/11311))
+  
+  
+
+
 ## [redis-8.0.3](https://github.com/truecharts/charts/compare/redis-8.0.2...redis-8.0.3) (2023-08-04)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/redis to v7.0.12 ([#10684](https://github.com/truecharts/charts/issues/10684))
-  
-  
-
-
-## [redis-7.0.0](https://github.com/truecharts/charts/compare/redis-6.0.66...redis-7.0.0) (2023-07-20)
-
-### Chore
-
-- update helm chart common to 13.2.0 ([#10499](https://github.com/truecharts/charts/issues/10499))
   
