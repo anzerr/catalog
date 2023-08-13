@@ -4,6 +4,15 @@
 
 
 
+## [tdarr-node-6.0.2](https://github.com/truecharts/charts/compare/tdarr-node-6.0.1...tdarr-node-6.0.2) (2023-08-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/tdarr_node to v2.00.25 ([#11486](https://github.com/truecharts/charts/issues/11486))
+  
+  
+
+
 ## [tdarr-node-6.0.1](https://github.com/truecharts/charts/compare/tdarr-node-6.0.0...tdarr-node-6.0.1) (2023-08-06)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [tdarr-node-5.0.17](https://github.com/truecharts/charts/compare/tdarr-node-5.0.16...tdarr-node-5.0.17) (2023-05-27)
-
