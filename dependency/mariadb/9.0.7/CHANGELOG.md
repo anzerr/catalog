@@ -4,6 +4,15 @@
 
 
 
+## [mariadb-9.0.7](https://github.com/truecharts/charts/compare/mariadb-9.0.6...mariadb-9.0.7) (2023-08-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/mariadb to v11.0.3 ([#11619](https://github.com/truecharts/charts/issues/11619))
+  
+  
+
+
 ## [mariadb-9.0.6](https://github.com/truecharts/charts/compare/mariadb-9.0.5...mariadb-9.0.6) (2023-08-15)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/mariadb to v11.0.2 ([#10965](https://github.com/truecharts/charts/issues/10965))
-  
-  
-
-
-## [mariadb-8.0.4](https://github.com/truecharts/charts/compare/mariadb-8.0.3...mariadb-8.0.4) (2023-07-25)
-
-### Chore
-
-- update container image tccr.io/truecharts/mariadb to v10.11.4 ([#10845](https://github.com/truecharts/charts/issues/10845))
   
