@@ -4,6 +4,15 @@
 
 
 
+## [mongodb-8.0.10](https://github.com/truecharts/charts/compare/mongodb-8.0.9...mongodb-8.0.10) (2023-09-03)
+
+### Chore
+
+- update helm chart common to 14.0.6 ([#12147](https://github.com/truecharts/charts/issues/12147))
+  
+  
+
+
 ## [mongodb-8.0.9](https://github.com/truecharts/charts/compare/mongodb-8.0.8...mongodb-8.0.9) (2023-09-02)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [mongodb-8.0.0](https://github.com/truecharts/charts/compare/mongodb-7.0.6...mongodb-8.0.0) (2023-07-31)
 
-
-
-
-## [mongodb-7.0.6](https://github.com/truecharts/charts/compare/mongodb-7.0.5...mongodb-7.0.6) (2023-07-30)
-
-### Chore
-
-- update helm chart common to 13.2.2 ([#11022](https://github.com/truecharts/charts/issues/11022))
-  
