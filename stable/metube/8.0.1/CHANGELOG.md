@@ -4,6 +4,15 @@
 
 
 
+## [metube-8.0.1](https://github.com/truecharts/charts/compare/metube-8.0.0...metube-8.0.1) (2023-09-10)
+
+### Feat
+
+- Update container to v2023-08 ([#12413](https://github.com/truecharts/charts/issues/12413))
+  
+  
+
+
 
 ## [metube-8.0.0](https://github.com/truecharts/charts/compare/metube-7.0.15...metube-8.0.0) (2023-07-31)
 
@@ -84,15 +93,6 @@
 ### Chore
 
 - update container image tccr.io/truecharts/metube to v2023-02 ([#8315](https://github.com/truecharts/charts/issues/8315))
-  
-  
-
-
-## [metube-7.0.9](https://github.com/truecharts/charts/compare/metube-7.0.8...metube-7.0.9) (2023-04-25)
-
-### Chore
-
-- update helm general non-major ([#8153](https://github.com/truecharts/charts/issues/8153))
   
   
 
