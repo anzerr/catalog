@@ -4,6 +4,15 @@
 
 
 
+## [redis-8.0.25](https://github.com/truecharts/charts/compare/redis-8.0.24...redis-8.0.25) (2023-09-25)
+
+### Chore
+
+- update container image tccr.io/truecharts/redis to v7.2.1 ([#12931](https://github.com/truecharts/charts/issues/12931))
+  
+  
+
+
 ## [redis-8.0.24](https://github.com/truecharts/charts/compare/redis-8.0.23...redis-8.0.24) (2023-09-22)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [redis-8.0.15](https://github.com/truecharts/charts/compare/redis-8.0.14...redis-8.0.15) (2023-08-31)
-
-### Chore
-
-- update container image tccr.io/truecharts/redis to v7.2.0 ([#12106](https://github.com/truecharts/charts/issues/12106))
-  
-  
-
-
-## [redis-8.0.14](https://github.com/truecharts/charts/compare/redis-8.0.13...redis-8.0.14) (2023-08-30)
 
 ### Chore
