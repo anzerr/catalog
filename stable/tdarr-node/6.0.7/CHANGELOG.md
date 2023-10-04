@@ -4,6 +4,24 @@
 
 
 
+## [tdarr-node-6.0.7](https://github.com/truecharts/charts/compare/tdarr-node-6.0.6...tdarr-node-6.0.7) (2023-10-03)
+
+### Chore
+
+- update helm general non-major ([#13174](https://github.com/truecharts/charts/issues/13174))
+  
+  
+
+
+## [tdarr-node-6.0.6](https://github.com/truecharts/charts/compare/tdarr-node-6.0.5...tdarr-node-6.0.6) (2023-10-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/tdarr_node to v2.13.01 ([#13181](https://github.com/truecharts/charts/issues/13181))
+  
+  
+
+
 ## [tdarr-node-6.0.5](https://github.com/truecharts/charts/compare/tdarr-node-6.0.4...tdarr-node-6.0.5) (2023-09-24)
 
 ### Chore
@@ -78,22 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [tdarr-node-5.0.22](https://github.com/truecharts/charts/compare/tdarr-node-5.0.21...tdarr-node-5.0.22) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
-  
-  
-
-
-## [tdarr-node-5.0.21](https://github.com/truecharts/charts/compare/tdarr-node-5.0.20...tdarr-node-5.0.21) (2023-06-11)
-
-### Chore
-
-- update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
   
