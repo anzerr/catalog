@@ -4,6 +4,15 @@
 
 
 
+## [tdarr-node-6.0.9](https://github.com/truecharts/charts/compare/tdarr-node-6.0.8...tdarr-node-6.0.9) (2023-10-22)
+
+### Chore
+
+- update container image tccr.io/truecharts/tdarr_node to v2.14.01 ([#13892](https://github.com/truecharts/charts/issues/13892))
+  
+  
+
+
 ## [tdarr-node-6.0.8](https://github.com/truecharts/charts/compare/tdarr-node-6.0.7...tdarr-node-6.0.8) (2023-10-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Feat
 
 - Update container as well ([#11056](https://github.com/truecharts/charts/issues/11056))
-  
-  
-
-
-## [tdarr-node-5.0.24](https://github.com/truecharts/charts/compare/tdarr-node-5.0.23...tdarr-node-5.0.24) (2023-07-29)
-
-### Chore
-
-- update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
   
