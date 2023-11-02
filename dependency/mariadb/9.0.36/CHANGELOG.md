@@ -4,6 +4,15 @@
 
 
 
+## [mariadb-9.0.36](https://github.com/truecharts/charts/compare/mariadb-9.0.35...mariadb-9.0.36) (2023-11-01)
+
+### Chore
+
+- update helm chart common to 14.2.2 ([#14190](https://github.com/truecharts/charts/issues/14190))
+  
+  
+
+
 ## [mariadb-9.0.35](https://github.com/truecharts/charts/compare/mariadb-9.0.34...mariadb-9.0.35) (2023-10-31)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [mariadb-9.0.26](https://github.com/truecharts/charts/compare/mariadb-9.0.25...mariadb-9.0.26) (2023-10-07)
-
-### Chore
-
-- update helm chart common to 14.0.8 ([#13380](https://github.com/truecharts/charts/issues/13380))
-  
-  
-
-
-## [mariadb-9.0.25](https://github.com/truecharts/charts/compare/mariadb-9.0.24...mariadb-9.0.25) (2023-10-04)
 
