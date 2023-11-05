@@ -1,0 +1,113 @@
+image:
+  repository: tccr.io/truecharts/lidarr
+  pullPolicy: IfNotPresent
+  tag: v2.0.0.3707@sha256:3449cfde05b639737734152df7d28356bb352d7cf1b3899047b59f31b9ab681f
+exportarrImage:
+  repository: tccr.io/truecharts/exportarr
+  pullPolicy: IfNotPresent
+  tag: v1.6.0@sha256:ee118701a2ebe8ccb5c25e1003fbed9ef7ce217d4e4b8b6df30cc2a0def818f8
+
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+
+service:
+  main:
+    ports:
+      main:
+        port: 8686
+  metrics:
+    enabled: true
+    type: ClusterIP
+    targetSelector: exportarr
+    ports:
+      metrics:
+        enabled: true
+        port: 8687
+        targetSelector: exportarr
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: true
+              type: http
+              path: /ping
+            readiness:
+              enabled: true
+              type: http
+              path: /ping
+            startup:
+              enabled: true
+              type: http
+              path: /ping
+          env:
+            LIDARR__PORT: "{{ .Values.service.main.ports.main.port }}"
+            LIDARR__AUTHENTICATION_METHOD: ""
+  exportarr:
+    enabled: true
+    type: Deployment
+    strategy: RollingUpdate
+    replicas: 1
+    podSpec:
+      containers:
+        exportarr:
+          primary: true
+          enabled: true
+          imageSelector: exportarrImage
+          args:
+            - lidarr
+          probes:
+            liveness:
+              enabled: true
+              type: http
+              path: /healthz
+              port: "{{ .Values.service.metrics.ports.metrics.port }}"
+            readiness:
+              enabled: true
+              type: http
+              path: /healthz
+              port: "{{ .Values.service.metrics.ports.metrics.port }}"
+            startup:
+              enabled: true
+              type: http
+              path: /healthz
+              port: "{{ .Values.service.metrics.ports.metrics.port }}"
+          env:
+            INTERFACE: 0.0.0.0
+            PORT: "{{ .Values.service.metrics.ports.metrics.port }}"
+            URL: '{{ printf "http://%v:%v" (include "tc.v1.common.lib.chart.names.fullname" $) .Values.service.main.ports.main.port }}'
+            # additional metrics (slow)
+            # ENABLE_ADDITIONAL_METRICS: false
+            # enable gathering unknown queue items
+            # ENABLE_UNKNOWN_QUEUE_ITEMS: false
+            CONFIG: "/config/config.xml"
+
+persistence:
+  config:
+    enabled: true
+    targetSelector:
+      main:
+        main:
+          mountPath: /config
+      exportarr:
+        exportarr:
+          mountPath: /config
+          readOnly: true
+
+metrics:
+  main:
+    enabled: true
+    type: "servicemonitor"
+    endpoints:
+      - port: metrics
+        path: /metrics
+    prometheusRule:
+      enabled: false
+
+portal:
+  open:
+    enabled: true
