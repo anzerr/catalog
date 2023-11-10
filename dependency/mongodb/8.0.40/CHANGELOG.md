@@ -4,6 +4,24 @@
 
 
 
+## [mongodb-8.0.40](https://github.com/truecharts/charts/compare/mongodb-8.0.39...mongodb-8.0.40) (2023-11-10)
+
+### Chore
+
+- update container image tccr.io/truecharts/mongodb to v7.0.3 ([#14510](https://github.com/truecharts/charts/issues/14510))
+  
+  
+
+
+## [mongodb-8.0.39](https://github.com/truecharts/charts/compare/mongodb-8.0.38...mongodb-8.0.39) (2023-11-09)
+
+### Chore
+
+- update container image tccr.io/truecharts/mongodb to v7.0.3 ([#14489](https://github.com/truecharts/charts/issues/14489))
+  
+  
+
+
 ## [mongodb-8.0.38](https://github.com/truecharts/charts/compare/mongodb-8.0.37...mongodb-8.0.38) (2023-11-08)
 
 
@@ -78,22 +96,4 @@
 
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   - update helm chart common to 14.1.0 ([#14049](https://github.com/truecharts/charts/issues/14049))
-  
-  
-
-
-## [mongodb-8.0.29](https://github.com/truecharts/charts/compare/mongodb-8.0.28...mongodb-8.0.29) (2023-10-20)
-
-### Chore
-
-- update container image tccr.io/truecharts/mongodb to v7.0.2 ([#13832](https://github.com/truecharts/charts/issues/13832))
-  
-  
-
-
-## [mongodb-8.0.28](https://github.com/truecharts/charts/compare/mongodb-8.0.27...mongodb-8.0.28) (2023-10-15)
-
-### Chore
-
-- update helm chart common to 14.0.14 ([#13628](https://github.com/truecharts/charts/issues/13628))
   
