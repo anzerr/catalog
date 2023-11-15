@@ -4,6 +4,15 @@
 
 
 
+## [redis-8.0.46](https://github.com/truecharts/charts/compare/redis-8.0.45...redis-8.0.46) (2023-11-14)
+
+### Chore
+
+- update helm chart common to 14.5.0 ([#14466](https://github.com/truecharts/charts/issues/14466))
+  
+  
+
+
 ## [redis-8.0.45](https://github.com/truecharts/charts/compare/redis-8.0.44...redis-8.0.45) (2023-11-09)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 - update helm chart common to 14.1.1 ([#14053](https://github.com/truecharts/charts/issues/14053))
   
-  
-
-
-## [redis-8.0.35](https://github.com/truecharts/charts/compare/redis-8.0.34...redis-8.0.35) (2023-10-28)
-
-### Chore
-
-- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  - update helm chart common to 14.1.0 ([#14049](https://github.com/truecharts/charts/issues/14049))
   
