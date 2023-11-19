@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/16.0.12",
-        "last_update": "2023-11-18 01:54:56",
+        "last_update": "2023-11-19 01:49:47",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -3961,7 +3961,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/16.0.11",
-        "last_update": "2023-11-18 01:54:56",
+        "last_update": "2023-11-19 01:49:47",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -7545,7 +7545,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/16.0.10",
-        "last_update": "2023-11-18 01:54:56",
+        "last_update": "2023-11-19 01:49:47",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -11129,7 +11129,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/16.0.9",
-        "last_update": "2023-11-18 01:54:56",
+        "last_update": "2023-11-19 01:49:47",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -14713,7 +14713,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/16.0.8",
-        "last_update": "2023-11-18 01:54:56",
+        "last_update": "2023-11-19 01:49:47",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -18267,7 +18267,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/16.0.7",
-        "last_update": "2023-11-18 01:54:56",
+        "last_update": "2023-11-19 01:49:47",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
@@ -21836,7 +21836,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/16.0.6",
-        "last_update": "2023-11-18 01:54:56",
+        "last_update": "2023-11-19 01:49:47",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",

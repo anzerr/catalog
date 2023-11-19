@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mongodb/8.0.46",
-        "last_update": "2023-11-18 01:54:56",
+        "last_update": "2023-11-19 01:49:47",
         "required_features": [
+            "definitions/gpuConfiguration",
             "definitions/timezone",
-            "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration"
+            "definitions/interface"
         ],
         "human_version": "7.0.3_8.0.46",
         "version": "8.0.46",

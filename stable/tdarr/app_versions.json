@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/tdarr/6.0.11",
-        "last_update": "2023-11-18 01:54:56",
+        "last_update": "2023-11-19 01:49:47",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate",
