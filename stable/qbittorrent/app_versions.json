@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/16.1.0",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -4002,11 +4002,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/16.0.12",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -7959,11 +7959,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/16.0.11",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -11543,11 +11543,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/16.0.10",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -15127,11 +15127,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/16.0.9",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -18711,11 +18711,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/16.0.8",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -22265,11 +22265,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/16.0.7",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -25834,11 +25834,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/16.0.6",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],

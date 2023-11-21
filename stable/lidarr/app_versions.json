@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/17.0.24",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -3968,11 +3968,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/17.0.23",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -7932,11 +7932,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/17.0.22",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -11896,11 +11896,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/17.0.21",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -15860,11 +15860,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/17.0.20",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -19451,11 +19451,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/17.0.19",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -23042,11 +23042,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/17.0.18",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -26633,11 +26633,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/17.0.17",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -30224,11 +30224,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/17.0.16",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -33815,11 +33815,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/17.0.15",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -37376,11 +37376,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/17.0.14",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
@@ -40952,11 +40952,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/17.0.13",
-        "last_update": "2023-11-20 01:46:36",
+        "last_update": "2023-11-21 01:48:40",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/interface",
             "definitions/gpuConfiguration"
         ],
