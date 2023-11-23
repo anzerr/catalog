@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jellyseerr/6.0.11",
-        "last_update": "2023-11-22 00:36:56",
+        "last_update": "2023-11-23 00:36:16",
         "required_features": [
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "definitions/interface",
+            "definitions/gpuConfiguration",
             "definitions/certificate"
         ],
         "human_version": "1.7.0_6.0.11",
