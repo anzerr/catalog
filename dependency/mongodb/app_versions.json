@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mongodb/8.0.47",
-        "last_update": "2023-11-26 00:46:01",
+        "last_update": "2023-11-27 00:50:03",
         "required_features": [
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "definitions/timezone",
+            "definitions/gpuConfiguration",
+            "definitions/interface",
             "normalize/interfaceConfiguration"
         ],
         "human_version": "7.0.3_8.0.47",
