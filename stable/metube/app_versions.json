@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/metube/8.0.10",
-        "last_update": "2023-11-27 00:50:03",
+        "last_update": "2023-11-28 00:42:57",
         "required_features": [
-            "definitions/certificate",
-            "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration",
             "definitions/timezone",
-            "definitions/interface"
+            "normalize/interfaceConfiguration",
+            "definitions/interface",
+            "definitions/gpuConfiguration",
+            "definitions/certificate"
         ],
         "human_version": "2023_8.0.10",
         "version": "8.0.10",
