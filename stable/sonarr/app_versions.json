@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/sonarr/16.0.12",
-        "last_update": "2023-12-01 00:47:09",
+        "last_update": "2023-12-01 18:41:28",
         "required_features": [
-            "definitions/certificate",
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/interface",
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "3.0.10.156_16.0.12",
         "version": "16.0.12",
@@ -3968,13 +3968,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/sonarr/16.0.11",
-        "last_update": "2023-12-01 00:47:09",
+        "last_update": "2023-12-01 18:41:28",
         "required_features": [
-            "definitions/certificate",
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/interface",
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "3.0.10.156_16.0.11",
         "version": "16.0.11",
@@ -7932,13 +7932,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/sonarr/16.0.10",
-        "last_update": "2023-12-01 00:47:09",
+        "last_update": "2023-12-01 18:41:28",
         "required_features": [
-            "definitions/certificate",
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/interface",
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "3.0.10.156_16.0.10",
         "version": "16.0.10",
@@ -11896,13 +11896,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/sonarr/16.0.9",
-        "last_update": "2023-12-01 00:47:09",
+        "last_update": "2023-12-01 18:41:28",
         "required_features": [
-            "definitions/certificate",
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/interface",
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "3.0.10.156_16.0.9",
         "version": "16.0.9",
@@ -15487,13 +15487,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/sonarr/16.0.8",
-        "last_update": "2023-12-01 00:47:09",
+        "last_update": "2023-12-01 18:41:28",
         "required_features": [
-            "definitions/certificate",
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/interface",
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "3.0.10.156_16.0.8",
         "version": "16.0.8",
@@ -19078,13 +19078,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/sonarr/16.0.7",
-        "last_update": "2023-12-01 00:47:09",
+        "last_update": "2023-12-01 18:41:28",
         "required_features": [
-            "definitions/certificate",
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/interface",
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "3.0.10.156_16.0.7",
         "version": "16.0.7",
@@ -22669,13 +22669,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/sonarr/16.0.6",
-        "last_update": "2023-12-01 00:47:09",
+        "last_update": "2023-12-01 18:41:28",
         "required_features": [
-            "definitions/certificate",
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/interface",
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "3.0.10.156_16.0.6",
         "version": "16.0.6",
@@ -26230,13 +26230,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/sonarr/16.0.5",
-        "last_update": "2023-12-01 00:47:09",
+        "last_update": "2023-12-01 18:41:28",
         "required_features": [
-            "definitions/certificate",
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/interface",
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "3.0.10.156_16.0.5",
         "version": "16.0.5",
@@ -29806,13 +29806,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/sonarr/16.0.4",
-        "last_update": "2023-12-01 00:47:09",
+        "last_update": "2023-12-01 18:41:28",
         "required_features": [
-            "definitions/certificate",
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/interface",
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "3.0.10.156_16.0.4",
         "version": "16.0.4",
