@@ -1,52 +1,63 @@
 {
-    "6.0.11": {
+    "6.0.12": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/jellyseerr/6.0.11",
-        "last_update": "2023-12-01 18:41:28",
+        "location": "/home/runner/work/catalog/catalog/stable/jellyseerr/6.0.12",
+        "last_update": "2023-12-04 00:59:44",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/interface",
-            "definitions/certificate",
-            "definitions/gpuConfiguration"
+            "definitions/gpuConfiguration",
+            "definitions/certificate"
         ],
-        "human_version": "1.7.0_6.0.11",
-        "version": "6.0.11",
+        "human_version": "1.7.0_6.0.12",
+        "version": "6.0.12",
         "chart_metadata": {
+            "kubeVersion": ">=1.24.0",
             "apiVersion": "v2",
+            "name": "jellyseerr",
+            "version": "6.0.12",
             "appVersion": "1.7.0",
-            "dependencies": [
-                {
-                    "name": "common",
-                    "repository": "https://library-charts.truecharts.org",
-                    "version": "14.3.5"
-                }
-            ],
             "description": "Jellyseerr is a fork of Overseerr with support for Jellyfin and Emby. It can be used to manage requests for your media library.",
             "home": "https://truecharts.org/charts/stable/jellyseerr",
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/jellyseerr.png",
-            "keywords": [
-                "jellyseerr"
+            "deprecated": false,
+            "sources": [
+                "https://github.com/Fallenbagel/jellyseerr",
+                "https://github.com/truecharts/charts/tree/master/charts/stable/jellyseerr",
+                "https://hub.docker.com/r/fallenbagel/jellyseerr"
             ],
-            "kubeVersion": ">=1.16.0-0",
             "maintainers": [
                 {
-                    "email": "info@truecharts.org",
                     "name": "TrueCharts",
+                    "email": "info@truecharts.org",
                     "url": "https://truecharts.org"
                 }
             ],
-            "name": "jellyseerr",
-            "sources": [
-                "https://github.com/truecharts/charts/tree/master/charts/stable/jellyseerr",
-                "https://github.com/Fallenbagel/jellyseerr"
+            "keywords": [
+                "jellyseerr"
             ],
-            "version": "6.0.11",
+            "dependencies": [
+                {
+                    "name": "common",
+                    "version": "14.3.5",
+                    "repository": "https://library-charts.truecharts.org",
+                    "condition": "",
+                    "alias": "",
+                    "tags": [],
+                    "import-values": []
+                }
+            ],
             "annotations": {
+                "max_scale_version": "23.10.1",
+                "min_scale_version": "22.12.4",
+                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "media",
-                "truecharts.org/SCALE-support": "true"
+                "truecharts.org/max_helm_version": "3.13",
+                "truecharts.org/min_helm_version": "3.12",
+                "truecharts.org/train": "stable"
             }
         },
         "app_metadata": null,
@@ -3437,6 +3448,295 @@
                                                         }
                                                     },
                                                     {
+                                                        "variable": "ingress",
+                                                        "label": "Ingress",
+                                                        "schema": {
+                                                            "additional_attrs": true,
+                                                            "type": "dict",
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "enabled",
+                                                                    "label": "Enable Ingress",
+                                                                    "schema": {
+                                                                        "type": "boolean",
+                                                                        "default": false,
+                                                                        "show_subquestions_if": true,
+                                                                        "subquestions": [
+                                                                            {
+                                                                                "variable": "hosts",
+                                                                                "label": "Hosts",
+                                                                                "schema": {
+                                                                                    "type": "list",
+                                                                                    "default": [],
+                                                                                    "items": [
+                                                                                        {
+                                                                                            "variable": "hostEntry",
+                                                                                            "label": "Host",
+                                                                                            "schema": {
+                                                                                                "additional_attrs": true,
+                                                                                                "type": "dict",
+                                                                                                "attrs": [
+                                                                                                    {
+                                                                                                        "variable": "host",
+                                                                                                        "label": "HostName",
+                                                                                                        "schema": {
+                                                                                                            "type": "string",
+                                                                                                            "default": "",
+                                                                                                            "required": true
+                                                                                                        }
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "variable": "paths",
+                                                                                                        "label": "Paths",
+                                                                                                        "schema": {
+                                                                                                            "type": "list",
+                                                                                                            "default": [
+                                                                                                                {
+                                                                                                                    "path": "/",
+                                                                                                                    "pathType": "Prefix"
+                                                                                                                }
+                                                                                                            ],
+                                                                                                            "items": [
+                                                                                                                {
+                                                                                                                    "variable": "pathEntry",
+                                                                                                                    "label": "Host",
+                                                                                                                    "schema": {
+                                                                                                                        "additional_attrs": true,
+                                                                                                                        "type": "dict",
+                                                                                                                        "attrs": [
+                                                                                                                            {
+                                                                                                                                "variable": "path",
+                                                                                                                                "label": "Path",
+                                                                                                                                "schema": {
+                                                                                                                                    "type": "string",
+                                                                                                                                    "required": true,
+                                                                                                                                    "default": "/"
+                                                                                                                                }
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "variable": "pathType",
+                                                                                                                                "label": "Path Type",
+                                                                                                                                "schema": {
+                                                                                                                                    "type": "string",
+                                                                                                                                    "required": true,
+                                                                                                                                    "default": "Prefix"
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        ]
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "variable": "certificateIssuer",
+                                                                                "label": "Cert-Manager clusterIssuer",
+                                                                                "description": "add the name of your cert-manager clusterIssuer here for automatic tls certificates. Cannot be used combined with tls option below",
+                                                                                "schema": {
+                                                                                    "type": "string",
+                                                                                    "default": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "variable": "middlewares",
+                                                                                "label": "Traefik Middlewares",
+                                                                                "description": "Add previously created Traefik Middlewares to this Ingress",
+                                                                                "schema": {
+                                                                                    "type": "list",
+                                                                                    "default": [],
+                                                                                    "items": [
+                                                                                        {
+                                                                                            "variable": "name",
+                                                                                            "label": "Name",
+                                                                                            "schema": {
+                                                                                                "type": "string",
+                                                                                                "default": "",
+                                                                                                "required": true
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "variable": "advanced",
+                                                                                "label": "Show Advanced Settings",
+                                                                                "description": "Advanced settings are not covered by TrueCharts Support",
+                                                                                "schema": {
+                                                                                    "type": "boolean",
+                                                                                    "default": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "variable": "entrypoint",
+                                                                                "label": "(Advanced) Traefik Entrypoint",
+                                                                                "description": "Entrypoint used by Traefik when using Traefik as Ingress Provider",
+                                                                                "schema": {
+                                                                                    "type": "string",
+                                                                                    "default": "websecure",
+                                                                                    "show_if": [
+                                                                                        [
+                                                                                            "advanced",
+                                                                                            "=",
+                                                                                            true
+                                                                                        ]
+                                                                                    ],
+                                                                                    "required": true
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "variable": "allowCors",
+                                                                                "label": "Allow Cross Origin Requests",
+                                                                                "schema": {
+                                                                                    "type": "boolean",
+                                                                                    "show_if": [
+                                                                                        [
+                                                                                            "advanced",
+                                                                                            "=",
+                                                                                            true
+                                                                                        ]
+                                                                                    ],
+                                                                                    "default": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "variable": "ingressClassName",
+                                                                                "label": "(Advanced/Optional) IngressClass Name",
+                                                                                "schema": {
+                                                                                    "type": "string",
+                                                                                    "show_if": [
+                                                                                        [
+                                                                                            "advanced",
+                                                                                            "=",
+                                                                                            true
+                                                                                        ]
+                                                                                    ],
+                                                                                    "default": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "variable": "tls",
+                                                                                "label": "TLS-Settings",
+                                                                                "schema": {
+                                                                                    "type": "list",
+                                                                                    "show_if": [
+                                                                                        [
+                                                                                            "advanced",
+                                                                                            "=",
+                                                                                            true
+                                                                                        ]
+                                                                                    ],
+                                                                                    "default": [],
+                                                                                    "items": [
+                                                                                        {
+                                                                                            "variable": "tlsEntry",
+                                                                                            "label": "Host",
+                                                                                            "schema": {
+                                                                                                "additional_attrs": true,
+                                                                                                "type": "dict",
+                                                                                                "attrs": [
+                                                                                                    {
+                                                                                                        "variable": "hosts",
+                                                                                                        "label": "Certificate Hosts",
+                                                                                                        "schema": {
+                                                                                                            "type": "list",
+                                                                                                            "default": [],
+                                                                                                            "items": [
+                                                                                                                {
+                                                                                                                    "variable": "host",
+                                                                                                                    "label": "Host",
+                                                                                                                    "schema": {
+                                                                                                                        "type": "string",
+                                                                                                                        "default": "",
+                                                                                                                        "required": true
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "variable": "certificateIssuer",
+                                                                                                        "label": "Use Cert-Manager clusterIssuer",
+                                                                                                        "description": "add the name of your cert-manager clusterIssuer here for automatic tls certificates.",
+                                                                                                        "schema": {
+                                                                                                            "type": "string",
+                                                                                                            "default": ""
+                                                                                                        }
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "variable": "clusterCertificate",
+                                                                                                        "label": "Cluster Certificate (Advanced)",
+                                                                                                        "description": "Add the name of your cluster-wide certificate, that you set up in the ClusterIssuer chart.",
+                                                                                                        "schema": {
+                                                                                                            "type": "string",
+                                                                                                            "show_if": [
+                                                                                                                [
+                                                                                                                    "certificateIssuer",
+                                                                                                                    "=",
+                                                                                                                    ""
+                                                                                                                ]
+                                                                                                            ],
+                                                                                                            "default": ""
+                                                                                                        }
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "variable": "secretName",
+                                                                                                        "label": "Use Custom Certificate Secret (Advanced)",
+                                                                                                        "schema": {
+                                                                                                            "show_if": [
+                                                                                                                [
+                                                                                                                    "certificateIssuer",
+                                                                                                                    "=",
+                                                                                                                    ""
+                                                                                                                ]
+                                                                                                            ],
+                                                                                                            "type": "string",
+                                                                                                            "default": ""
+                                                                                                        }
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "variable": "scaleCert",
+                                                                                                        "label": "Use TrueNAS SCALE Certificate (Deprecated)",
+                                                                                                        "schema": {
+                                                                                                            "show_if": [
+                                                                                                                [
+                                                                                                                    "certificateIssuer",
+                                                                                                                    "=",
+                                                                                                                    ""
+                                                                                                                ]
+                                                                                                            ],
+                                                                                                            "type": "int",
+                                                                                                            "$ref": [
+                                                                                                                "definitions/certificate"
+                                                                                                            ],
+                                                                                                            "enum": [
+                                                                                                                {
+                                                                                                                    "value": null,
+                                                                                                                    "description": "No Certificate"
+                                                                                                                }
+                                                                                                            ],
+                                                                                                            "default": null,
+                                                                                                            "null": true
+                                                                                                        }
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
                                                         "variable": "envList",
                                                         "label": "Codeserver Environment Variables",
                                                         "schema": {
@@ -3914,6 +4214,6 @@
         },
         "app_readme": "<p>Jellyseerr is a fork of Overseerr with support for Jellyfin and Emby. It can be used to manage requests for your media library.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/jellyseerr\">https://truecharts.org/charts/stable/jellyseerr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<h1>README</h1>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.10...jellyseerr-6.0.11\">jellyseerr-6.0.11</a> (2023-11-17)</h2>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.9...jellyseerr-6.0.10\">jellyseerr-6.0.10</a> (2023-11-08)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14465\">#14465</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.8...jellyseerr-6.0.9\">jellyseerr-6.0.9</a> (2023-11-08)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14454\">#14454</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.7...jellyseerr-6.0.8\">jellyseerr-6.0.8</a> (2023-11-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14365\">#14365</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.6...jellyseerr-6.0.7\">jellyseerr-6.0.7</a> (2023-11-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14287\">#14287</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.5...jellyseerr-6.0.6\">jellyseerr-6.0.6</a> (2023-10-29)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14094\">#14094</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.3...jellyseerr-6.0.5\">jellyseerr-6.0.5</a> (2023-10-28)</h2>\n<h3>Chore</h3>\n<ul>\n<li>Fix typo in categories and make them singular (<a href=\"https://github.com/truecharts/charts/issues/13693\">#13693</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.2...jellyseerr-6.0.3\">jellyseerr-6.0.3</a> (2023-10-07)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/13386\">#13386</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.1...jellyseerr-6.0.2\">jellyseerr-6.0.2</a> (2023-09-14)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/jellyseerr to v1.7.0 (<a href=\"https://github.com/truecharts/charts/issues/12600\">#12600</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.0...jellyseerr-6.0.1\">jellyseerr-6.0.1</a> (2023-08-07)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/jellyseerr to v1.6.0 (<a href=\"https://github.com/truecharts/charts/issues/11277\">#11277</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-5.0.25...jellyseerr-6.0.0\">jellyseerr-6.0.0</a> (2023-07-31)</h2>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-5.0.24...jellyseerr-5.0.25\">jellyseerr-5.0.25</a> (2023-07-29)</h2>"
+        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.11...jellyseerr-6.0.12\">jellyseerr-6.0.12</a> (2023-12-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>bump everything to ensure catalog has latest versions</li>\n<li>fix annotations again</li>\n<li>update annotations</li>\n<li>cleanup chart.yaml and add min-max scale version</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.10...jellyseerr-6.0.11\">jellyseerr-6.0.11</a> (2023-11-17)</h2>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.9...jellyseerr-6.0.10\">jellyseerr-6.0.10</a> (2023-11-08)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14465\">#14465</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.8...jellyseerr-6.0.9\">jellyseerr-6.0.9</a> (2023-11-08)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14454\">#14454</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.7...jellyseerr-6.0.8\">jellyseerr-6.0.8</a> (2023-11-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14365\">#14365</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.6...jellyseerr-6.0.7\">jellyseerr-6.0.7</a> (2023-11-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14287\">#14287</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.5...jellyseerr-6.0.6\">jellyseerr-6.0.6</a> (2023-10-29)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14094\">#14094</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.3...jellyseerr-6.0.5\">jellyseerr-6.0.5</a> (2023-10-28)</h2>\n<h3>Chore</h3>\n<ul>\n<li>Fix typo in categories and make them singular (<a href=\"https://github.com/truecharts/charts/issues/13693\">#13693</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.2...jellyseerr-6.0.3\">jellyseerr-6.0.3</a> (2023-10-07)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/13386\">#13386</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/jellyseerr-6.0.1...jellyseerr-6.0.2\">jellyseerr-6.0.2</a> (2023-09-14)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/jellyseerr to v1.7.0 (<a href=\"https://github.com/truecharts/charts/issues/12600\">#12600</a>)</li>\n</ul>"
     }
 }
