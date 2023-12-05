@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jellyfin/15.0.31",
-        "last_update": "2023-12-04 00:59:44",
+        "last_update": "2023-12-05 00:48:29",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/interface",
-            "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "10.8.13_15.0.31",
         "version": "15.0.31",
