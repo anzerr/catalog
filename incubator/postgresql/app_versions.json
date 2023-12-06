@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/incubator/postgresql/14.0.8",
-        "last_update": "2023-12-05 00:48:29",
+        "last_update": "2023-12-05 13:06:27",
         "required_features": [],
         "human_version": "14.7.0_14.0.8",
         "version": "14.0.8",
