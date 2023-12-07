@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/sonarr/16.0.14",
-        "last_update": "2023-12-05 13:06:27",
+        "last_update": "2023-12-07 01:23:21",
         "required_features": [
             "normalize/interfaceConfiguration",
-            "definitions/timezone",
             "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/timezone",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "3.0.10.1567_16.0.14",
         "version": "16.0.14",
@@ -4266,13 +4266,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/sonarr/16.0.12",
-        "last_update": "2023-12-05 13:06:27",
+        "last_update": "2023-12-07 01:23:21",
         "required_features": [
             "normalize/interfaceConfiguration",
-            "definitions/timezone",
             "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/timezone",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "3.0.10.1567_16.0.12",
         "version": "16.0.12",
