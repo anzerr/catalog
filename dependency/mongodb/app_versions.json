@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mongodb/9.0.5",
-        "last_update": "2023-12-08 00:37:25",
+        "last_update": "2023-12-09 00:40:44",
         "required_features": [
-            "definitions/gpuConfiguration",
             "definitions/timezone",
-            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/certificate",
-            "definitions/interface"
+            "definitions/interface",
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "7.0.4_9.0.5",
         "version": "9.0.5",

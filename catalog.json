@@ -1,41 +1,6 @@
 {
 	"charts": {},
 	"test": {},
-	"incubator": {
-		"postgresql": {
-			"app_readme": "<p>PostgresSQL</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/postgresql\">https://truecharts.org/charts/incubator/postgresql</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-			"categories": [
-				"database"
-			],
-			"description": "PostgresSQL",
-			"healthy": true,
-			"healthy_error": null,
-			"home": "https://truecharts.org/charts/incubator/postgresql",
-			"location": "/home/runner/work/catalog/catalog/incubator/postgresql",
-			"latest_version": "15.0.0",
-			"latest_app_version": "14.10.0",
-			"latest_human_version": "14.10.0_15.0.0",
-			"last_update": "2023-12-08 00:37:25",
-			"name": "postgresql",
-			"recommended": false,
-			"title": "Postgresql",
-			"maintainers": [
-				{
-					"name": "TrueCharts",
-					"email": "info@truecharts.org",
-					"url": "https://truecharts.org"
-				}
-			],
-			"tags": [],
-			"screenshots": [],
-			"sources": [
-				"https://www.postgresql.org/",
-				"https://github.com/truecharts/charts/tree/master/charts/incubator/postgresql",
-				"https://hub.docker.com/r/bitnami/postgresql"
-			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/postgresql.png"
-		}
-	},
 	"dependency": {
 		"redis": {
 			"app_readme": "<p>Open source, advanced key-value store.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/redis\">https://truecharts.org/charts/dependency/redis</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
@@ -50,7 +15,7 @@
 			"latest_version": "9.0.2",
 			"latest_app_version": "7.2.3",
 			"latest_human_version": "7.2.3_9.0.2",
-			"last_update": "2023-12-08 00:37:25",
+			"last_update": "2023-12-09 00:40:44",
 			"name": "redis",
 			"recommended": false,
 			"title": "Redis",
@@ -70,6 +35,40 @@
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png"
 		},
+		"mongodb": {
+			"app_readme": "<p>Fast, reliable, scalable, and easy to use open-source no-sql database system.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/mongodb\">https://truecharts.org/charts/dependency/mongodb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+			"categories": [
+				"database"
+			],
+			"description": "Fast, reliable, scalable, and easy to use open-source no-sql database system.",
+			"healthy": true,
+			"healthy_error": null,
+			"home": "https://truecharts.org/charts/dependency/mongodb",
+			"location": "/home/runner/work/catalog/catalog/dependency/mongodb",
+			"latest_version": "9.0.5",
+			"latest_app_version": "7.0.4",
+			"latest_human_version": "7.0.4_9.0.5",
+			"last_update": "2023-12-09 00:40:44",
+			"name": "mongodb",
+			"recommended": false,
+			"title": "Mongodb",
+			"maintainers": [
+				{
+					"name": "TrueCharts",
+					"email": "info@truecharts.org",
+					"url": "https://truecharts.org"
+				}
+			],
+			"tags": [],
+			"screenshots": [],
+			"sources": [
+				"https://github.com/bitnami/bitnami-docker-mongodb",
+				"https://www.mongodb.com",
+				"https://github.com/truecharts/charts/tree/master/charts/dependency/mongodb",
+				"https://hub.docker.com/r/bitnami/mongodb"
+			],
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png"
+		},
 		"mariadb": {
 			"app_readme": "<p>Fast, reliable, scalable, and easy to use open-source relational database system.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/mariadb\">https://truecharts.org/charts/dependency/mariadb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
@@ -83,7 +82,7 @@
 			"latest_version": "10.0.2",
 			"latest_app_version": "11.1.3",
 			"latest_human_version": "11.1.3_10.0.2",
-			"last_update": "2023-12-08 00:37:25",
+			"last_update": "2023-12-09 00:40:44",
 			"name": "mariadb",
 			"recommended": false,
 			"title": "Mariadb",
@@ -104,24 +103,26 @@
 				"https://mariadb.org"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
-		},
-		"mongodb": {
-			"app_readme": "<p>Fast, reliable, scalable, and easy to use open-source no-sql database system.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/mongodb\">https://truecharts.org/charts/dependency/mongodb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+		}
+	},
+	"stable": {
+		"tdarr": {
+			"app_readme": "<p>Audio/Video library transcoding automation</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/tdarr\">https://truecharts.org/charts/stable/tdarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
-				"database"
+				"media"
 			],
-			"description": "Fast, reliable, scalable, and easy to use open-source no-sql database system.",
+			"description": "Audio/Video library transcoding automation",
 			"healthy": true,
 			"healthy_error": null,
-			"home": "https://truecharts.org/charts/dependency/mongodb",
-			"location": "/home/runner/work/catalog/catalog/dependency/mongodb",
-			"latest_version": "9.0.5",
-			"latest_app_version": "7.0.4",
-			"latest_human_version": "7.0.4_9.0.5",
-			"last_update": "2023-12-08 00:37:25",
-			"name": "mongodb",
+			"home": "https://truecharts.org/charts/stable/tdarr",
+			"location": "/home/runner/work/catalog/catalog/stable/tdarr",
+			"latest_version": "6.1.1",
+			"latest_app_version": "2.16.01",
+			"latest_human_version": "2.16.01_6.1.1",
+			"last_update": "2023-12-09 00:40:44",
+			"name": "tdarr",
 			"recommended": false,
-			"title": "Mongodb",
+			"title": "Tdarr",
 			"maintainers": [
 				{
 					"name": "TrueCharts",
@@ -132,17 +133,45 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
-				"https://github.com/bitnami/bitnami-docker-mongodb",
-				"https://www.mongodb.com",
-				"https://github.com/truecharts/charts/tree/master/charts/dependency/mongodb",
-				"https://hub.docker.com/r/bitnami/mongodb"
+				"https://hub.docker.com/r/haveagitgat/tdarr",
+				"https://github.com/HaveAGitGat/Tdarr",
+				"https://github.com/truecharts/charts/tree/master/charts/stable/tdarr"
 			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png"
-		}
-	},
-	"enterprise": {},
-	"dev": {},
-	"stable": {
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/tdarr.png"
+		},
+		"tdarr-node": {
+			"app_readme": "<p>Audio/Video library transcoding automation</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/tdarr-node\">https://truecharts.org/charts/stable/tdarr-node</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+			"categories": [
+				"media"
+			],
+			"description": "Audio/Video library transcoding automation",
+			"healthy": true,
+			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/tdarr-node",
+			"location": "/home/runner/work/catalog/catalog/stable/tdarr-node",
+			"latest_version": "6.1.1",
+			"latest_app_version": "2.16.01",
+			"latest_human_version": "2.16.01_6.1.1",
+			"last_update": "2023-12-09 00:40:44",
+			"name": "tdarr-node",
+			"recommended": false,
+			"title": "Tdarr-node",
+			"maintainers": [
+				{
+					"name": "TrueCharts",
+					"email": "info@truecharts.org",
+					"url": "https://truecharts.org"
+				}
+			],
+			"tags": [],
+			"screenshots": [],
+			"sources": [
+				"https://github.com/HaveAGitGat/Tdarr",
+				"https://github.com/truecharts/charts/tree/master/charts/stable/tdarr-node",
+				"https://hub.docker.com/r/haveagitgat/tdarr_node"
+			],
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/tdarr-node.png"
+		},
 		"nextcloud": {
 			"app_readme": "<p>A private cloud server that puts the control and security of your own data back into your hands.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/nextcloud\">https://truecharts.org/charts/stable/nextcloud</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
@@ -153,10 +182,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/nextcloud",
 			"location": "/home/runner/work/catalog/catalog/stable/nextcloud",
-			"latest_version": "22.2.16",
+			"latest_version": "22.2.17",
 			"latest_app_version": "27.1.4",
-			"latest_human_version": "27.1.4_22.2.16",
-			"last_update": "2023-12-08 00:37:25",
+			"latest_human_version": "27.1.4_22.2.17",
+			"last_update": "2023-12-09 00:40:44",
 			"name": "nextcloud",
 			"recommended": false,
 			"title": "Nextcloud",
@@ -177,171 +206,6 @@
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png"
 		},
-		"tdarr-node": {
-			"app_readme": "<p>Audio/Video library transcoding automation</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/tdarr-node\">https://truecharts.org/charts/stable/tdarr-node</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-			"categories": [
-				"media"
-			],
-			"description": "Audio/Video library transcoding automation",
-			"healthy": true,
-			"healthy_error": null,
-			"home": "https://truecharts.org/charts/stable/tdarr-node",
-			"location": "/home/runner/work/catalog/catalog/stable/tdarr-node",
-			"latest_version": "6.1.1",
-			"latest_app_version": "2.16.01",
-			"latest_human_version": "2.16.01_6.1.1",
-			"last_update": "2023-12-08 00:37:25",
-			"name": "tdarr-node",
-			"recommended": false,
-			"title": "Tdarr-node",
-			"maintainers": [
-				{
-					"name": "TrueCharts",
-					"email": "info@truecharts.org",
-					"url": "https://truecharts.org"
-				}
-			],
-			"tags": [],
-			"screenshots": [],
-			"sources": [
-				"https://github.com/HaveAGitGat/Tdarr",
-				"https://github.com/truecharts/charts/tree/master/charts/stable/tdarr-node",
-				"https://hub.docker.com/r/haveagitgat/tdarr_node"
-			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/tdarr-node.png"
-		},
-		"qbittorrent": {
-			"app_readme": "<p>qBittorrent is a cross-platform free and open-source BitTorrent client</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/qbittorrent\">https://truecharts.org/charts/stable/qbittorrent</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-			"categories": [
-				"media"
-			],
-			"description": "qBittorrent is a cross-platform free and open-source BitTorrent client",
-			"healthy": true,
-			"healthy_error": null,
-			"home": "https://truecharts.org/charts/stable/qbittorrent",
-			"location": "/home/runner/work/catalog/catalog/stable/qbittorrent",
-			"latest_version": "16.1.5",
-			"latest_app_version": "4.6.2",
-			"latest_human_version": "4.6.2_16.1.5",
-			"last_update": "2023-12-08 00:37:25",
-			"name": "qbittorrent",
-			"recommended": false,
-			"title": "Qbittorrent",
-			"maintainers": [
-				{
-					"name": "TrueCharts",
-					"email": "info@truecharts.org",
-					"url": "https://truecharts.org"
-				}
-			],
-			"tags": [],
-			"screenshots": [],
-			"sources": [
-				"https://ghcr.io/onedr0p/qbittorrent",
-				"https://github.com/qbittorrent/qBittorrent",
-				"https://github.com/truecharts/charts/tree/master/charts/stable/qbittorrent"
-			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png"
-		},
-		"jellyseerr": {
-			"app_readme": "<p>Jellyseerr is a fork of Overseerr with support for Jellyfin and Emby. It can be used to manage requests for your media library.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/jellyseerr\">https://truecharts.org/charts/stable/jellyseerr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-			"categories": [
-				"media"
-			],
-			"description": "Jellyseerr is a fork of Overseerr with support for Jellyfin and Emby. It can be used to manage requests for your media library.",
-			"healthy": true,
-			"healthy_error": null,
-			"home": "https://truecharts.org/charts/stable/jellyseerr",
-			"location": "/home/runner/work/catalog/catalog/stable/jellyseerr",
-			"latest_version": "6.0.12",
-			"latest_app_version": "1.7.0",
-			"latest_human_version": "1.7.0_6.0.12",
-			"last_update": "2023-12-08 00:37:25",
-			"name": "jellyseerr",
-			"recommended": false,
-			"title": "Jellyseerr",
-			"maintainers": [
-				{
-					"name": "TrueCharts",
-					"email": "info@truecharts.org",
-					"url": "https://truecharts.org"
-				}
-			],
-			"tags": [],
-			"screenshots": [],
-			"sources": [
-				"https://github.com/Fallenbagel/jellyseerr",
-				"https://github.com/truecharts/charts/tree/master/charts/stable/jellyseerr",
-				"https://hub.docker.com/r/fallenbagel/jellyseerr"
-			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jellyseerr.png"
-		},
-		"jellyfin": {
-			"app_readme": "<p>Jellyfin is a Free Software Media System</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/jellyfin\">https://truecharts.org/charts/stable/jellyfin</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-			"categories": [
-				"media"
-			],
-			"description": "Jellyfin is a Free Software Media System",
-			"healthy": true,
-			"healthy_error": null,
-			"home": "https://truecharts.org/charts/stable/jellyfin",
-			"location": "/home/runner/work/catalog/catalog/stable/jellyfin",
-			"latest_version": "15.0.31",
-			"latest_app_version": "10.8.13",
-			"latest_human_version": "10.8.13_15.0.31",
-			"last_update": "2023-12-08 00:37:25",
-			"name": "jellyfin",
-			"recommended": false,
-			"title": "Jellyfin",
-			"maintainers": [
-				{
-					"name": "TrueCharts",
-					"email": "info@truecharts.org",
-					"url": "https://truecharts.org"
-				}
-			],
-			"tags": [],
-			"screenshots": [],
-			"sources": [
-				"https://github.com/jellyfin/jellyfin",
-				"https://github.com/truecharts/charts/tree/master/charts/stable/jellyfin",
-				"https://hub.docker.com/r/jellyfin/jellyfin"
-			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jellyfin.png"
-		},
-		"tdarr": {
-			"app_readme": "<p>Audio/Video library transcoding automation</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/tdarr\">https://truecharts.org/charts/stable/tdarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-			"categories": [
-				"media"
-			],
-			"description": "Audio/Video library transcoding automation",
-			"healthy": true,
-			"healthy_error": null,
-			"home": "https://truecharts.org/charts/stable/tdarr",
-			"location": "/home/runner/work/catalog/catalog/stable/tdarr",
-			"latest_version": "6.1.1",
-			"latest_app_version": "2.16.01",
-			"latest_human_version": "2.16.01_6.1.1",
-			"last_update": "2023-12-08 00:37:25",
-			"name": "tdarr",
-			"recommended": false,
-			"title": "Tdarr",
-			"maintainers": [
-				{
-					"name": "TrueCharts",
-					"email": "info@truecharts.org",
-					"url": "https://truecharts.org"
-				}
-			],
-			"tags": [],
-			"screenshots": [],
-			"sources": [
-				"https://hub.docker.com/r/haveagitgat/tdarr",
-				"https://github.com/HaveAGitGat/Tdarr",
-				"https://github.com/truecharts/charts/tree/master/charts/stable/tdarr"
-			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/tdarr.png"
-		},
 		"bazarr": {
 			"app_readme": "<p>Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/bazarr\">https://truecharts.org/charts/stable/bazarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
@@ -355,7 +219,7 @@
 			"latest_version": "15.1.1",
 			"latest_app_version": "1.4.0",
 			"latest_human_version": "1.4.0_15.1.1",
-			"last_update": "2023-12-08 00:37:25",
+			"last_update": "2023-12-09 00:40:44",
 			"name": "bazarr",
 			"recommended": false,
 			"title": "Bazarr",
@@ -375,23 +239,23 @@
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png"
 		},
-		"radarr": {
-			"app_readme": "<p>A fork of Sonarr to work with movies à la Couchpotato</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/radarr\">https://truecharts.org/charts/stable/radarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+		"jellyfin": {
+			"app_readme": "<p>Jellyfin is a Free Software Media System</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/jellyfin\">https://truecharts.org/charts/stable/jellyfin</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
 				"media"
 			],
-			"description": "A fork of Sonarr to work with movies à la Couchpotato",
+			"description": "Jellyfin is a Free Software Media System",
 			"healthy": true,
 			"healthy_error": null,
-			"home": "https://truecharts.org/charts/stable/radarr",
-			"location": "/home/runner/work/catalog/catalog/stable/radarr",
-			"latest_version": "17.0.20",
-			"latest_app_version": "5.1.3.8246",
-			"latest_human_version": "5.1.3.8246_17.0.20",
-			"last_update": "2023-12-08 00:37:25",
-			"name": "radarr",
+			"home": "https://truecharts.org/charts/stable/jellyfin",
+			"location": "/home/runner/work/catalog/catalog/stable/jellyfin",
+			"latest_version": "15.0.31",
+			"latest_app_version": "10.8.13",
+			"latest_human_version": "10.8.13_15.0.31",
+			"last_update": "2023-12-09 00:40:44",
+			"name": "jellyfin",
 			"recommended": false,
-			"title": "Radarr",
+			"title": "Jellyfin",
 			"maintainers": [
 				{
 					"name": "TrueCharts",
@@ -402,11 +266,176 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
-				"https://github.com/Radarr/Radarr",
-				"https://github.com/truecharts/charts/tree/master/charts/stable/radarr",
-				"https://ghcr.io/onedr0p/radarr"
+				"https://github.com/jellyfin/jellyfin",
+				"https://github.com/truecharts/charts/tree/master/charts/stable/jellyfin",
+				"https://hub.docker.com/r/jellyfin/jellyfin"
 			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.png"
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jellyfin.png"
+		},
+		"metube": {
+			"app_readme": "<p>Web GUI for youtube-dl.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/metube\">https://truecharts.org/charts/stable/metube</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+			"categories": [
+				"media"
+			],
+			"description": "Web GUI for youtube-dl.",
+			"healthy": true,
+			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/metube",
+			"location": "/home/runner/work/catalog/catalog/stable/metube",
+			"latest_version": "8.0.12",
+			"latest_app_version": "2023.11.16",
+			"latest_human_version": "2023.11.16_8.0.12",
+			"last_update": "2023-12-09 00:40:44",
+			"name": "metube",
+			"recommended": false,
+			"title": "Metube",
+			"maintainers": [
+				{
+					"name": "TrueCharts",
+					"email": "info@truecharts.org",
+					"url": "https://truecharts.org"
+				}
+			],
+			"tags": [],
+			"screenshots": [],
+			"sources": [
+				"https://github.com/alexta69/metube",
+				"https://github.com/truecharts/charts/tree/master/charts/stable/metube",
+				"https://hub.docker.com/r/alexta69/metube"
+			],
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/metube.png"
+		},
+		"jellyseerr": {
+			"app_readme": "<p>Jellyseerr is a fork of Overseerr with support for Jellyfin and Emby. It can be used to manage requests for your media library.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/jellyseerr\">https://truecharts.org/charts/stable/jellyseerr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+			"categories": [
+				"media"
+			],
+			"description": "Jellyseerr is a fork of Overseerr with support for Jellyfin and Emby. It can be used to manage requests for your media library.",
+			"healthy": true,
+			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/jellyseerr",
+			"location": "/home/runner/work/catalog/catalog/stable/jellyseerr",
+			"latest_version": "6.0.12",
+			"latest_app_version": "1.7.0",
+			"latest_human_version": "1.7.0_6.0.12",
+			"last_update": "2023-12-09 00:40:44",
+			"name": "jellyseerr",
+			"recommended": false,
+			"title": "Jellyseerr",
+			"maintainers": [
+				{
+					"name": "TrueCharts",
+					"email": "info@truecharts.org",
+					"url": "https://truecharts.org"
+				}
+			],
+			"tags": [],
+			"screenshots": [],
+			"sources": [
+				"https://github.com/Fallenbagel/jellyseerr",
+				"https://github.com/truecharts/charts/tree/master/charts/stable/jellyseerr",
+				"https://hub.docker.com/r/fallenbagel/jellyseerr"
+			],
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jellyseerr.png"
+		},
+		"jackett": {
+			"app_readme": "<p>API Support for your favorite torrent trackers.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/jackett\">https://truecharts.org/charts/stable/jackett</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+			"categories": [
+				"media"
+			],
+			"description": "API Support for your favorite torrent trackers.",
+			"healthy": true,
+			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/jackett",
+			"location": "/home/runner/work/catalog/catalog/stable/jackett",
+			"latest_version": "16.0.7",
+			"latest_app_version": "0.21.1155",
+			"latest_human_version": "0.21.1155_16.0.7",
+			"last_update": "2023-12-09 00:40:44",
+			"name": "jackett",
+			"recommended": false,
+			"title": "Jackett",
+			"maintainers": [
+				{
+					"name": "TrueCharts",
+					"email": "info@truecharts.org",
+					"url": "https://truecharts.org"
+				}
+			],
+			"tags": [],
+			"screenshots": [],
+			"sources": [
+				"https://github.com/Jackett/Jackett",
+				"https://github.com/truecharts/charts/tree/master/charts/stable/jackett",
+				"https://ghcr.io/linuxserver/jackett"
+			],
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png"
+		},
+		"qbittorrent": {
+			"app_readme": "<p>qBittorrent is a cross-platform free and open-source BitTorrent client</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/qbittorrent\">https://truecharts.org/charts/stable/qbittorrent</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+			"categories": [
+				"media"
+			],
+			"description": "qBittorrent is a cross-platform free and open-source BitTorrent client",
+			"healthy": true,
+			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/qbittorrent",
+			"location": "/home/runner/work/catalog/catalog/stable/qbittorrent",
+			"latest_version": "16.1.6",
+			"latest_app_version": "4.6.2",
+			"latest_human_version": "4.6.2_16.1.6",
+			"last_update": "2023-12-09 00:40:44",
+			"name": "qbittorrent",
+			"recommended": false,
+			"title": "Qbittorrent",
+			"maintainers": [
+				{
+					"name": "TrueCharts",
+					"email": "info@truecharts.org",
+					"url": "https://truecharts.org"
+				}
+			],
+			"tags": [],
+			"screenshots": [],
+			"sources": [
+				"https://github.com/truecharts/charts/tree/master/charts/stable/qbittorrent",
+				"https://ghcr.io/onedr0p/qbittorrent",
+				"https://github.com/qbittorrent/qBittorrent"
+			],
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png"
+		},
+		"unpackerr": {
+			"app_readme": "<p>This application runs as a daemon on your download host. It checks for completed downloads and extracts them so Radarr, Lidarr, Sonarr, and Readarr may import them</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/unpackerr\">https://truecharts.org/charts/stable/unpackerr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+			"categories": [
+				"media"
+			],
+			"description": "This application runs as a daemon on your download host. It checks for completed downloads and extracts them so Radarr, Lidarr, Sonarr, and Readarr may import them",
+			"healthy": true,
+			"healthy_error": null,
+			"home": "https://truecharts.org/charts/stable/unpackerr",
+			"location": "/home/runner/work/catalog/catalog/stable/unpackerr",
+			"latest_version": "10.0.10",
+			"latest_app_version": "0.12.0",
+			"latest_human_version": "0.12.0_10.0.10",
+			"last_update": "2023-12-09 00:40:44",
+			"name": "unpackerr",
+			"recommended": false,
+			"title": "Unpackerr",
+			"maintainers": [
+				{
+					"name": "TrueCharts",
+					"email": "info@truecharts.org",
+					"url": "https://truecharts.org"
+				}
+			],
+			"tags": [],
+			"screenshots": [],
+			"sources": [
+				"https://github.com/davidnewhall/unpackerr",
+				"https://github.com/truecharts/charts/tree/master/charts/stable/unpackerr",
+				"https://hub.docker.com/r/golift/unpackerr"
+			],
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/unpackerr.png"
 		},
 		"prowlarr": {
 			"app_readme": "<p>Indexer manager/proxy built on the popular arr net base stack to integrate with your various PVR apps.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/prowlarr\">https://truecharts.org/charts/stable/prowlarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
@@ -418,10 +447,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/prowlarr",
 			"location": "/home/runner/work/catalog/catalog/stable/prowlarr",
-			"latest_version": "12.0.31",
+			"latest_version": "12.0.32",
 			"latest_app_version": "1.10.5.4116",
-			"latest_human_version": "1.10.5.4116_12.0.31",
-			"last_update": "2023-12-08 00:37:25",
+			"latest_human_version": "1.10.5.4116_12.0.32",
+			"last_update": "2023-12-09 00:40:44",
 			"name": "prowlarr",
 			"recommended": false,
 			"title": "Prowlarr",
@@ -442,23 +471,23 @@
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/prowlarr.png"
 		},
-		"jackett": {
-			"app_readme": "<p>API Support for your favorite torrent trackers.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/jackett\">https://truecharts.org/charts/stable/jackett</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+		"sonarr": {
+			"app_readme": "<p>Smart PVR for newsgroup and bittorrent users</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/sonarr\">https://truecharts.org/charts/stable/sonarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
 				"media"
 			],
-			"description": "API Support for your favorite torrent trackers.",
+			"description": "Smart PVR for newsgroup and bittorrent users",
 			"healthy": true,
 			"healthy_error": null,
-			"home": "https://truecharts.org/charts/stable/jackett",
-			"location": "/home/runner/work/catalog/catalog/stable/jackett",
-			"latest_version": "16.0.7",
-			"latest_app_version": "0.21.1155",
-			"latest_human_version": "0.21.1155_16.0.7",
-			"last_update": "2023-12-08 00:37:25",
-			"name": "jackett",
+			"home": "https://truecharts.org/charts/stable/sonarr",
+			"location": "/home/runner/work/catalog/catalog/stable/sonarr",
+			"latest_version": "16.0.15",
+			"latest_app_version": "3.0.10.1567",
+			"latest_human_version": "3.0.10.1567_16.0.15",
+			"last_update": "2023-12-09 00:40:44",
+			"name": "sonarr",
 			"recommended": false,
-			"title": "Jackett",
+			"title": "Sonarr",
 			"maintainers": [
 				{
 					"name": "TrueCharts",
@@ -469,11 +498,11 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
-				"https://github.com/Jackett/Jackett",
-				"https://github.com/truecharts/charts/tree/master/charts/stable/jackett",
-				"https://ghcr.io/linuxserver/jackett"
+				"https://github.com/Sonarr/Sonarr",
+				"https://github.com/truecharts/charts/tree/master/charts/stable/sonarr",
+				"https://ghcr.io/onedr0p/sonarr"
 			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png"
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/sonarr.png"
 		},
 		"readarr": {
 			"app_readme": "<p>A fork of Radarr to work with Books &amp; AudioBooks</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/readarr\">https://truecharts.org/charts/stable/readarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
@@ -485,10 +514,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/readarr",
 			"location": "/home/runner/work/catalog/catalog/stable/readarr",
-			"latest_version": "17.0.24",
+			"latest_version": "17.0.25",
 			"latest_app_version": "0.3.10.2287",
-			"latest_human_version": "0.3.10.2287_17.0.24",
-			"last_update": "2023-12-08 00:37:25",
+			"latest_human_version": "0.3.10.2287_17.0.25",
+			"last_update": "2023-12-09 00:40:44",
 			"name": "readarr",
 			"recommended": false,
 			"title": "Readarr",
@@ -509,23 +538,23 @@
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/readarr.png"
 		},
-		"unpackerr": {
-			"app_readme": "<p>This application runs as a daemon on your download host. It checks for completed downloads and extracts them so Radarr, Lidarr, Sonarr, and Readarr may import them</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/unpackerr\">https://truecharts.org/charts/stable/unpackerr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+		"radarr": {
+			"app_readme": "<p>A fork of Sonarr to work with movies à la Couchpotato</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/radarr\">https://truecharts.org/charts/stable/radarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
 				"media"
 			],
-			"description": "This application runs as a daemon on your download host. It checks for completed downloads and extracts them so Radarr, Lidarr, Sonarr, and Readarr may import them",
+			"description": "A fork of Sonarr to work with movies à la Couchpotato",
 			"healthy": true,
 			"healthy_error": null,
-			"home": "https://truecharts.org/charts/stable/unpackerr",
-			"location": "/home/runner/work/catalog/catalog/stable/unpackerr",
-			"latest_version": "10.0.10",
-			"latest_app_version": "0.12.0",
-			"latest_human_version": "0.12.0_10.0.10",
-			"last_update": "2023-12-08 00:37:25",
-			"name": "unpackerr",
+			"home": "https://truecharts.org/charts/stable/radarr",
+			"location": "/home/runner/work/catalog/catalog/stable/radarr",
+			"latest_version": "17.0.21",
+			"latest_app_version": "5.1.3.8246",
+			"latest_human_version": "5.1.3.8246_17.0.21",
+			"last_update": "2023-12-09 00:40:44",
+			"name": "radarr",
 			"recommended": false,
-			"title": "Unpackerr",
+			"title": "Radarr",
 			"maintainers": [
 				{
 					"name": "TrueCharts",
@@ -536,44 +565,11 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
-				"https://github.com/davidnewhall/unpackerr",
-				"https://github.com/truecharts/charts/tree/master/charts/stable/unpackerr",
-				"https://hub.docker.com/r/golift/unpackerr"
+				"https://github.com/Radarr/Radarr",
+				"https://github.com/truecharts/charts/tree/master/charts/stable/radarr",
+				"https://ghcr.io/onedr0p/radarr"
 			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/unpackerr.png"
-		},
-		"metube": {
-			"app_readme": "<p>Web GUI for youtube-dl.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/metube\">https://truecharts.org/charts/stable/metube</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-			"categories": [
-				"media"
-			],
-			"description": "Web GUI for youtube-dl.",
-			"healthy": true,
-			"healthy_error": null,
-			"home": "https://truecharts.org/charts/stable/metube",
-			"location": "/home/runner/work/catalog/catalog/stable/metube",
-			"latest_version": "8.0.12",
-			"latest_app_version": "2023.11.16",
-			"latest_human_version": "2023.11.16_8.0.12",
-			"last_update": "2023-12-08 00:37:25",
-			"name": "metube",
-			"recommended": false,
-			"title": "Metube",
-			"maintainers": [
-				{
-					"name": "TrueCharts",
-					"email": "info@truecharts.org",
-					"url": "https://truecharts.org"
-				}
-			],
-			"tags": [],
-			"screenshots": [],
-			"sources": [
-				"https://github.com/alexta69/metube",
-				"https://github.com/truecharts/charts/tree/master/charts/stable/metube",
-				"https://hub.docker.com/r/alexta69/metube"
-			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/metube.png"
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.png"
 		},
 		"lidarr": {
 			"app_readme": "<p>Looks and smells like Sonarr but made for music</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/lidarr\">https://truecharts.org/charts/stable/lidarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
@@ -585,10 +581,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/lidarr",
 			"location": "/home/runner/work/catalog/catalog/stable/lidarr",
-			"latest_version": "17.0.27",
-			"latest_app_version": "2.0.4.3802",
-			"latest_human_version": "2.0.4.3802_17.0.27",
-			"last_update": "2023-12-08 00:37:25",
+			"latest_version": "17.0.28",
+			"latest_app_version": "2.0.5.3813",
+			"latest_human_version": "2.0.5.3813_17.0.28",
+			"last_update": "2023-12-09 00:40:44",
 			"name": "lidarr",
 			"recommended": false,
 			"title": "Lidarr",
@@ -607,24 +603,27 @@
 				"https://ghcr.io/onedr0p/lidarr-develop"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.png"
-		},
-		"sonarr": {
-			"app_readme": "<p>Smart PVR for newsgroup and bittorrent users</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/sonarr\">https://truecharts.org/charts/stable/sonarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+		}
+	},
+	"dev": {},
+	"operators": {
+		"prometheus-operator": {
+			"app_readme": "<p>Prometheus Operator is an operator for prometheus</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/operators/prometheus-operator\">https://truecharts.org/charts/operators/prometheus-operator</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
-				"media"
+				"operators"
 			],
-			"description": "Smart PVR for newsgroup and bittorrent users",
+			"description": "Prometheus Operator is an operator for prometheus",
 			"healthy": true,
 			"healthy_error": null,
-			"home": "https://truecharts.org/charts/stable/sonarr",
-			"location": "/home/runner/work/catalog/catalog/stable/sonarr",
-			"latest_version": "16.0.14",
-			"latest_app_version": "3.0.10.1567",
-			"latest_human_version": "3.0.10.1567_16.0.14",
-			"last_update": "2023-12-08 00:37:25",
-			"name": "sonarr",
+			"home": "https://truecharts.org/charts/operators/prometheus-operator",
+			"location": "/home/runner/work/catalog/catalog/operators/prometheus-operator",
+			"latest_version": "1.0.16",
+			"latest_app_version": "0.69.1",
+			"latest_human_version": "0.69.1_1.0.16",
+			"last_update": "2023-12-09 00:40:44",
+			"name": "prometheus-operator",
 			"recommended": false,
-			"title": "Sonarr",
+			"title": "Prometheus-operator",
 			"maintainers": [
 				{
 					"name": "TrueCharts",
@@ -635,14 +634,12 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
-				"https://github.com/truecharts/charts/tree/master/charts/stable/sonarr",
-				"https://ghcr.io/onedr0p/sonarr",
-				"https://github.com/Sonarr/Sonarr"
+				"https://github.com/prometheus-operator",
+				"https://github.com/truecharts/charts/tree/master/charts/operators/prometheus-operator",
+				"https://github.com/truecharts/containers/tree/master/mirrorprometheus-operator"
 			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/sonarr.png"
-		}
-	},
-	"operators": {
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png"
+		},
 		"cloudnative-pg": {
 			"app_readme": "<p>CloudNativePG is a clustered postgresql database operator</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/operators/cloudnative-pg\">https://truecharts.org/charts/operators/cloudnative-pg</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
@@ -656,7 +653,7 @@
 			"latest_version": "3.0.0",
 			"latest_app_version": "latest",
 			"latest_human_version": "latest_3.0.0",
-			"last_update": "2023-12-08 00:37:25",
+			"last_update": "2023-12-09 00:40:44",
 			"name": "cloudnative-pg",
 			"recommended": false,
 			"title": "Cloudnative-pg",
@@ -677,40 +674,6 @@
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.png"
 		},
-		"cert-manager": {
-			"app_readme": "<p>Cert-Manager is a kubernetes-aware certificate manager</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/operators/cert-manager\">https://truecharts.org/charts/operators/cert-manager</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-			"categories": [
-				"operators"
-			],
-			"description": "Cert-Manager is a kubernetes-aware certificate manager",
-			"healthy": true,
-			"healthy_error": null,
-			"home": "https://truecharts.org/charts/operators/cert-manager",
-			"location": "/home/runner/work/catalog/catalog/operators/cert-manager",
-			"latest_version": "1.1.7",
-			"latest_app_version": "latest",
-			"latest_human_version": "latest_1.1.7",
-			"last_update": "2023-12-08 00:37:25",
-			"name": "cert-manager",
-			"recommended": false,
-			"title": "Cert-manager",
-			"maintainers": [
-				{
-					"name": "TrueCharts",
-					"email": "info@truecharts.org",
-					"url": "https://truecharts.org"
-				}
-			],
-			"tags": [],
-			"screenshots": [],
-			"sources": [
-				"https://cert-manager.io/",
-				"https://github.com/truecharts/charts/tree/master/charts/operators/cert-manager",
-				"https://github.com/truecharts/containers/tree/master/mirroralpine",
-				"https://github.com/cert-manager"
-			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png"
-		},
 		"metallb": {
 			"app_readme": "<p>A network load-balancer implementation for Kubernetes using standard routing protocols</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/operators/metallb\">https://truecharts.org/charts/operators/metallb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
@@ -724,7 +687,7 @@
 			"latest_version": "11.0.0",
 			"latest_app_version": "latest",
 			"latest_human_version": "latest_11.0.0",
-			"last_update": "2023-12-08 00:37:25",
+			"last_update": "2023-12-09 00:40:44",
 			"name": "metallb",
 			"recommended": false,
 			"title": "Metallb",
@@ -745,23 +708,23 @@
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/metallb.png"
 		},
-		"prometheus-operator": {
-			"app_readme": "<p>Prometheus Operator is an operator for prometheus</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/operators/prometheus-operator\">https://truecharts.org/charts/operators/prometheus-operator</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+		"cert-manager": {
+			"app_readme": "<p>Cert-Manager is a kubernetes-aware certificate manager</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/operators/cert-manager\">https://truecharts.org/charts/operators/cert-manager</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
 			"categories": [
 				"operators"
 			],
-			"description": "Prometheus Operator is an operator for prometheus",
+			"description": "Cert-Manager is a kubernetes-aware certificate manager",
 			"healthy": true,
 			"healthy_error": null,
-			"home": "https://truecharts.org/charts/operators/prometheus-operator",
-			"location": "/home/runner/work/catalog/catalog/operators/prometheus-operator",
-			"latest_version": "1.0.16",
-			"latest_app_version": "0.69.1",
-			"latest_human_version": "0.69.1_1.0.16",
-			"last_update": "2023-12-08 00:37:25",
-			"name": "prometheus-operator",
+			"home": "https://truecharts.org/charts/operators/cert-manager",
+			"location": "/home/runner/work/catalog/catalog/operators/cert-manager",
+			"latest_version": "1.1.7",
+			"latest_app_version": "latest",
+			"latest_human_version": "latest_1.1.7",
+			"last_update": "2023-12-09 00:40:44",
+			"name": "cert-manager",
 			"recommended": false,
-			"title": "Prometheus-operator",
+			"title": "Cert-manager",
 			"maintainers": [
 				{
 					"name": "TrueCharts",
@@ -772,11 +735,48 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
-				"https://github.com/prometheus-operator",
-				"https://github.com/truecharts/charts/tree/master/charts/operators/prometheus-operator",
-				"https://github.com/truecharts/containers/tree/master/mirrorprometheus-operator"
+				"https://cert-manager.io/",
+				"https://github.com/truecharts/charts/tree/master/charts/operators/cert-manager",
+				"https://github.com/truecharts/containers/tree/master/mirroralpine",
+				"https://github.com/cert-manager"
 			],
-			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png"
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png"
 		}
-	}
+	},
+	"incubator": {
+		"postgresql": {
+			"app_readme": "<p>PostgresSQL</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/postgresql\">https://truecharts.org/charts/incubator/postgresql</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+			"categories": [
+				"database"
+			],
+			"description": "PostgresSQL",
+			"healthy": true,
+			"healthy_error": null,
+			"home": "https://truecharts.org/charts/incubator/postgresql",
+			"location": "/home/runner/work/catalog/catalog/incubator/postgresql",
+			"latest_version": "15.0.0",
+			"latest_app_version": "14.10.0",
+			"latest_human_version": "14.10.0_15.0.0",
+			"last_update": "2023-12-09 00:40:44",
+			"name": "postgresql",
+			"recommended": false,
+			"title": "Postgresql",
+			"maintainers": [
+				{
+					"name": "TrueCharts",
+					"email": "info@truecharts.org",
+					"url": "https://truecharts.org"
+				}
+			],
+			"tags": [],
+			"screenshots": [],
+			"sources": [
+				"https://www.postgresql.org/",
+				"https://github.com/truecharts/charts/tree/master/charts/incubator/postgresql",
+				"https://hub.docker.com/r/bitnami/postgresql"
+			],
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/postgresql.png"
+		}
+	},
+	"enterprise": {}
 }
