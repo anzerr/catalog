@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/readarr/17.0.25",
-        "last_update": "2023-12-09 00:40:44",
+        "last_update": "2023-12-10 00:40:28",
         "required_features": [
+            "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/certificate",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "0.3.10.2287_17.0.25",
         "version": "17.0.25",
@@ -4740,13 +4740,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/readarr/17.0.24",
-        "last_update": "2023-12-09 00:40:44",
+        "last_update": "2023-12-10 00:40:28",
         "required_features": [
+            "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/certificate",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "0.3.10.2287_17.0.24",
         "version": "17.0.24",
@@ -9005,13 +9005,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/readarr/17.0.23",
-        "last_update": "2023-12-09 00:40:44",
+        "last_update": "2023-12-10 00:40:28",
         "required_features": [
+            "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/certificate",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "0.3.10.2287_17.0.23",
         "version": "17.0.23",

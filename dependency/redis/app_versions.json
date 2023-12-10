@@ -1,33 +1,33 @@
 {
-    "9.0.2": {
+    "9.0.3": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/dependency/redis/9.0.2",
-        "last_update": "2023-12-09 00:40:44",
+        "location": "/home/runner/work/catalog/catalog/dependency/redis/9.0.3",
+        "last_update": "2023-12-10 00:40:28",
         "required_features": [
+            "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/certificate",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate"
         ],
-        "human_version": "7.2.3_9.0.2",
-        "version": "9.0.2",
+        "human_version": "7.2.3_9.0.3",
+        "version": "9.0.3",
         "chart_metadata": {
             "kubeVersion": ">=1.24.0",
             "apiVersion": "v2",
             "name": "redis",
-            "version": "9.0.2",
+            "version": "9.0.3",
             "appVersion": "7.2.3",
             "description": "Open source, advanced key-value store.",
             "home": "https://truecharts.org/charts/dependency/redis",
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png",
             "deprecated": false,
             "sources": [
-                "https://github.com/bitnami/bitnami-docker-redis",
                 "https://github.com/truecharts/charts/tree/master/charts/dependency/redis",
-                "https://hub.docker.com/r/bitnami/redis"
+                "https://hub.docker.com/r/bitnami/redis",
+                "https://github.com/bitnami/bitnami-docker-redis"
             ],
             "maintainers": [
                 {
@@ -443,6 +443,63 @@
                                                         }
                                                     }
                                                 ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "variable": "imagePullSecretList",
+                    "group": "General Settings",
+                    "label": "Image Pull Secrets",
+                    "schema": {
+                        "type": "list",
+                        "default": [],
+                        "items": [
+                            {
+                                "variable": "pullsecretentry",
+                                "label": "Pull Secret",
+                                "schema": {
+                                    "type": "dict",
+                                    "additional_attrs": true,
+                                    "attrs": [
+                                        {
+                                            "variable": "registry",
+                                            "label": "Registry",
+                                            "schema": {
+                                                "type": "string",
+                                                "required": true,
+                                                "default": "https://index.docker.io/v1/"
+                                            }
+                                        },
+                                        {
+                                            "variable": "username",
+                                            "label": "Username",
+                                            "schema": {
+                                                "type": "string",
+                                                "required": true,
+                                                "default": ""
+                                            }
+                                        },
+                                        {
+                                            "variable": "password",
+                                            "label": "Password",
+                                            "schema": {
+                                                "type": "string",
+                                                "required": true,
+                                                "default": ""
+                                            }
+                                        },
+                                        {
+                                            "variable": "email",
+                                            "label": "Email",
+                                            "schema": {
+                                                "type": "string",
+                                                "required": true,
+                                                "default": ""
                                             }
                                         }
                                     ]
@@ -973,6 +1030,10 @@
                                                     {
                                                         "value": "nfs",
                                                         "description": "NFS Share"
+                                                    },
+                                                    {
+                                                        "value": "iscsi",
+                                                        "description": "iSCSI Share"
                                                     }
                                                 ]
                                             }
@@ -1005,6 +1066,133 @@
                                                 ],
                                                 "type": "string",
                                                 "default": ""
+                                            }
+                                        },
+                                        {
+                                            "variable": "iscsi",
+                                            "label": "iSCSI Options",
+                                            "schema": {
+                                                "show_if": [
+                                                    [
+                                                        "type",
+                                                        "=",
+                                                        "iscsi"
+                                                    ]
+                                                ],
+                                                "type": "dict",
+                                                "additional_attrs": true,
+                                                "attrs": [
+                                                    {
+                                                        "variable": "targetPortal",
+                                                        "label": "targetPortal",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true,
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "iqn",
+                                                        "label": "iqn",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true,
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "lun",
+                                                        "label": "lun",
+                                                        "schema": {
+                                                            "type": "int",
+                                                            "default": 0
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "authSession",
+                                                        "label": "authSession",
+                                                        "schema": {
+                                                            "type": "dict",
+                                                            "additional_attrs": true,
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "username",
+                                                                    "label": "username",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "password",
+                                                                    "label": "password",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "usernameInitiator",
+                                                                    "label": "usernameInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "passwordInitiator",
+                                                                    "label": "passwordInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "authDiscovery",
+                                                        "label": "authDiscovery",
+                                                        "schema": {
+                                                            "type": "dict",
+                                                            "additional_attrs": true,
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "username",
+                                                                    "label": "username",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "password",
+                                                                    "label": "password",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "usernameInitiator",
+                                                                    "label": "usernameInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "passwordInitiator",
+                                                                    "label": "passwordInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
                                             }
                                         },
                                         {
@@ -1397,6 +1585,133 @@
                                                 ],
                                                 "type": "string",
                                                 "default": ""
+                                            }
+                                        },
+                                        {
+                                            "variable": "iscsi",
+                                            "label": "iSCSI Options",
+                                            "schema": {
+                                                "show_if": [
+                                                    [
+                                                        "type",
+                                                        "=",
+                                                        "iscsi"
+                                                    ]
+                                                ],
+                                                "type": "dict",
+                                                "additional_attrs": true,
+                                                "attrs": [
+                                                    {
+                                                        "variable": "targetPortal",
+                                                        "label": "targetPortal",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true,
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "iqn",
+                                                        "label": "iqn",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true,
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "lun",
+                                                        "label": "lun",
+                                                        "schema": {
+                                                            "type": "int",
+                                                            "default": 0
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "authSession",
+                                                        "label": "authSession",
+                                                        "schema": {
+                                                            "type": "dict",
+                                                            "additional_attrs": true,
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "username",
+                                                                    "label": "username",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "password",
+                                                                    "label": "password",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "usernameInitiator",
+                                                                    "label": "usernameInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "passwordInitiator",
+                                                                    "label": "passwordInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "authDiscovery",
+                                                        "label": "authDiscovery",
+                                                        "schema": {
+                                                            "type": "dict",
+                                                            "additional_attrs": true,
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "username",
+                                                                    "label": "username",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "password",
+                                                                    "label": "password",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "usernameInitiator",
+                                                                    "label": "usernameInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "passwordInitiator",
+                                                                    "label": "passwordInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
                                             }
                                         },
                                         {
@@ -3562,6 +3877,6 @@
         },
         "app_readme": "<p>Open source, advanced key-value store.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/redis\">https://truecharts.org/charts/dependency/redis</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<h1>README</h1>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/dependency/\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-9.0.1...redis-9.0.2\">redis-9.0.2</a> (2023-12-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>bump everything to ensure catalog has latest versions</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-9.0.0...redis-9.0.1\">redis-9.0.1</a> (2023-12-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>fix annotations again</li>\n<li>update annotations</li>\n<li>cleanup chart.yaml and add min-max scale version</li>\n<li>update helm chart common to 15.3.3 (<a href=\"https://github.com/truecharts/charts/issues/15645\">#15645</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-8.0.47...redis-9.0.0\">redis-9.0.0</a> (2023-11-27)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm chart common to 15.3.1 (<a href=\"https://github.com/truecharts/charts/issues/14604\">#14604</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-8.0.46...redis-8.0.47\">redis-8.0.47</a> (2023-11-17)</h2>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-8.0.45...redis-8.0.46\">redis-8.0.46</a> (2023-11-14)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm chart common to 14.5.0 (<a href=\"https://github.com/truecharts/charts/issues/14466\">#14466</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-8.0.44...redis-8.0.45\">redis-8.0.45</a> (2023-11-09)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/redis to v7.2.3 (<a href=\"https://github.com/truecharts/charts/issues/14500\">#14500</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-8.0.43...redis-8.0.44\">redis-8.0.44</a> (2023-11-08)</h2>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-8.0.42...redis-8.0.43\">redis-8.0.43</a> (2023-11-08)</h2>\n<h3>Fix</h3>\n<ul>\n<li>emergency portalhook hotpatch</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-8.0.41...redis-8.0.42\">redis-8.0.42</a> (2023-11-08)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm chart common to 14.3.3 (<a href=\"https://github.com/truecharts/charts/issues/14449\">#14449</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-8.0.40...redis-8.0.41\">redis-8.0.41</a> (2023-11-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm chart common to 14.2.3 (<a href=\"https://github.com/truecharts/charts/issues/14362\">#14362</a>)</li>\n</ul>"
+        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-9.0.2...redis-9.0.3\">redis-9.0.3</a> (2023-12-10)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image bitnami/redis to 7.2.3<a href=\"https://github.com/9ac3bbf\">@9ac3bbf</a> (<a href=\"https://github.com/truecharts/charts/issues/15929\">#15929</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-9.0.1...redis-9.0.2\">redis-9.0.2</a> (2023-12-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>bump everything to ensure catalog has latest versions</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-9.0.0...redis-9.0.1\">redis-9.0.1</a> (2023-12-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>fix annotations again</li>\n<li>update annotations</li>\n<li>cleanup chart.yaml and add min-max scale version</li>\n<li>update helm chart common to 15.3.3 (<a href=\"https://github.com/truecharts/charts/issues/15645\">#15645</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-8.0.47...redis-9.0.0\">redis-9.0.0</a> (2023-11-27)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm chart common to 15.3.1 (<a href=\"https://github.com/truecharts/charts/issues/14604\">#14604</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-8.0.46...redis-8.0.47\">redis-8.0.47</a> (2023-11-17)</h2>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-8.0.45...redis-8.0.46\">redis-8.0.46</a> (2023-11-14)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm chart common to 14.5.0 (<a href=\"https://github.com/truecharts/charts/issues/14466\">#14466</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-8.0.44...redis-8.0.45\">redis-8.0.45</a> (2023-11-09)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/redis to v7.2.3 (<a href=\"https://github.com/truecharts/charts/issues/14500\">#14500</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-8.0.43...redis-8.0.44\">redis-8.0.44</a> (2023-11-08)</h2>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-8.0.42...redis-8.0.43\">redis-8.0.43</a> (2023-11-08)</h2>\n<h3>Fix</h3>\n<ul>\n<li>emergency portalhook hotpatch</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/redis-8.0.41...redis-8.0.42\">redis-8.0.42</a> (2023-11-08)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm chart common to 14.3.3 (<a href=\"https://github.com/truecharts/charts/issues/14449\">#14449</a>)</li>\n</ul>"
     }
 }

@@ -4,6 +4,15 @@
 
 
 
+## [metube-8.1.0](https://github.com/truecharts/charts/compare/metube-8.0.12...metube-8.1.0) (2023-12-09)
+
+### Chore
+
+- update container image alexta69/metube to v2023-12-09[@7aefec2](https://github.com/7aefec2) ([#15924](https://github.com/truecharts/charts/issues/15924))
+  
+  
+
+
 ## [metube-8.0.12](https://github.com/truecharts/charts/compare/metube-8.0.11...metube-8.0.12) (2023-12-03)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  
-  
-
-
-## [metube-8.0.2](https://github.com/truecharts/charts/compare/metube-8.0.1...metube-8.0.2) (2023-10-07)
-
-### Chore
-
-- update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
   

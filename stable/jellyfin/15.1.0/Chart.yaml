@@ -1,27 +1,27 @@
 kubeVersion: ">=1.24.0"
 apiVersion: v2
-name: redis
-version: 9.0.2
-appVersion: 7.2.3
-description: Open source, advanced key-value store.
-home: https://truecharts.org/charts/dependency/redis
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/redis.png
+name: jellyfin
+version: 15.1.0
+appVersion: 10.8.13
+description: Jellyfin is a Free Software Media System
+home: https://truecharts.org/charts/stable/jellyfin
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/jellyfin.png
 deprecated: false
 sources:
-  - https://github.com/bitnami/bitnami-docker-redis
-  - https://github.com/truecharts/charts/tree/master/charts/dependency/redis
-  - https://hub.docker.com/r/bitnami/redis
+  - https://github.com/truecharts/charts/tree/master/charts/stable/jellyfin
+  - https://hub.docker.com/r/jellyfin/jellyfin
+  - https://github.com/jellyfin/jellyfin
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
 keywords:
-  - redis
-  - keyvalue
-  - database
+  - jellyfin
+  - plex
+  - emby
 dependencies:
   - name: common
-    version: 15.3.3
+    version: 14.3.5
     repository: https://library-charts.truecharts.org
     condition: ""
     alias: ""
@@ -31,7 +31,7 @@ annotations:
   max_scale_version: 23.10.1
   min_scale_version: 22.12.4
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: database
+  truecharts.org/category: media
   truecharts.org/max_helm_version: "3.13"
   truecharts.org/min_helm_version: "3.12"
-  truecharts.org/train: dependency
+  truecharts.org/train: stable

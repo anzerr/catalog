@@ -4,6 +4,15 @@
 
 
 
+## [redis-9.0.3](https://github.com/truecharts/charts/compare/redis-9.0.2...redis-9.0.3) (2023-12-10)
+
+### Chore
+
+- update container image bitnami/redis to 7.2.3[@9ac3bbf](https://github.com/9ac3bbf) ([#15929](https://github.com/truecharts/charts/issues/15929))
+  
+  
+
+
 ## [redis-9.0.2](https://github.com/truecharts/charts/compare/redis-9.0.1...redis-9.0.2) (2023-12-03)
 
 ### Chore
@@ -84,15 +93,6 @@
 ### Chore
 
 - update helm chart common to 14.3.3 ([#14449](https://github.com/truecharts/charts/issues/14449))
-  
-  
-
-
-## [redis-8.0.41](https://github.com/truecharts/charts/compare/redis-8.0.40...redis-8.0.41) (2023-11-05)
-
-### Chore
-
-- update helm chart common to 14.2.3 ([#14362](https://github.com/truecharts/charts/issues/14362))
   
   
 

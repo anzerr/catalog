@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/10.0.10",
-        "last_update": "2023-12-09 00:40:44",
+        "last_update": "2023-12-10 00:40:28",
         "required_features": [
+            "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/certificate",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "0.12.0_10.0.10",
         "version": "10.0.10",

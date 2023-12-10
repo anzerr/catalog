@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/tdarr/6.1.1",
-        "last_update": "2023-12-09 00:40:44",
+        "last_update": "2023-12-10 00:40:28",
         "required_features": [
+            "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/certificate",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "2.16.01_6.1.1",
         "version": "6.1.1",
