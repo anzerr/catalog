@@ -1,25 +1,25 @@
 {
-    "6.1.1": {
+    "6.2.0": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/tdarr-node/6.1.1",
-        "last_update": "2023-12-10 00:40:28",
+        "location": "/home/runner/work/catalog/catalog/stable/tdarr-node/6.2.0",
+        "last_update": "2023-12-11 00:45:58",
         "required_features": [
-            "definitions/interface",
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
-        "human_version": "2.16.01_6.1.1",
-        "version": "6.1.1",
+        "human_version": "2.17.01_6.2.0",
+        "version": "6.2.0",
         "chart_metadata": {
             "kubeVersion": ">=1.24.0",
             "apiVersion": "v2",
             "name": "tdarr-node",
-            "version": "6.1.1",
-            "appVersion": "2.16.01",
+            "version": "6.2.0",
+            "appVersion": "2.17.01",
             "description": "Audio/Video library transcoding automation",
             "home": "https://truecharts.org/charts/stable/tdarr-node",
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/tdarr-node.png",
@@ -494,6 +494,63 @@
                     }
                 },
                 {
+                    "variable": "imagePullSecretList",
+                    "group": "General Settings",
+                    "label": "Image Pull Secrets",
+                    "schema": {
+                        "type": "list",
+                        "default": [],
+                        "items": [
+                            {
+                                "variable": "pullsecretentry",
+                                "label": "Pull Secret",
+                                "schema": {
+                                    "type": "dict",
+                                    "additional_attrs": true,
+                                    "attrs": [
+                                        {
+                                            "variable": "registry",
+                                            "label": "Registry",
+                                            "schema": {
+                                                "type": "string",
+                                                "required": true,
+                                                "default": "https://index.docker.io/v1/"
+                                            }
+                                        },
+                                        {
+                                            "variable": "username",
+                                            "label": "Username",
+                                            "schema": {
+                                                "type": "string",
+                                                "required": true,
+                                                "default": ""
+                                            }
+                                        },
+                                        {
+                                            "variable": "password",
+                                            "label": "Password",
+                                            "schema": {
+                                                "type": "string",
+                                                "required": true,
+                                                "default": ""
+                                            }
+                                        },
+                                        {
+                                            "variable": "email",
+                                            "label": "Email",
+                                            "schema": {
+                                                "type": "string",
+                                                "required": true,
+                                                "default": ""
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
                     "variable": "serviceexpert",
                     "group": "Networking and Services",
                     "label": "Show Expert Config",
@@ -909,6 +966,10 @@
                                                     {
                                                         "value": "nfs",
                                                         "description": "NFS Share"
+                                                    },
+                                                    {
+                                                        "value": "iscsi",
+                                                        "description": "iSCSI Share"
                                                     }
                                                 ]
                                             }
@@ -941,6 +1002,133 @@
                                                 ],
                                                 "type": "string",
                                                 "default": ""
+                                            }
+                                        },
+                                        {
+                                            "variable": "iscsi",
+                                            "label": "iSCSI Options",
+                                            "schema": {
+                                                "show_if": [
+                                                    [
+                                                        "type",
+                                                        "=",
+                                                        "iscsi"
+                                                    ]
+                                                ],
+                                                "type": "dict",
+                                                "additional_attrs": true,
+                                                "attrs": [
+                                                    {
+                                                        "variable": "targetPortal",
+                                                        "label": "targetPortal",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true,
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "iqn",
+                                                        "label": "iqn",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true,
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "lun",
+                                                        "label": "lun",
+                                                        "schema": {
+                                                            "type": "int",
+                                                            "default": 0
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "authSession",
+                                                        "label": "authSession",
+                                                        "schema": {
+                                                            "type": "dict",
+                                                            "additional_attrs": true,
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "username",
+                                                                    "label": "username",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "password",
+                                                                    "label": "password",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "usernameInitiator",
+                                                                    "label": "usernameInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "passwordInitiator",
+                                                                    "label": "passwordInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "authDiscovery",
+                                                        "label": "authDiscovery",
+                                                        "schema": {
+                                                            "type": "dict",
+                                                            "additional_attrs": true,
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "username",
+                                                                    "label": "username",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "password",
+                                                                    "label": "password",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "usernameInitiator",
+                                                                    "label": "usernameInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "passwordInitiator",
+                                                                    "label": "passwordInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
                                             }
                                         },
                                         {
@@ -1282,6 +1470,10 @@
                                                     {
                                                         "value": "nfs",
                                                         "description": "NFS Share"
+                                                    },
+                                                    {
+                                                        "value": "iscsi",
+                                                        "description": "iSCSI Share"
                                                     }
                                                 ]
                                             }
@@ -1314,6 +1506,133 @@
                                                 ],
                                                 "type": "string",
                                                 "default": ""
+                                            }
+                                        },
+                                        {
+                                            "variable": "iscsi",
+                                            "label": "iSCSI Options",
+                                            "schema": {
+                                                "show_if": [
+                                                    [
+                                                        "type",
+                                                        "=",
+                                                        "iscsi"
+                                                    ]
+                                                ],
+                                                "type": "dict",
+                                                "additional_attrs": true,
+                                                "attrs": [
+                                                    {
+                                                        "variable": "targetPortal",
+                                                        "label": "targetPortal",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true,
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "iqn",
+                                                        "label": "iqn",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true,
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "lun",
+                                                        "label": "lun",
+                                                        "schema": {
+                                                            "type": "int",
+                                                            "default": 0
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "authSession",
+                                                        "label": "authSession",
+                                                        "schema": {
+                                                            "type": "dict",
+                                                            "additional_attrs": true,
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "username",
+                                                                    "label": "username",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "password",
+                                                                    "label": "password",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "usernameInitiator",
+                                                                    "label": "usernameInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "passwordInitiator",
+                                                                    "label": "passwordInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "authDiscovery",
+                                                        "label": "authDiscovery",
+                                                        "schema": {
+                                                            "type": "dict",
+                                                            "additional_attrs": true,
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "username",
+                                                                    "label": "username",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "password",
+                                                                    "label": "password",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "usernameInitiator",
+                                                                    "label": "usernameInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "passwordInitiator",
+                                                                    "label": "passwordInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
                                             }
                                         },
                                         {
@@ -1655,6 +1974,10 @@
                                                     {
                                                         "value": "nfs",
                                                         "description": "NFS Share"
+                                                    },
+                                                    {
+                                                        "value": "iscsi",
+                                                        "description": "iSCSI Share"
                                                     }
                                                 ]
                                             }
@@ -1687,6 +2010,133 @@
                                                 ],
                                                 "type": "string",
                                                 "default": ""
+                                            }
+                                        },
+                                        {
+                                            "variable": "iscsi",
+                                            "label": "iSCSI Options",
+                                            "schema": {
+                                                "show_if": [
+                                                    [
+                                                        "type",
+                                                        "=",
+                                                        "iscsi"
+                                                    ]
+                                                ],
+                                                "type": "dict",
+                                                "additional_attrs": true,
+                                                "attrs": [
+                                                    {
+                                                        "variable": "targetPortal",
+                                                        "label": "targetPortal",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true,
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "iqn",
+                                                        "label": "iqn",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true,
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "lun",
+                                                        "label": "lun",
+                                                        "schema": {
+                                                            "type": "int",
+                                                            "default": 0
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "authSession",
+                                                        "label": "authSession",
+                                                        "schema": {
+                                                            "type": "dict",
+                                                            "additional_attrs": true,
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "username",
+                                                                    "label": "username",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "password",
+                                                                    "label": "password",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "usernameInitiator",
+                                                                    "label": "usernameInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "passwordInitiator",
+                                                                    "label": "passwordInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "authDiscovery",
+                                                        "label": "authDiscovery",
+                                                        "schema": {
+                                                            "type": "dict",
+                                                            "additional_attrs": true,
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "username",
+                                                                    "label": "username",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "password",
+                                                                    "label": "password",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "usernameInitiator",
+                                                                    "label": "usernameInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "passwordInitiator",
+                                                                    "label": "passwordInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
                                             }
                                         },
                                         {
@@ -2028,6 +2478,10 @@
                                                     {
                                                         "value": "nfs",
                                                         "description": "NFS Share"
+                                                    },
+                                                    {
+                                                        "value": "iscsi",
+                                                        "description": "iSCSI Share"
                                                     }
                                                 ]
                                             }
@@ -2060,6 +2514,133 @@
                                                 ],
                                                 "type": "string",
                                                 "default": ""
+                                            }
+                                        },
+                                        {
+                                            "variable": "iscsi",
+                                            "label": "iSCSI Options",
+                                            "schema": {
+                                                "show_if": [
+                                                    [
+                                                        "type",
+                                                        "=",
+                                                        "iscsi"
+                                                    ]
+                                                ],
+                                                "type": "dict",
+                                                "additional_attrs": true,
+                                                "attrs": [
+                                                    {
+                                                        "variable": "targetPortal",
+                                                        "label": "targetPortal",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true,
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "iqn",
+                                                        "label": "iqn",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true,
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "lun",
+                                                        "label": "lun",
+                                                        "schema": {
+                                                            "type": "int",
+                                                            "default": 0
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "authSession",
+                                                        "label": "authSession",
+                                                        "schema": {
+                                                            "type": "dict",
+                                                            "additional_attrs": true,
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "username",
+                                                                    "label": "username",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "password",
+                                                                    "label": "password",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "usernameInitiator",
+                                                                    "label": "usernameInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "passwordInitiator",
+                                                                    "label": "passwordInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "authDiscovery",
+                                                        "label": "authDiscovery",
+                                                        "schema": {
+                                                            "type": "dict",
+                                                            "additional_attrs": true,
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "username",
+                                                                    "label": "username",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "password",
+                                                                    "label": "password",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "usernameInitiator",
+                                                                    "label": "usernameInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "passwordInitiator",
+                                                                    "label": "passwordInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
                                             }
                                         },
                                         {
@@ -2452,6 +3033,133 @@
                                                 ],
                                                 "type": "string",
                                                 "default": ""
+                                            }
+                                        },
+                                        {
+                                            "variable": "iscsi",
+                                            "label": "iSCSI Options",
+                                            "schema": {
+                                                "show_if": [
+                                                    [
+                                                        "type",
+                                                        "=",
+                                                        "iscsi"
+                                                    ]
+                                                ],
+                                                "type": "dict",
+                                                "additional_attrs": true,
+                                                "attrs": [
+                                                    {
+                                                        "variable": "targetPortal",
+                                                        "label": "targetPortal",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true,
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "iqn",
+                                                        "label": "iqn",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true,
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "lun",
+                                                        "label": "lun",
+                                                        "schema": {
+                                                            "type": "int",
+                                                            "default": 0
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "authSession",
+                                                        "label": "authSession",
+                                                        "schema": {
+                                                            "type": "dict",
+                                                            "additional_attrs": true,
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "username",
+                                                                    "label": "username",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "password",
+                                                                    "label": "password",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "usernameInitiator",
+                                                                    "label": "usernameInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "passwordInitiator",
+                                                                    "label": "passwordInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "authDiscovery",
+                                                        "label": "authDiscovery",
+                                                        "schema": {
+                                                            "type": "dict",
+                                                            "additional_attrs": true,
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "username",
+                                                                    "label": "username",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "password",
+                                                                    "label": "password",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "usernameInitiator",
+                                                                    "label": "usernameInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "passwordInitiator",
+                                                                    "label": "passwordInitiator",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
                                             }
                                         },
                                         {
@@ -2900,6 +3608,84 @@
                                                         }
                                                     },
                                                     {
+                                                        "variable": "integration",
+                                                        "label": "Integrations",
+                                                        "description": "Connect ingress with other charts",
+                                                        "schema": {
+                                                            "additional_attrs": true,
+                                                            "type": "dict",
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "homepage",
+                                                                    "label": "Homepage",
+                                                                    "description": "Connect ingress with Homepage",
+                                                                    "schema": {
+                                                                        "additional_attrs": true,
+                                                                        "type": "dict",
+                                                                        "attrs": [
+                                                                            {
+                                                                                "variable": "enabled",
+                                                                                "label": "enabled",
+                                                                                "schema": {
+                                                                                    "type": "boolean",
+                                                                                    "default": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "variable": "name",
+                                                                                "label": "Name",
+                                                                                "description": "defaults to chartname",
+                                                                                "schema": {
+                                                                                    "type": "string",
+                                                                                    "default": "",
+                                                                                    "show_if": [
+                                                                                        [
+                                                                                            "enabled",
+                                                                                            "=",
+                                                                                            true
+                                                                                        ]
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "variable": "description",
+                                                                                "label": "Description",
+                                                                                "description": "defaults to chart description",
+                                                                                "schema": {
+                                                                                    "type": "string",
+                                                                                    "default": "",
+                                                                                    "show_if": [
+                                                                                        [
+                                                                                            "enabled",
+                                                                                            "=",
+                                                                                            true
+                                                                                        ]
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "variable": "group",
+                                                                                "label": "Group",
+                                                                                "schema": {
+                                                                                    "type": "string",
+                                                                                    "required": true,
+                                                                                    "default": "default",
+                                                                                    "show_if": [
+                                                                                        [
+                                                                                            "enabled",
+                                                                                            "=",
+                                                                                            true
+                                                                                        ]
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
                                                         "variable": "advanced",
                                                         "label": "Show Advanced Settings",
                                                         "description": "Advanced settings are not covered by TrueCharts Support",
@@ -3334,6 +4120,84 @@
                                                                             ]
                                                                         ],
                                                                         "default": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "variable": "integration",
+                                            "label": "Integrations",
+                                            "description": "Connect ingress with other charts",
+                                            "schema": {
+                                                "additional_attrs": true,
+                                                "type": "dict",
+                                                "attrs": [
+                                                    {
+                                                        "variable": "homepage",
+                                                        "label": "Homepage",
+                                                        "description": "Connect ingress with Homepage",
+                                                        "schema": {
+                                                            "additional_attrs": true,
+                                                            "type": "dict",
+                                                            "attrs": [
+                                                                {
+                                                                    "variable": "enabled",
+                                                                    "label": "enabled",
+                                                                    "schema": {
+                                                                        "type": "boolean",
+                                                                        "default": false
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "name",
+                                                                    "label": "Name",
+                                                                    "description": "defaults to chartname",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": "",
+                                                                        "show_if": [
+                                                                            [
+                                                                                "enabled",
+                                                                                "=",
+                                                                                true
+                                                                            ]
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "description",
+                                                                    "label": "Description",
+                                                                    "description": "defaults to chart description",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "default": "",
+                                                                        "show_if": [
+                                                                            [
+                                                                                "enabled",
+                                                                                "=",
+                                                                                true
+                                                                            ]
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "variable": "group",
+                                                                    "label": "Group",
+                                                                    "schema": {
+                                                                        "type": "string",
+                                                                        "required": true,
+                                                                        "default": "default",
+                                                                        "show_if": [
+                                                                            [
+                                                                                "enabled",
+                                                                                "=",
+                                                                                true
+                                                                            ]
+                                                                        ]
                                                                     }
                                                                 }
                                                             ]
@@ -5220,6 +6084,6 @@
         },
         "app_readme": "<p>Audio/Video library transcoding automation</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/tdarr-node\">https://truecharts.org/charts/stable/tdarr-node</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<h1>README</h1>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.1.0...tdarr-node-6.1.1\">tdarr-node-6.1.1</a> (2023-12-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>bump everything to ensure catalog has latest versions</li>\n<li>fix annotations again</li>\n<li>update annotations</li>\n<li>cleanup chart.yaml and add min-max scale version</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.17...tdarr-node-6.1.0\">tdarr-node-6.1.0</a> (2023-11-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image haveagitgat/tdarr_node to v2.16.01<a href=\"https://github.com/40403e0\">@40403e0</a> (<a href=\"https://github.com/truecharts/charts/issues/15393\">#15393</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.16...tdarr-node-6.0.17\">tdarr-node-6.0.17</a> (2023-11-17)</h2>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.15...tdarr-node-6.0.16\">tdarr-node-6.0.16</a> (2023-11-11)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/tdarr_node to v2.15.01 (<a href=\"https://github.com/truecharts/charts/issues/14589\">#14589</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.14...tdarr-node-6.0.15\">tdarr-node-6.0.15</a> (2023-11-08)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14465\">#14465</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.13...tdarr-node-6.0.14\">tdarr-node-6.0.14</a> (2023-11-08)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14454\">#14454</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.12...tdarr-node-6.0.13\">tdarr-node-6.0.13</a> (2023-11-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14365\">#14365</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.11...tdarr-node-6.0.12\">tdarr-node-6.0.12</a> (2023-11-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14287\">#14287</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.10...tdarr-node-6.0.11\">tdarr-node-6.0.11</a> (2023-10-29)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/tdarr_node to v2.14.02 (<a href=\"https://github.com/truecharts/charts/issues/14102\">#14102</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.9...tdarr-node-6.0.10\">tdarr-node-6.0.10</a> (2023-10-29)</h2>\n<h3>Chore</h3>\n<ul>\n<li>Fix typo in categories and make them singular (<a href=\"https://github.com/truecharts/charts/issues/13693\">#13693</a>)</li>\n</ul>"
+        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.1.1...tdarr-node-6.2.0\">tdarr-node-6.2.0</a> (2023-12-11)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image haveagitgat/tdarr_node to v2.17.01<a href=\"https://github.com/3175af9\">@3175af9</a> (<a href=\"https://github.com/truecharts/charts/issues/15960\">#15960</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.1.0...tdarr-node-6.1.1\">tdarr-node-6.1.1</a> (2023-12-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>bump everything to ensure catalog has latest versions</li>\n<li>fix annotations again</li>\n<li>update annotations</li>\n<li>cleanup chart.yaml and add min-max scale version</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.17...tdarr-node-6.1.0\">tdarr-node-6.1.0</a> (2023-11-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image haveagitgat/tdarr_node to v2.16.01<a href=\"https://github.com/40403e0\">@40403e0</a> (<a href=\"https://github.com/truecharts/charts/issues/15393\">#15393</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.16...tdarr-node-6.0.17\">tdarr-node-6.0.17</a> (2023-11-17)</h2>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.15...tdarr-node-6.0.16\">tdarr-node-6.0.16</a> (2023-11-11)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/tdarr_node to v2.15.01 (<a href=\"https://github.com/truecharts/charts/issues/14589\">#14589</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.14...tdarr-node-6.0.15\">tdarr-node-6.0.15</a> (2023-11-08)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14465\">#14465</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.13...tdarr-node-6.0.14\">tdarr-node-6.0.14</a> (2023-11-08)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14454\">#14454</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.12...tdarr-node-6.0.13\">tdarr-node-6.0.13</a> (2023-11-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14365\">#14365</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.11...tdarr-node-6.0.12\">tdarr-node-6.0.12</a> (2023-11-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14287\">#14287</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-node-6.0.10...tdarr-node-6.0.11\">tdarr-node-6.0.11</a> (2023-10-29)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/tdarr_node to v2.14.02 (<a href=\"https://github.com/truecharts/charts/issues/14102\">#14102</a>)</li>\n</ul>"
     }
 }

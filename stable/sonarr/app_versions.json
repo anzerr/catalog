@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/sonarr/16.0.15",
-        "last_update": "2023-12-10 00:40:28",
+        "last_update": "2023-12-11 00:45:58",
         "required_features": [
-            "definitions/interface",
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "3.0.10.1567_16.0.15",
         "version": "16.0.15",
@@ -4737,13 +4737,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/sonarr/16.0.14",
-        "last_update": "2023-12-10 00:40:28",
+        "last_update": "2023-12-11 00:45:58",
         "required_features": [
-            "definitions/interface",
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "3.0.10.1567_16.0.14",
         "version": "16.0.14",
@@ -8999,13 +8999,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/sonarr/16.0.12",
-        "last_update": "2023-12-10 00:40:28",
+        "last_update": "2023-12-11 00:45:58",
         "required_features": [
-            "definitions/interface",
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "3.0.10.1567_16.0.12",
         "version": "16.0.12",
