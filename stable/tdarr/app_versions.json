@@ -1,24 +1,24 @@
 {
-    "6.2.0": {
+    "6.2.2": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/tdarr/6.2.0",
-        "last_update": "2023-12-12 13:20:40",
+        "location": "/home/runner/work/catalog/catalog/stable/tdarr/6.2.2",
+        "last_update": "2023-12-17 00:49:32",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/interface"
         ],
-        "human_version": "2.17.01_6.2.0",
-        "version": "6.2.0",
+        "human_version": "2.17.01_6.2.2",
+        "version": "6.2.2",
         "chart_metadata": {
-            "kubeVersion": ">=1.24.0",
+            "kubeVersion": ">=1.24.0-0",
             "apiVersion": "v2",
             "name": "tdarr",
-            "version": "6.2.0",
+            "version": "6.2.2",
             "appVersion": "2.17.01",
             "description": "Audio/Video library transcoding automation",
             "home": "https://truecharts.org/charts/stable/tdarr",
@@ -44,7 +44,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "14.3.5",
+                    "version": "14.5.0",
                     "repository": "https://library-charts.truecharts.org",
                     "condition": "",
                     "alias": "",
@@ -60,7 +60,8 @@
                 "truecharts.org/max_helm_version": "3.13",
                 "truecharts.org/min_helm_version": "3.12",
                 "truecharts.org/train": "stable"
-            }
+            },
+            "type": "application"
         },
         "app_metadata": null,
         "schema": {
@@ -6772,7 +6773,7 @@
             ]
         },
         "app_readme": "<p>Audio/Video library transcoding automation</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/tdarr\">https://truecharts.org/charts/stable/tdarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-        "detailed_readme": "<h1>README</h1>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.1.1...tdarr-6.2.0\">tdarr-6.2.0</a> (2023-12-11)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image haveagitgat/tdarr to v2.17.01<a href=\"https://github.com/f60a496\">@f60a496</a> (<a href=\"https://github.com/truecharts/charts/issues/15959\">#15959</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.1.0...tdarr-6.1.1\">tdarr-6.1.1</a> (2023-12-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>bump everything to ensure catalog has latest versions</li>\n<li>fix annotations again</li>\n<li>update annotations</li>\n<li>cleanup chart.yaml and add min-max scale version</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.0.11...tdarr-6.1.0\">tdarr-6.1.0</a> (2023-11-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image haveagitgat/tdarr to v2.16.01<a href=\"https://github.com/a99b336\">@a99b336</a> (<a href=\"https://github.com/truecharts/charts/issues/15392\">#15392</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.0.10...tdarr-6.0.11\">tdarr-6.0.11</a> (2023-11-17)</h2>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.0.9...tdarr-6.0.10\">tdarr-6.0.10</a> (2023-11-11)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/tdarr to v2.15.01 (<a href=\"https://github.com/truecharts/charts/issues/14588\">#14588</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.0.8...tdarr-6.0.9\">tdarr-6.0.9</a> (2023-11-08)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14465\">#14465</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.0.7...tdarr-6.0.8\">tdarr-6.0.8</a> (2023-11-08)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14454\">#14454</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.0.6...tdarr-6.0.7\">tdarr-6.0.7</a> (2023-11-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14365\">#14365</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.0.5...tdarr-6.0.6\">tdarr-6.0.6</a> (2023-11-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14287\">#14287</a>)</li>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14094\">#14094</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.0.4...tdarr-6.0.5\">tdarr-6.0.5</a> (2023-10-29)</h2>\n<h3>Chore</h3>"
+        "detailed_readme": "<h1>README</h1>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/tdarr\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
+        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.2.0...tdarr-6.2.2\">tdarr-6.2.2</a> (2023-12-16)</h2>\n<h3>Chore</h3>\n<ul>\n<li>fix move mistake and cleanup metadata</li>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14784\">#14784</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.2.0...tdarr-6.2.2\">tdarr-6.2.2</a> (2023-12-16)</h2>\n<h3>Chore</h3>\n<ul>\n<li>fix move mistake and cleanup metadata</li>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14784\">#14784</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.2.0...tdarr-6.2.1\">tdarr-6.2.1</a> (2023-12-16)</h2>\n<h3>Chore</h3>\n<ul>\n<li>fix move mistake and cleanup metadata</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.1.1...tdarr-6.2.0\">tdarr-6.2.0</a> (2023-12-11)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image haveagitgat/tdarr to v2.17.01<a href=\"https://github.com/f60a496\">@f60a496</a> (<a href=\"https://github.com/truecharts/charts/issues/15959\">#15959</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.1.0...tdarr-6.1.1\">tdarr-6.1.1</a> (2023-12-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>bump everything to ensure catalog has latest versions</li>\n<li>fix annotations again</li>\n<li>update annotations</li>\n<li>cleanup chart.yaml and add min-max scale version</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.0.11...tdarr-6.1.0\">tdarr-6.1.0</a> (2023-11-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image haveagitgat/tdarr to v2.16.01<a href=\"https://github.com/a99b336\">@a99b336</a> (<a href=\"https://github.com/truecharts/charts/issues/15392\">#15392</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.0.10...tdarr-6.0.11\">tdarr-6.0.11</a> (2023-11-17)</h2>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.0.9...tdarr-6.0.10\">tdarr-6.0.10</a> (2023-11-11)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/tdarr to v2.15.01 (<a href=\"https://github.com/truecharts/charts/issues/14588\">#14588</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.0.8...tdarr-6.0.9\">tdarr-6.0.9</a> (2023-11-08)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major (<a href=\"https://github.com/truecharts/charts/issues/14465\">#14465</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/tdarr-6.0.7...tdarr-6.0.8\">tdarr-6.0.8</a> (2023-11-08)</h2>\n<h3>Chore</h3>"
     }
 }
