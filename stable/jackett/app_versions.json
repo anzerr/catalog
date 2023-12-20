@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/16.0.9",
-        "last_update": "2023-12-19 00:36:51",
+        "last_update": "2023-12-19 12:37:46",
         "required_features": [
             "definitions/certificate",
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "definitions/timezone",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
+            "definitions/interface"
         ],
         "human_version": "0.21.1155_16.0.9",
         "version": "16.0.9",
@@ -4647,13 +4647,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/16.0.7",
-        "last_update": "2023-12-19 00:36:51",
+        "last_update": "2023-12-19 12:37:46",
         "required_features": [
             "definitions/certificate",
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "definitions/timezone",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
+            "definitions/interface"
         ],
         "human_version": "0.21.1155_16.0.7",
         "version": "16.0.7",
@@ -9289,13 +9289,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/16.0.5",
-        "last_update": "2023-12-19 00:36:51",
+        "last_update": "2023-12-19 12:37:46",
         "required_features": [
             "definitions/certificate",
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "definitions/timezone",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
+            "definitions/interface"
         ],
         "human_version": "0.21.1155_16.0.5",
         "version": "16.0.5",
