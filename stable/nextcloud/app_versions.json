@@ -1,33 +1,33 @@
 {
-    "27.0.2": {
+    "28.0.3": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/nextcloud/27.0.2",
-        "last_update": "2023-12-26 00:44:57",
+        "location": "/home/runner/work/catalog/catalog/stable/nextcloud/28.0.3",
+        "last_update": "2023-12-27 00:41:58",
         "required_features": [
-            "definitions/timezone",
             "definitions/nodeIP",
             "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/timezone"
         ],
-        "human_version": "28.0.0_27.0.2",
-        "version": "27.0.2",
+        "human_version": "28.0.0_28.0.3",
+        "version": "28.0.3",
         "chart_metadata": {
             "kubeVersion": ">=1.24.0-0",
             "apiVersion": "v2",
             "name": "nextcloud",
-            "version": "27.0.2",
+            "version": "28.0.3",
             "appVersion": "28.0.0",
             "description": "A private cloud server that puts the control and security of your own data back into your hands.",
             "home": "https://truecharts.org/charts/stable/nextcloud",
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png",
             "deprecated": false,
             "sources": [
-                "https://github.com/nextcloud/helm",
                 "https://github.com/nextcloud/docker",
+                "https://github.com/nextcloud/helm",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/nextcloud",
-                "https://hub.docker.com/r/collabora/code"
+                "https://hub.docker.com/r/clamav/clamav"
             ],
             "maintainers": [
                 {
@@ -46,7 +46,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "17.1.0",
+                    "version": "17.1.4",
                     "repository": "https://library-charts.truecharts.org",
                     "condition": "",
                     "alias": "",
@@ -55,7 +55,7 @@
                 },
                 {
                     "name": "redis",
-                    "version": "10.0.17",
+                    "version": "11.0.3",
                     "repository": "https://deps.truecharts.org",
                     "condition": "redis.enabled",
                     "alias": "",
@@ -7321,37 +7321,37 @@
         },
         "app_readme": "<p>A private cloud server that puts the control and security of your own data back into your hands.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/nextcloud\">https://truecharts.org/charts/stable/nextcloud</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<h1>README</h1>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/nextcloud\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.1...nextcloud-27.0.2\">nextcloud-27.0.2</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/nextcloud-fpm to v<a href=\"https://github.com/9c9d396\">@9c9d396</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16450\">#16450</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.0...nextcloud-27.0.1\">nextcloud-27.0.1</a> (2023-12-25)</h2>\n<h3>Chore</h3>\n<ul>\n<li>mount additional storage to cron containers too (<a href=\"https://github.com/truecharts/charts/issues/16542\">#16542</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-26.0.1...nextcloud-27.0.0\">nextcloud-27.0.0</a> (2023-12-25)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm chart common to 17.1.0 by renovate (<a href=\"https://github.com/truecharts/charts/issues/16532\">#16532</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-26.0.0...nextcloud-26.0.1\">nextcloud-26.0.1</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16384\">#16384</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.14...nextcloud-26.0.0\">nextcloud-26.0.0</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>BREAKING CHANGE remove service settings for SCALE GUI (<a href=\"https://github.com/truecharts/charts/issues/16379\">#16379</a>)</li>\n</ul>\n<p>### Docs</p>\n<ul>\n<li>update installation notes (<a href=\"https://github.com/truecharts/charts/issues/16380\">#16380</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.13...nextcloud-25.0.14\">nextcloud-25.0.14</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16376\">#16376</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.12...nextcloud-25.0.13\">nextcloud-25.0.13</a> (2023-12-23)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16373\">#16373</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.11...nextcloud-25.0.12\">nextcloud-25.0.12</a> (2023-12-23)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16369\">#16369</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.10...nextcloud-25.0.11\">nextcloud-25.0.11</a> (2023-12-23)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16361\">#16361</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.9...nextcloud-25.0.10\">nextcloud-25.0.10</a> (2023-12-22)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16359\">#16359</a>)</li>\n</ul>"
+        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-28.0.2...nextcloud-28.0.3\">nextcloud-28.0.3</a> (2023-12-27)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16560\">#16560</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-28.0.1...nextcloud-28.0.2\">nextcloud-28.0.2</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16545\">#16545</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-28.0.0...nextcloud-28.0.1\">nextcloud-28.0.1</a> (2023-12-26)</h2>\n<h3>Fix</h3>\n<ul>\n<li>fix collabora's ingress (<a href=\"https://github.com/truecharts/charts/issues/16554\">#16554</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.4...nextcloud-28.0.0\">nextcloud-28.0.0</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general major by renovate (major) (<a href=\"https://github.com/truecharts/charts/issues/16547\">#16547</a>)</li>\n<li>update container image tccr.io/truecharts/nextcloud-fpm to v28.0.1<a href=\"https://github.com/060284d\">@060284d</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16478\">#16478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.4...nextcloud-28.0.0\">nextcloud-28.0.0</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general major by renovate (major) (<a href=\"https://github.com/truecharts/charts/issues/16547\">#16547</a>)</li>\n<li>update container image tccr.io/truecharts/nextcloud-fpm to v28.0.1<a href=\"https://github.com/060284d\">@060284d</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16478\">#16478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.3...nextcloud-27.0.4\">nextcloud-27.0.4</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image collabora/code to v23.05.6.4.1<a href=\"https://github.com/46534fe\">@46534fe</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16463\">#16463</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.2...nextcloud-27.0.3\">nextcloud-27.0.3</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image nginxinc/nginx-unprivileged to 1.25.3<a href=\"https://github.com/f67dc75\">@f67dc75</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16441\">#16441</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.1...nextcloud-27.0.2\">nextcloud-27.0.2</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/nextcloud-fpm to v<a href=\"https://github.com/9c9d396\">@9c9d396</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16450\">#16450</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.0...nextcloud-27.0.1\">nextcloud-27.0.1</a> (2023-12-25)</h2>\n<h3>Chore</h3>\n<ul>\n<li>mount additional storage to cron containers too (<a href=\"https://github.com/truecharts/charts/issues/16542\">#16542</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-26.0.1...nextcloud-27.0.0\">nextcloud-27.0.0</a> (2023-12-25)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm chart common to 17.1.0 by renovate (<a href=\"https://github.com/truecharts/charts/issues/16532\">#16532</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-26.0.0...nextcloud-26.0.1\">nextcloud-26.0.1</a> (2023-12-24)</h2>"
     },
-    "27.0.1": {
+    "28.0.2": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/nextcloud/27.0.1",
-        "last_update": "2023-12-26 00:44:57",
+        "location": "/home/runner/work/catalog/catalog/stable/nextcloud/28.0.2",
+        "last_update": "2023-12-27 00:41:58",
         "required_features": [
-            "definitions/timezone",
             "definitions/nodeIP",
             "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/timezone"
         ],
-        "human_version": "28.0.0_27.0.1",
-        "version": "27.0.1",
+        "human_version": "28.0.0_28.0.2",
+        "version": "28.0.2",
         "chart_metadata": {
             "kubeVersion": ">=1.24.0-0",
             "apiVersion": "v2",
             "name": "nextcloud",
-            "version": "27.0.1",
+            "version": "28.0.2",
             "appVersion": "28.0.0",
             "description": "A private cloud server that puts the control and security of your own data back into your hands.",
             "home": "https://truecharts.org/charts/stable/nextcloud",
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png",
             "deprecated": false,
             "sources": [
-                "https://github.com/nextcloud/helm",
                 "https://github.com/nextcloud/docker",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/nextcloud",
-                "https://hub.docker.com/r/collabora/code"
+                "https://hub.docker.com/r/collabora/code",
+                "https://github.com/nextcloud/helm"
             ],
             "maintainers": [
                 {
@@ -7370,7 +7370,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "17.1.0",
+                    "version": "17.1.4",
                     "repository": "https://library-charts.truecharts.org",
                     "condition": "",
                     "alias": "",
@@ -7379,7 +7379,7 @@
                 },
                 {
                     "name": "redis",
-                    "version": "10.0.17",
+                    "version": "11.0.2",
                     "repository": "https://deps.truecharts.org",
                     "condition": "redis.enabled",
                     "alias": "",
@@ -14645,37 +14645,37 @@
         },
         "app_readme": "<p>A private cloud server that puts the control and security of your own data back into your hands.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/nextcloud\">https://truecharts.org/charts/stable/nextcloud</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<h1>README</h1>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/nextcloud\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.0...nextcloud-27.0.1\">nextcloud-27.0.1</a> (2023-12-25)</h2>\n<h3>Chore</h3>\n<ul>\n<li>mount additional storage to cron containers too (<a href=\"https://github.com/truecharts/charts/issues/16542\">#16542</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-26.0.1...nextcloud-27.0.0\">nextcloud-27.0.0</a> (2023-12-25)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm chart common to 17.1.0 by renovate (<a href=\"https://github.com/truecharts/charts/issues/16532\">#16532</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-26.0.0...nextcloud-26.0.1\">nextcloud-26.0.1</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16384\">#16384</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.14...nextcloud-26.0.0\">nextcloud-26.0.0</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>BREAKING CHANGE remove service settings for SCALE GUI (<a href=\"https://github.com/truecharts/charts/issues/16379\">#16379</a>)</li>\n</ul>\n<p>### Docs</p>\n<ul>\n<li>update installation notes (<a href=\"https://github.com/truecharts/charts/issues/16380\">#16380</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.13...nextcloud-25.0.14\">nextcloud-25.0.14</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16376\">#16376</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.12...nextcloud-25.0.13\">nextcloud-25.0.13</a> (2023-12-23)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16373\">#16373</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.11...nextcloud-25.0.12\">nextcloud-25.0.12</a> (2023-12-23)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16369\">#16369</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.10...nextcloud-25.0.11\">nextcloud-25.0.11</a> (2023-12-23)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16361\">#16361</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.9...nextcloud-25.0.10\">nextcloud-25.0.10</a> (2023-12-22)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16359\">#16359</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.8...nextcloud-25.0.9\">nextcloud-25.0.9</a> (2023-12-22)</h2>\n<h3>Fix</h3>\n<ul>\n<li>expose custom options for homepage integration</li>\n</ul>"
+        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-28.0.1...nextcloud-28.0.2\">nextcloud-28.0.2</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16545\">#16545</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-28.0.0...nextcloud-28.0.1\">nextcloud-28.0.1</a> (2023-12-26)</h2>\n<h3>Fix</h3>\n<ul>\n<li>fix collabora's ingress (<a href=\"https://github.com/truecharts/charts/issues/16554\">#16554</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.4...nextcloud-28.0.0\">nextcloud-28.0.0</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general major by renovate (major) (<a href=\"https://github.com/truecharts/charts/issues/16547\">#16547</a>)</li>\n<li>update container image tccr.io/truecharts/nextcloud-fpm to v28.0.1<a href=\"https://github.com/060284d\">@060284d</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16478\">#16478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.4...nextcloud-28.0.0\">nextcloud-28.0.0</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general major by renovate (major) (<a href=\"https://github.com/truecharts/charts/issues/16547\">#16547</a>)</li>\n<li>update container image tccr.io/truecharts/nextcloud-fpm to v28.0.1<a href=\"https://github.com/060284d\">@060284d</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16478\">#16478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.3...nextcloud-27.0.4\">nextcloud-27.0.4</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image collabora/code to v23.05.6.4.1<a href=\"https://github.com/46534fe\">@46534fe</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16463\">#16463</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.2...nextcloud-27.0.3\">nextcloud-27.0.3</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image nginxinc/nginx-unprivileged to 1.25.3<a href=\"https://github.com/f67dc75\">@f67dc75</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16441\">#16441</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.1...nextcloud-27.0.2\">nextcloud-27.0.2</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/nextcloud-fpm to v<a href=\"https://github.com/9c9d396\">@9c9d396</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16450\">#16450</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.0...nextcloud-27.0.1\">nextcloud-27.0.1</a> (2023-12-25)</h2>\n<h3>Chore</h3>\n<ul>\n<li>mount additional storage to cron containers too (<a href=\"https://github.com/truecharts/charts/issues/16542\">#16542</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-26.0.1...nextcloud-27.0.0\">nextcloud-27.0.0</a> (2023-12-25)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm chart common to 17.1.0 by renovate (<a href=\"https://github.com/truecharts/charts/issues/16532\">#16532</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-26.0.0...nextcloud-26.0.1\">nextcloud-26.0.1</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16384\">#16384</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.14...nextcloud-26.0.0\">nextcloud-26.0.0</a> (2023-12-24)</h2>"
     },
-    "27.0.0": {
+    "28.0.1": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/nextcloud/27.0.0",
-        "last_update": "2023-12-26 00:44:57",
+        "location": "/home/runner/work/catalog/catalog/stable/nextcloud/28.0.1",
+        "last_update": "2023-12-27 00:41:58",
         "required_features": [
-            "definitions/timezone",
             "definitions/nodeIP",
             "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/timezone"
         ],
-        "human_version": "28.0.0_27.0.0",
-        "version": "27.0.0",
+        "human_version": "28.0.0_28.0.1",
+        "version": "28.0.1",
         "chart_metadata": {
             "kubeVersion": ">=1.24.0-0",
             "apiVersion": "v2",
             "name": "nextcloud",
-            "version": "27.0.0",
+            "version": "28.0.1",
             "appVersion": "28.0.0",
             "description": "A private cloud server that puts the control and security of your own data back into your hands.",
             "home": "https://truecharts.org/charts/stable/nextcloud",
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png",
             "deprecated": false,
             "sources": [
-                "https://github.com/nextcloud/helm",
                 "https://github.com/nextcloud/docker",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/nextcloud",
-                "https://hub.docker.com/r/collabora/code"
+                "https://hub.docker.com/r/collabora/code",
+                "https://github.com/nextcloud/helm"
             ],
             "maintainers": [
                 {
@@ -14703,7 +14703,7 @@
                 },
                 {
                     "name": "redis",
-                    "version": "10.0.17",
+                    "version": "11.0.1",
                     "repository": "https://deps.truecharts.org",
                     "condition": "redis.enabled",
                     "alias": "",
@@ -21969,37 +21969,37 @@
         },
         "app_readme": "<p>A private cloud server that puts the control and security of your own data back into your hands.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/nextcloud\">https://truecharts.org/charts/stable/nextcloud</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<h1>README</h1>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/nextcloud\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-26.0.1...nextcloud-27.0.0\">nextcloud-27.0.0</a> (2023-12-25)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm chart common to 17.1.0 by renovate (<a href=\"https://github.com/truecharts/charts/issues/16532\">#16532</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-26.0.0...nextcloud-26.0.1\">nextcloud-26.0.1</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16384\">#16384</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.14...nextcloud-26.0.0\">nextcloud-26.0.0</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>BREAKING CHANGE remove service settings for SCALE GUI (<a href=\"https://github.com/truecharts/charts/issues/16379\">#16379</a>)</li>\n</ul>\n<p>### Docs</p>\n<ul>\n<li>update installation notes (<a href=\"https://github.com/truecharts/charts/issues/16380\">#16380</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.13...nextcloud-25.0.14\">nextcloud-25.0.14</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16376\">#16376</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.12...nextcloud-25.0.13\">nextcloud-25.0.13</a> (2023-12-23)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16373\">#16373</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.11...nextcloud-25.0.12\">nextcloud-25.0.12</a> (2023-12-23)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16369\">#16369</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.10...nextcloud-25.0.11\">nextcloud-25.0.11</a> (2023-12-23)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16361\">#16361</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.9...nextcloud-25.0.10\">nextcloud-25.0.10</a> (2023-12-22)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16359\">#16359</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.8...nextcloud-25.0.9\">nextcloud-25.0.9</a> (2023-12-22)</h2>\n<h3>Fix</h3>\n<ul>\n<li>expose custom options for homepage integration</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.7...nextcloud-25.0.8\">nextcloud-25.0.8</a> (2023-12-21)</h2>\n<h3>Fix</h3>\n<ul>\n<li>bump to release middleware fix</li>\n</ul>"
+        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-28.0.0...nextcloud-28.0.1\">nextcloud-28.0.1</a> (2023-12-26)</h2>\n<h3>Fix</h3>\n<ul>\n<li>fix collabora's ingress (<a href=\"https://github.com/truecharts/charts/issues/16554\">#16554</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.4...nextcloud-28.0.0\">nextcloud-28.0.0</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general major by renovate (major) (<a href=\"https://github.com/truecharts/charts/issues/16547\">#16547</a>)</li>\n<li>update container image tccr.io/truecharts/nextcloud-fpm to v28.0.1<a href=\"https://github.com/060284d\">@060284d</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16478\">#16478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.4...nextcloud-28.0.0\">nextcloud-28.0.0</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general major by renovate (major) (<a href=\"https://github.com/truecharts/charts/issues/16547\">#16547</a>)</li>\n<li>update container image tccr.io/truecharts/nextcloud-fpm to v28.0.1<a href=\"https://github.com/060284d\">@060284d</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16478\">#16478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.3...nextcloud-27.0.4\">nextcloud-27.0.4</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image collabora/code to v23.05.6.4.1<a href=\"https://github.com/46534fe\">@46534fe</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16463\">#16463</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.2...nextcloud-27.0.3\">nextcloud-27.0.3</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image nginxinc/nginx-unprivileged to 1.25.3<a href=\"https://github.com/f67dc75\">@f67dc75</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16441\">#16441</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.1...nextcloud-27.0.2\">nextcloud-27.0.2</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/nextcloud-fpm to v<a href=\"https://github.com/9c9d396\">@9c9d396</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16450\">#16450</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.0...nextcloud-27.0.1\">nextcloud-27.0.1</a> (2023-12-25)</h2>\n<h3>Chore</h3>\n<ul>\n<li>mount additional storage to cron containers too (<a href=\"https://github.com/truecharts/charts/issues/16542\">#16542</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-26.0.1...nextcloud-27.0.0\">nextcloud-27.0.0</a> (2023-12-25)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm chart common to 17.1.0 by renovate (<a href=\"https://github.com/truecharts/charts/issues/16532\">#16532</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-26.0.0...nextcloud-26.0.1\">nextcloud-26.0.1</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16384\">#16384</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.14...nextcloud-26.0.0\">nextcloud-26.0.0</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>BREAKING CHANGE remove service settings for SCALE GUI (<a href=\"https://github.com/truecharts/charts/issues/16379\">#16379</a>)</li>\n</ul>\n<p>### Docs</p>\n<ul>\n<li>update installation notes (<a href=\"https://github.com/truecharts/charts/issues/16380\">#16380</a>)</li>\n</ul>"
     },
-    "26.0.1": {
+    "28.0.0": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/nextcloud/26.0.1",
-        "last_update": "2023-12-26 00:44:57",
+        "location": "/home/runner/work/catalog/catalog/stable/nextcloud/28.0.0",
+        "last_update": "2023-12-27 00:41:58",
         "required_features": [
-            "definitions/timezone",
             "definitions/nodeIP",
             "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/timezone"
         ],
-        "human_version": "28.0.0_26.0.1",
-        "version": "26.0.1",
+        "human_version": "28.0.0_28.0.0",
+        "version": "28.0.0",
         "chart_metadata": {
             "kubeVersion": ">=1.24.0-0",
             "apiVersion": "v2",
             "name": "nextcloud",
-            "version": "26.0.1",
+            "version": "28.0.0",
             "appVersion": "28.0.0",
             "description": "A private cloud server that puts the control and security of your own data back into your hands.",
             "home": "https://truecharts.org/charts/stable/nextcloud",
             "icon": "https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png",
             "deprecated": false,
             "sources": [
-                "https://github.com/nextcloud/helm",
                 "https://github.com/nextcloud/docker",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/nextcloud",
-                "https://hub.docker.com/r/collabora/code"
+                "https://hub.docker.com/r/collabora/code",
+                "https://github.com/nextcloud/helm"
             ],
             "maintainers": [
                 {
@@ -22018,7 +22018,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "16.2.21",
+                    "version": "17.1.0",
                     "repository": "https://library-charts.truecharts.org",
                     "condition": "",
                     "alias": "",
@@ -22027,7 +22027,7 @@
                 },
                 {
                     "name": "redis",
-                    "version": "10.0.17",
+                    "version": "11.0.1",
                     "repository": "https://deps.truecharts.org",
                     "condition": "redis.enabled",
                     "alias": "",
@@ -25787,6 +25787,15 @@
                                                                                     ],
                                                                                     "attrs": [
                                                                                         {
+                                                                                            "variable": "enabled",
+                                                                                            "label": "Enable Widget",
+                                                                                            "description": "When disabled all widget annotations are skipped.",
+                                                                                            "schema": {
+                                                                                                "type": "boolean",
+                                                                                                "default": true
+                                                                                            }
+                                                                                        },
+                                                                                        {
                                                                                             "variable": "custom",
                                                                                             "label": "Options",
                                                                                             "schema": {
@@ -26091,7 +26100,7 @@
                                                                                             }
                                                                                         },
                                                                                         {
-                                                                                            "variable": "service",
+                                                                                            "variable": "overrideService",
                                                                                             "label": "Linked Service",
                                                                                             "schema": {
                                                                                                 "additional_attrs": true,
@@ -27517,6 +27526,13 @@
                                                         "schema": {
                                                             "type": "list",
                                                             "default": [],
+                                                            "show_if": [
+                                                                [
+                                                                    "enabled",
+                                                                    "=",
+                                                                    true
+                                                                ]
+                                                            ],
                                                             "items": [
                                                                 {
                                                                     "variable": "backupschedule",
@@ -27580,6 +27596,13 @@
                                                         "schema": {
                                                             "type": "list",
                                                             "default": [],
+                                                            "show_if": [
+                                                                [
+                                                                    "enabled",
+                                                                    "=",
+                                                                    true
+                                                                ]
+                                                            ],
                                                             "items": [
                                                                 {
                                                                     "variable": "backup",
@@ -28502,29 +28525,150 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "variable": "certificateIssuer",
-                                                                                "label": "Cert-Manager clusterIssuer",
-                                                                                "description": "add the name of your cert-manager clusterIssuer here for automatic tls certificates. Cannot be used combined with tls option below",
+                                                                                "variable": "integrations",
+                                                                                "label": "Integrations",
+                                                                                "description": "Connect ingress with other charts",
                                                                                 "schema": {
-                                                                                    "type": "string",
-                                                                                    "default": ""
-                                                                                }
-                                                                            },
-                                                                            {
-                                                                                "variable": "middlewares",
-                                                                                "label": "Traefik Middlewares",
-                                                                                "description": "Add previously created Traefik Middlewares to this Ingress",
-                                                                                "schema": {
-                                                                                    "type": "list",
-                                                                                    "default": [],
-                                                                                    "items": [
+                                                                                    "additional_attrs": true,
+                                                                                    "type": "dict",
+                                                                                    "attrs": [
                                                                                         {
-                                                                                            "variable": "name",
-                                                                                            "label": "Name",
+                                                                                            "variable": "traefik",
+                                                                                            "label": "Traefik",
+                                                                                            "description": "Connect ingress with Traefik",
                                                                                             "schema": {
-                                                                                                "type": "string",
-                                                                                                "default": "",
-                                                                                                "required": true
+                                                                                                "additional_attrs": true,
+                                                                                                "type": "dict",
+                                                                                                "attrs": [
+                                                                                                    {
+                                                                                                        "variable": "enabled",
+                                                                                                        "label": "enabled",
+                                                                                                        "schema": {
+                                                                                                            "type": "boolean",
+                                                                                                            "default": true
+                                                                                                        }
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "variable": "allowCors",
+                                                                                                        "label": "Allow Cross Origin Requests (advanced)",
+                                                                                                        "schema": {
+                                                                                                            "type": "boolean",
+                                                                                                            "default": false,
+                                                                                                            "show_if": [
+                                                                                                                [
+                                                                                                                    "enabled",
+                                                                                                                    "=",
+                                                                                                                    true
+                                                                                                                ]
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "variable": "entrypoints",
+                                                                                                        "label": "Entrypoints",
+                                                                                                        "schema": {
+                                                                                                            "type": "list",
+                                                                                                            "default": [
+                                                                                                                "websecure"
+                                                                                                            ],
+                                                                                                            "show_if": [
+                                                                                                                [
+                                                                                                                    "enabled",
+                                                                                                                    "=",
+                                                                                                                    true
+                                                                                                                ]
+                                                                                                            ],
+                                                                                                            "items": [
+                                                                                                                {
+                                                                                                                    "variable": "entrypoint",
+                                                                                                                    "label": "Entrypoint",
+                                                                                                                    "schema": {
+                                                                                                                        "type": "string"
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "variable": "middlewares",
+                                                                                                        "label": "Middlewares",
+                                                                                                        "schema": {
+                                                                                                            "type": "list",
+                                                                                                            "default": [],
+                                                                                                            "show_if": [
+                                                                                                                [
+                                                                                                                    "enabled",
+                                                                                                                    "=",
+                                                                                                                    true
+                                                                                                                ]
+                                                                                                            ],
+                                                                                                            "items": [
+                                                                                                                {
+                                                                                                                    "variable": "middleware",
+                                                                                                                    "label": "Middleware",
+                                                                                                                    "schema": {
+                                                                                                                        "additional_attrs": true,
+                                                                                                                        "type": "dict",
+                                                                                                                        "attrs": [
+                                                                                                                            {
+                                                                                                                                "variable": "name",
+                                                                                                                                "label": "name",
+                                                                                                                                "schema": {
+                                                                                                                                    "type": "string",
+                                                                                                                                    "default": "",
+                                                                                                                                    "required": true
+                                                                                                                                }
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "variable": "namespace",
+                                                                                                                                "label": "namespace (optional)",
+                                                                                                                                "schema": {
+                                                                                                                                    "type": "string",
+                                                                                                                                    "default": ""
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        ]
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "variable": "certManager",
+                                                                                            "label": "certManager",
+                                                                                            "description": "Connect ingress with certManager",
+                                                                                            "schema": {
+                                                                                                "additional_attrs": true,
+                                                                                                "type": "dict",
+                                                                                                "attrs": [
+                                                                                                    {
+                                                                                                        "variable": "enabled",
+                                                                                                        "label": "enabled",
+                                                                                                        "schema": {
+                                                                                                            "type": "boolean",
+                                                                                                            "default": false
+                                                                                                        }
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "variable": "certificateIssuer",
+                                                                                                        "label": "certificateIssuer",
+                                                                                                        "description": "defaults to chartname",
+                                                                                                        "schema": {
+                                                                                                            "type": "string",
+                                                                                                            "default": "",
+                                                                                                            "show_if": [
+                                                                                                                [
+                                                                                                                    "enabled",
+                                                                                                                    "=",
+                                                                                                                    true
+                                                                                                                ]
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    }
+                                                                                                ]
                                                                                             }
                                                                                         }
                                                                                     ]
@@ -28536,38 +28680,6 @@
                                                                                 "description": "Advanced settings are not covered by TrueCharts Support",
                                                                                 "schema": {
                                                                                     "type": "boolean",
-                                                                                    "default": false
-                                                                                }
-                                                                            },
-                                                                            {
-                                                                                "variable": "entrypoint",
-                                                                                "label": "(Advanced) Traefik Entrypoint",
-                                                                                "description": "Entrypoint used by Traefik when using Traefik as Ingress Provider",
-                                                                                "schema": {
-                                                                                    "type": "string",
-                                                                                    "default": "websecure",
-                                                                                    "show_if": [
-                                                                                        [
-                                                                                            "advanced",
-                                                                                            "=",
-                                                                                            true
-                                                                                        ]
-                                                                                    ],
-                                                                                    "required": true
-                                                                                }
-                                                                            },
-                                                                            {
-                                                                                "variable": "allowCors",
-                                                                                "label": "Allow Cross Origin Requests",
-                                                                                "schema": {
-                                                                                    "type": "boolean",
-                                                                                    "show_if": [
-                                                                                        [
-                                                                                            "advanced",
-                                                                                            "=",
-                                                                                            true
-                                                                                        ]
-                                                                                    ],
                                                                                     "default": false
                                                                                 }
                                                                             },
@@ -29181,6 +29293,6 @@
         },
         "app_readme": "<p>A private cloud server that puts the control and security of your own data back into your hands.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/nextcloud\">https://truecharts.org/charts/stable/nextcloud</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<h1>README</h1>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/nextcloud\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-26.0.0...nextcloud-26.0.1\">nextcloud-26.0.1</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16384\">#16384</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.14...nextcloud-26.0.0\">nextcloud-26.0.0</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>BREAKING CHANGE remove service settings for SCALE GUI (<a href=\"https://github.com/truecharts/charts/issues/16379\">#16379</a>)</li>\n</ul>\n<p>### Docs</p>\n<ul>\n<li>update installation notes (<a href=\"https://github.com/truecharts/charts/issues/16380\">#16380</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.13...nextcloud-25.0.14\">nextcloud-25.0.14</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16376\">#16376</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.12...nextcloud-25.0.13\">nextcloud-25.0.13</a> (2023-12-23)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16373\">#16373</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.11...nextcloud-25.0.12\">nextcloud-25.0.12</a> (2023-12-23)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16369\">#16369</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.10...nextcloud-25.0.11\">nextcloud-25.0.11</a> (2023-12-23)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16361\">#16361</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.9...nextcloud-25.0.10\">nextcloud-25.0.10</a> (2023-12-22)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16359\">#16359</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.8...nextcloud-25.0.9\">nextcloud-25.0.9</a> (2023-12-22)</h2>\n<h3>Fix</h3>\n<ul>\n<li>expose custom options for homepage integration</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.7...nextcloud-25.0.8\">nextcloud-25.0.8</a> (2023-12-21)</h2>\n<h3>Fix</h3>\n<ul>\n<li>bump to release middleware fix</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.6...nextcloud-25.0.7\">nextcloud-25.0.7</a> (2023-12-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16346\">#16346</a>)</li>\n</ul>"
+        "changelog": "<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.4...nextcloud-28.0.0\">nextcloud-28.0.0</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general major by renovate (major) (<a href=\"https://github.com/truecharts/charts/issues/16547\">#16547</a>)</li>\n<li>update container image tccr.io/truecharts/nextcloud-fpm to v28.0.1<a href=\"https://github.com/060284d\">@060284d</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16478\">#16478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.4...nextcloud-28.0.0\">nextcloud-28.0.0</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general major by renovate (major) (<a href=\"https://github.com/truecharts/charts/issues/16547\">#16547</a>)</li>\n<li>update container image tccr.io/truecharts/nextcloud-fpm to v28.0.1<a href=\"https://github.com/060284d\">@060284d</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16478\">#16478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.3...nextcloud-27.0.4\">nextcloud-27.0.4</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image collabora/code to v23.05.6.4.1<a href=\"https://github.com/46534fe\">@46534fe</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16463\">#16463</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.2...nextcloud-27.0.3\">nextcloud-27.0.3</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image nginxinc/nginx-unprivileged to 1.25.3<a href=\"https://github.com/f67dc75\">@f67dc75</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16441\">#16441</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.1...nextcloud-27.0.2\">nextcloud-27.0.2</a> (2023-12-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/truecharts/nextcloud-fpm to v<a href=\"https://github.com/9c9d396\">@9c9d396</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16450\">#16450</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-27.0.0...nextcloud-27.0.1\">nextcloud-27.0.1</a> (2023-12-25)</h2>\n<h3>Chore</h3>\n<ul>\n<li>mount additional storage to cron containers too (<a href=\"https://github.com/truecharts/charts/issues/16542\">#16542</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-26.0.1...nextcloud-27.0.0\">nextcloud-27.0.0</a> (2023-12-25)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm chart common to 17.1.0 by renovate (<a href=\"https://github.com/truecharts/charts/issues/16532\">#16532</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-26.0.0...nextcloud-26.0.1\">nextcloud-26.0.1</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16384\">#16384</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.14...nextcloud-26.0.0\">nextcloud-26.0.0</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>BREAKING CHANGE remove service settings for SCALE GUI (<a href=\"https://github.com/truecharts/charts/issues/16379\">#16379</a>)</li>\n</ul>\n<p>### Docs</p>\n<ul>\n<li>update installation notes (<a href=\"https://github.com/truecharts/charts/issues/16380\">#16380</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/nextcloud-25.0.13...nextcloud-25.0.14\">nextcloud-25.0.14</a> (2023-12-24)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update helm general non-major by renovate (<a href=\"https://github.com/truecharts/charts/issues/16376\">#16376</a>)</li>\n</ul>"
     }
 }
