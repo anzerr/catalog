@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/14.0.1",
-        "last_update": "2023-12-27 00:41:58",
+        "last_update": "2023-12-27 23:02:00",
         "required_features": [
-            "definitions/gpuConfiguration",
+            "definitions/timezone",
             "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/timezone",
+            "definitions/gpuConfiguration",
             "definitions/certificate"
         ],
         "human_version": "1.11.3.4163_14.0.1",
@@ -5089,12 +5089,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/14.0.0",
-        "last_update": "2023-12-27 00:41:58",
+        "last_update": "2023-12-27 23:02:00",
         "required_features": [
-            "definitions/gpuConfiguration",
+            "definitions/timezone",
             "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/timezone",
+            "definitions/gpuConfiguration",
             "definitions/certificate"
         ],
         "human_version": "1.11.2.4160_14.0.0",

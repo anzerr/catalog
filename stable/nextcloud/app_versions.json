@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/nextcloud/28.0.3",
-        "last_update": "2023-12-27 00:41:58",
+        "last_update": "2023-12-27 23:02:00",
         "required_features": [
-            "definitions/nodeIP",
-            "definitions/gpuConfiguration",
+            "definitions/timezone",
             "definitions/certificate",
-            "definitions/timezone"
+            "definitions/gpuConfiguration",
+            "definitions/nodeIP"
         ],
         "human_version": "28.0.0_28.0.3",
         "version": "28.0.3",
@@ -7328,12 +7328,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/nextcloud/28.0.2",
-        "last_update": "2023-12-27 00:41:58",
+        "last_update": "2023-12-27 23:02:00",
         "required_features": [
-            "definitions/nodeIP",
-            "definitions/gpuConfiguration",
+            "definitions/timezone",
             "definitions/certificate",
-            "definitions/timezone"
+            "definitions/gpuConfiguration",
+            "definitions/nodeIP"
         ],
         "human_version": "28.0.0_28.0.2",
         "version": "28.0.2",
@@ -14652,12 +14652,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/nextcloud/28.0.1",
-        "last_update": "2023-12-27 00:41:58",
+        "last_update": "2023-12-27 23:02:00",
         "required_features": [
-            "definitions/nodeIP",
-            "definitions/gpuConfiguration",
+            "definitions/timezone",
             "definitions/certificate",
-            "definitions/timezone"
+            "definitions/gpuConfiguration",
+            "definitions/nodeIP"
         ],
         "human_version": "28.0.0_28.0.1",
         "version": "28.0.1",
@@ -21976,12 +21976,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/nextcloud/28.0.0",
-        "last_update": "2023-12-27 00:41:58",
+        "last_update": "2023-12-27 23:02:00",
         "required_features": [
-            "definitions/nodeIP",
-            "definitions/gpuConfiguration",
+            "definitions/timezone",
             "definitions/certificate",
-            "definitions/timezone"
+            "definitions/gpuConfiguration",
+            "definitions/nodeIP"
         ],
         "human_version": "28.0.0_28.0.0",
         "version": "28.0.0",
