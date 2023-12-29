@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/readarr/19.0.1",
-        "last_update": "2023-12-27 23:02:00",
+        "last_update": "2023-12-29 00:12:45",
         "required_features": [
-            "definitions/timezone",
-            "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "definitions/interface",
+            "definitions/timezone",
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "0.3.13.2338_19.0.1",
         "version": "19.0.1",
@@ -5091,13 +5091,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/readarr/19.0.0",
-        "last_update": "2023-12-27 23:02:00",
+        "last_update": "2023-12-29 00:12:45",
         "required_features": [
-            "definitions/timezone",
-            "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "definitions/interface",
+            "definitions/timezone",
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "0.3.12.2327_19.0.0",
         "version": "19.0.0",

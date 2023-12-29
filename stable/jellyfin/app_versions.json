@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jellyfin/17.0.1",
-        "last_update": "2023-12-27 23:02:00",
+        "last_update": "2023-12-29 00:12:45",
         "required_features": [
-            "definitions/timezone",
-            "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "definitions/interface",
+            "definitions/timezone",
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "10.8.13_17.0.1",
         "version": "17.0.1",
@@ -5520,13 +5520,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jellyfin/17.0.0",
-        "last_update": "2023-12-27 23:02:00",
+        "last_update": "2023-12-29 00:12:45",
         "required_features": [
-            "definitions/timezone",
-            "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "definitions/interface",
+            "definitions/timezone",
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "10.8.13_17.0.0",
         "version": "17.0.0",
