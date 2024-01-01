@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jellyseerr/8.1.0",
-        "last_update": "2023-12-30 01:13:34",
+        "last_update": "2023-12-31 19:16:33",
         "required_features": [
-            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface",
-            "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/certificate"
         ],
         "human_version": "1.7.0_8.1.0",
         "version": "8.1.0",

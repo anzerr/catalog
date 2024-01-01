@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/18.1.0",
-        "last_update": "2023-12-30 01:13:34",
+        "last_update": "2023-12-31 19:16:33",
         "required_features": [
-            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface",
-            "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/certificate"
         ],
         "human_version": "4.6.2_18.1.0",
         "version": "18.1.0",
@@ -5122,13 +5122,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/18.0.1",
-        "last_update": "2023-12-30 01:13:34",
+        "last_update": "2023-12-31 19:16:33",
         "required_features": [
-            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface",
-            "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/certificate"
         ],
         "human_version": "4.6.2_18.0.1",
         "version": "18.0.1",
@@ -10240,13 +10240,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/18.0.0",
-        "last_update": "2023-12-30 01:13:34",
+        "last_update": "2023-12-31 19:16:33",
         "required_features": [
-            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/interface",
-            "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/certificate"
         ],
         "human_version": "4.6.2_18.0.0",
         "version": "18.0.0",
