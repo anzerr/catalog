@@ -14,10 +14,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/dependency/mariadb",
 			"location": "/home/runner/work/catalog/catalog/dependency/mariadb",
-			"latest_version": "12.1.4",
+			"latest_version": "12.1.6",
 			"latest_app_version": "11.2.2",
-			"latest_human_version": "11.2.2_12.1.4",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "11.2.2_12.1.6",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "mariadb",
 			"recommended": false,
 			"title": "Mariadb",
@@ -31,11 +31,11 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
+				"https://github.com/bitnami/bitnami-docker-mariadb",
+				"https://github.com/prometheus/mysqld_exporter",
 				"https://mariadb.org",
 				"https://github.com/truecharts/charts/tree/master/charts/dependency/mariadb",
-				"https://hub.docker.com/r/bitnami/mariadb",
-				"https://github.com/bitnami/bitnami-docker-mariadb",
-				"https://github.com/prometheus/mysqld_exporter"
+				"https://hub.docker.com/r/bitnami/mariadb"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
 		},
@@ -49,10 +49,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/dependency/mongodb",
 			"location": "/home/runner/work/catalog/catalog/dependency/mongodb",
-			"latest_version": "11.1.5",
+			"latest_version": "11.1.7",
 			"latest_app_version": "7.0.4",
-			"latest_human_version": "7.0.4_11.1.5",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "7.0.4_11.1.7",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "mongodb",
 			"recommended": false,
 			"title": "Mongodb",
@@ -83,10 +83,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/dependency/redis",
 			"location": "/home/runner/work/catalog/catalog/dependency/redis",
-			"latest_version": "11.1.4",
+			"latest_version": "11.1.6",
 			"latest_app_version": "7.2.3",
-			"latest_human_version": "7.2.3_11.1.4",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "7.2.3_11.1.6",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "redis",
 			"recommended": false,
 			"title": "Redis",
@@ -100,9 +100,9 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
+				"https://github.com/bitnami/bitnami-docker-redis",
 				"https://github.com/truecharts/charts/tree/master/charts/dependency/redis",
-				"https://hub.docker.com/r/bitnami/redis",
-				"https://github.com/bitnami/bitnami-docker-redis"
+				"https://hub.docker.com/r/bitnami/redis"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/redis.png"
 		}
@@ -118,10 +118,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/operators/metallb",
 			"location": "/home/runner/work/catalog/catalog/operators/metallb",
-			"latest_version": "13.1.5",
+			"latest_version": "13.1.8",
 			"latest_app_version": "latest",
-			"latest_human_version": "latest_13.1.5",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "latest_13.1.8",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "metallb",
 			"recommended": false,
 			"title": "Metallb",
@@ -135,10 +135,9 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
-				"https://github.com/metallb/metallb",
 				"https://metallb.universe.tf",
-				"https://github.com/truecharts/charts/tree/master/charts/operators/metallb",
-				"https://github.com/truecharts/containers/tree/master/mirroralpine"
+				"https://github.com/metallb/metallb",
+				"https://github.com/truecharts/charts/tree/master/charts/operators/metallb"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/metallb.png"
 		},
@@ -152,10 +151,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/operators/prometheus-operator",
 			"location": "/home/runner/work/catalog/catalog/operators/prometheus-operator",
-			"latest_version": "3.1.5",
-			"latest_app_version": "0.69.1",
-			"latest_human_version": "0.69.1_3.1.5",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_version": "4.0.0",
+			"latest_app_version": "0.70.0",
+			"latest_human_version": "0.70.0_4.0.0",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "prometheus-operator",
 			"recommended": false,
 			"title": "Prometheus-operator",
@@ -171,7 +170,7 @@
 			"sources": [
 				"https://github.com/prometheus-operator",
 				"https://github.com/truecharts/charts/tree/master/charts/operators/prometheus-operator",
-				"https://github.com/truecharts/containers/tree/master/mirrorthanos"
+				"https://quay.io/prometheus-operator/prometheus-operator"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.png"
 		},
@@ -185,10 +184,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/operators/cloudnative-pg",
 			"location": "/home/runner/work/catalog/catalog/operators/cloudnative-pg",
-			"latest_version": "5.2.5",
+			"latest_version": "5.2.8",
 			"latest_app_version": "latest",
-			"latest_human_version": "latest_5.2.5",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "latest_5.2.8",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "cloudnative-pg",
 			"recommended": false,
 			"title": "Cloudnative-pg",
@@ -202,10 +201,9 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
-				"https://cloudnative-pg.io/",
 				"https://github.com/cloudnative-pg",
-				"https://github.com/truecharts/charts/tree/master/charts/operators/cloudnative-pg",
-				"https://github.com/truecharts/containers/tree/master/mirroralpine"
+				"https://cloudnative-pg.io/",
+				"https://github.com/truecharts/charts/tree/master/charts/operators/cloudnative-pg"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.png"
 		},
@@ -219,10 +217,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/operators/cert-manager",
 			"location": "/home/runner/work/catalog/catalog/operators/cert-manager",
-			"latest_version": "3.1.5",
+			"latest_version": "3.1.8",
 			"latest_app_version": "latest",
-			"latest_human_version": "latest_3.1.5",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "latest_3.1.8",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "cert-manager",
 			"recommended": false,
 			"title": "Cert-manager",
@@ -236,10 +234,9 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
-				"https://github.com/cert-manager",
 				"https://cert-manager.io/",
 				"https://github.com/truecharts/charts/tree/master/charts/operators/cert-manager",
-				"https://github.com/truecharts/containers/tree/master/mirroralpine"
+				"https://github.com/cert-manager"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png"
 		}
@@ -255,10 +252,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/tdarr",
 			"location": "/home/runner/work/catalog/catalog/stable/tdarr",
-			"latest_version": "8.1.4",
+			"latest_version": "8.1.5",
 			"latest_app_version": "2.17.01",
-			"latest_human_version": "2.17.01_8.1.4",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "2.17.01_8.1.5",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "tdarr",
 			"recommended": false,
 			"title": "Tdarr",
@@ -288,10 +285,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/jackett",
 			"location": "/home/runner/work/catalog/catalog/stable/jackett",
-			"latest_version": "18.1.4",
+			"latest_version": "18.1.5",
 			"latest_app_version": "0.21.1155",
-			"latest_human_version": "0.21.1155_18.1.4",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "0.21.1155_18.1.5",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "jackett",
 			"recommended": false,
 			"title": "Jackett",
@@ -305,9 +302,9 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
+				"https://github.com/Jackett/Jackett",
 				"https://github.com/truecharts/charts/tree/master/charts/stable/jackett",
-				"https://ghcr.io/linuxserver/jackett",
-				"https://github.com/Jackett/Jackett"
+				"https://ghcr.io/linuxserver/jackett"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png"
 		},
@@ -321,10 +318,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/radarr",
 			"location": "/home/runner/work/catalog/catalog/stable/radarr",
-			"latest_version": "19.1.4",
+			"latest_version": "19.1.5",
 			"latest_app_version": "5.2.6.8376",
-			"latest_human_version": "5.2.6.8376_19.1.4",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "5.2.6.8376_19.1.5",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "radarr",
 			"recommended": false,
 			"title": "Radarr",
@@ -338,9 +335,9 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
-				"https://ghcr.io/onedr0p/exportarr",
-				"https://github.com/Radarr/Radarr",
-				"https://github.com/truecharts/charts/tree/master/charts/stable/radarr"
+				"https://github.com/truecharts/charts/tree/master/charts/stable/radarr",
+				"https://ghcr.io/onedr0p/radarr",
+				"https://github.com/Radarr/Radarr"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.png"
 		},
@@ -354,10 +351,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/tdarr-node",
 			"location": "/home/runner/work/catalog/catalog/stable/tdarr-node",
-			"latest_version": "8.1.4",
+			"latest_version": "8.1.5",
 			"latest_app_version": "2.17.01",
-			"latest_human_version": "2.17.01_8.1.4",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "2.17.01_8.1.5",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "tdarr-node",
 			"recommended": false,
 			"title": "Tdarr-node",
@@ -387,10 +384,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/readarr",
 			"location": "/home/runner/work/catalog/catalog/stable/readarr",
-			"latest_version": "19.1.5",
-			"latest_app_version": "0.3.13.2338",
-			"latest_human_version": "0.3.13.2338_19.1.5",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_version": "19.1.6",
+			"latest_app_version": "0.3.14.2348",
+			"latest_human_version": "0.3.14.2348_19.1.6",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "readarr",
 			"recommended": false,
 			"title": "Readarr",
@@ -404,10 +401,10 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
-				"https://ghcr.io/onedr0p/exportarr",
-				"https://github.com/Readarr/Readarr",
 				"https://readarr.com",
-				"https://github.com/truecharts/charts/tree/master/charts/stable/readarr"
+				"https://github.com/truecharts/charts/tree/master/charts/stable/readarr",
+				"https://ghcr.io/onedr0p/exportarr",
+				"https://github.com/Readarr/Readarr"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/readarr.png"
 		},
@@ -421,10 +418,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/jellyseerr",
 			"location": "/home/runner/work/catalog/catalog/stable/jellyseerr",
-			"latest_version": "8.1.4",
+			"latest_version": "8.1.5",
 			"latest_app_version": "1.7.0",
-			"latest_human_version": "1.7.0_8.1.4",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "1.7.0_8.1.5",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "jellyseerr",
 			"recommended": false,
 			"title": "Jellyseerr",
@@ -454,10 +451,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/metube",
 			"location": "/home/runner/work/catalog/catalog/stable/metube",
-			"latest_version": "10.1.5",
-			"latest_app_version": "2023",
-			"latest_human_version": "2023_10.1.5",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_version": "11.0.0",
+			"latest_app_version": "2024",
+			"latest_human_version": "2024_11.0.0",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "metube",
 			"recommended": false,
 			"title": "Metube",
@@ -471,9 +468,9 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
-				"https://hub.docker.com/r/alexta69/metube",
 				"https://github.com/alexta69/metube",
-				"https://github.com/truecharts/charts/tree/master/charts/stable/metube"
+				"https://github.com/truecharts/charts/tree/master/charts/stable/metube",
+				"https://hub.docker.com/r/alexta69/metube"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/metube.png"
 		},
@@ -487,10 +484,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/nextcloud",
 			"location": "/home/runner/work/catalog/catalog/stable/nextcloud",
-			"latest_version": "28.1.6",
+			"latest_version": "28.1.11",
 			"latest_app_version": "28.0.1",
-			"latest_human_version": "28.0.1_28.1.6",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "28.0.1_28.1.11",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "nextcloud",
 			"recommended": false,
 			"title": "Nextcloud",
@@ -504,10 +501,9 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
-				"https://github.com/nextcloud/helm",
-				"https://github.com/nextcloud/docker",
 				"https://github.com/truecharts/charts/tree/master/charts/stable/nextcloud",
-				"https://github.com/truecharts/containers/tree/master/mirrornextcloud-fpm"
+				"https://github.com/nextcloud/docker",
+				"https://github.com/nextcloud/helm"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png"
 		},
@@ -521,10 +517,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/jellyfin",
 			"location": "/home/runner/work/catalog/catalog/stable/jellyfin",
-			"latest_version": "17.1.5",
+			"latest_version": "17.1.6",
 			"latest_app_version": "10.8.13",
-			"latest_human_version": "10.8.13_17.1.5",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "10.8.13_17.1.6",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "jellyfin",
 			"recommended": false,
 			"title": "Jellyfin",
@@ -538,9 +534,9 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
-				"https://hub.docker.com/r/alpine/socat",
 				"https://github.com/jellyfin/jellyfin",
-				"https://github.com/truecharts/charts/tree/master/charts/stable/jellyfin"
+				"https://github.com/truecharts/charts/tree/master/charts/stable/jellyfin",
+				"https://hub.docker.com/r/jellyfin/jellyfin"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jellyfin.png"
 		},
@@ -554,10 +550,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/unpackerr",
 			"location": "/home/runner/work/catalog/catalog/stable/unpackerr",
-			"latest_version": "12.1.4",
+			"latest_version": "12.1.5",
 			"latest_app_version": "0.12.0",
-			"latest_human_version": "0.12.0_12.1.4",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "0.12.0_12.1.5",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "unpackerr",
 			"recommended": false,
 			"title": "Unpackerr",
@@ -587,10 +583,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/qbittorrent",
 			"location": "/home/runner/work/catalog/catalog/stable/qbittorrent",
-			"latest_version": "18.1.4",
+			"latest_version": "18.1.5",
 			"latest_app_version": "4.6.2",
-			"latest_human_version": "4.6.2_18.1.4",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "4.6.2_18.1.5",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "qbittorrent",
 			"recommended": false,
 			"title": "Qbittorrent",
@@ -604,9 +600,9 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
+				"https://github.com/qbittorrent/qBittorrent",
 				"https://github.com/truecharts/charts/tree/master/charts/stable/qbittorrent",
-				"https://hub.docker.com/r/mjmeli/qbittorrent-port-forward-gluetun-server",
-				"https://github.com/qbittorrent/qBittorrent"
+				"https://hub.docker.com/r/mjmeli/qbittorrent-port-forward-gluetun-server"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png"
 		},
@@ -620,10 +616,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/prowlarr",
 			"location": "/home/runner/work/catalog/catalog/stable/prowlarr",
-			"latest_version": "14.1.6",
+			"latest_version": "14.1.7",
 			"latest_app_version": "1.11.4.4173",
-			"latest_human_version": "1.11.4.4173_14.1.6",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "1.11.4.4173_14.1.7",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "prowlarr",
 			"recommended": false,
 			"title": "Prowlarr",
@@ -637,10 +633,10 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
-				"https://github.com/k8s-at-home/container-images",
 				"https://github.com/Prowlarr/Prowlarr",
+				"https://github.com/k8s-at-home/container-images",
 				"https://github.com/truecharts/charts/tree/master/charts/stable/prowlarr",
-				"https://ghcr.io/onedr0p/prowlarr-develop"
+				"https://ghcr.io/onedr0p/exportarr"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/prowlarr.png"
 		},
@@ -654,10 +650,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/sonarr",
 			"location": "/home/runner/work/catalog/catalog/stable/sonarr",
-			"latest_version": "19.0.23",
+			"latest_version": "19.0.25",
 			"latest_app_version": "4.0.0.741",
-			"latest_human_version": "4.0.0.741_19.0.23",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "4.0.0.741_19.0.25",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "sonarr",
 			"recommended": false,
 			"title": "Sonarr",
@@ -687,10 +683,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/lidarr",
 			"location": "/home/runner/work/catalog/catalog/stable/lidarr",
-			"latest_version": "19.1.5",
+			"latest_version": "19.1.6",
 			"latest_app_version": "2.1.0.3856",
-			"latest_human_version": "2.1.0.3856_19.1.5",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "2.1.0.3856_19.1.6",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "lidarr",
 			"recommended": false,
 			"title": "Lidarr",
@@ -704,9 +700,9 @@
 			"tags": [],
 			"screenshots": [],
 			"sources": [
+				"https://github.com/Lidarr/Lidarr",
 				"https://github.com/truecharts/charts/tree/master/charts/stable/lidarr",
-				"https://ghcr.io/onedr0p/exportarr",
-				"https://github.com/Lidarr/Lidarr"
+				"https://ghcr.io/onedr0p/exportarr"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.png"
 		},
@@ -720,10 +716,10 @@
 			"healthy_error": null,
 			"home": "https://truecharts.org/charts/stable/bazarr",
 			"location": "/home/runner/work/catalog/catalog/stable/bazarr",
-			"latest_version": "17.1.4",
+			"latest_version": "17.1.8",
 			"latest_app_version": "1.4.0",
-			"latest_human_version": "1.4.0_17.1.4",
-			"last_update": "2024-01-01 23:20:07",
+			"latest_human_version": "1.4.0_17.1.8",
+			"last_update": "2024-01-03 00:48:01",
 			"name": "bazarr",
 			"recommended": false,
 			"title": "Bazarr",
@@ -739,7 +735,7 @@
 			"sources": [
 				"https://github.com/morpheus65535/bazarr",
 				"https://github.com/truecharts/charts/tree/master/charts/stable/bazarr",
-				"https://ghcr.io/onedr0p/bazarr"
+				"https://ghcr.io/onedr0p/exportarr"
 			],
 			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png"
 		}
