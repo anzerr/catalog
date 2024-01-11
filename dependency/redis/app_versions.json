@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.1.7",
-        "last_update": "2024-01-10 00:35:54",
+        "last_update": "2024-01-11 00:13:10",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/timezone",
             "definitions/gpuConfiguration",
+            "definitions/certificate",
+            "normalize/interfaceConfiguration",
             "definitions/interface",
-            "definitions/certificate"
+            "definitions/timezone"
         ],
         "human_version": "7.2.3_11.1.7",
         "version": "11.1.7",
@@ -3993,13 +3993,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.1.6",
-        "last_update": "2024-01-10 00:35:54",
+        "last_update": "2024-01-11 00:13:10",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/timezone",
             "definitions/gpuConfiguration",
+            "definitions/certificate",
+            "normalize/interfaceConfiguration",
             "definitions/interface",
-            "definitions/certificate"
+            "definitions/timezone"
         ],
         "human_version": "7.2.3_11.1.6",
         "version": "11.1.6",
