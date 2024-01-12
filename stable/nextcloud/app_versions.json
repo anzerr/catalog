@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/nextcloud/28.1.12",
-        "last_update": "2024-01-11 00:13:10",
+        "last_update": "2024-01-11 11:41:43",
         "required_features": [
-            "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/certificate",
+            "definitions/gpuConfiguration",
             "definitions/nodeIP"
         ],
         "human_version": "28.0.1_28.1.12",
@@ -7328,11 +7328,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/nextcloud/28.1.11",
-        "last_update": "2024-01-11 00:13:10",
+        "last_update": "2024-01-11 11:41:43",
         "required_features": [
-            "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/certificate",
+            "definitions/gpuConfiguration",
             "definitions/nodeIP"
         ],
         "human_version": "28.0.1_28.1.11",
@@ -14651,11 +14651,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/nextcloud/28.1.10",
-        "last_update": "2024-01-11 00:13:10",
+        "last_update": "2024-01-11 11:41:43",
         "required_features": [
-            "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/certificate",
+            "definitions/gpuConfiguration",
             "definitions/nodeIP"
         ],
         "human_version": "28.0.1_28.1.10",
