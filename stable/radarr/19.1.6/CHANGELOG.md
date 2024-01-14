@@ -7,6 +7,8 @@ title: Changelog
 
 
 
+
+
 ## [radarr-19.1.6](https://github.com/truecharts/charts/compare/radarr-19.1.5...radarr-19.1.6) (2024-01-09)
 
 ### Chore
@@ -95,5 +97,3 @@ title: Changelog
 - update container image ghcr.io/onedr0p/radarr to v5.2.6.8376[@2de3993](https://github.com/2de3993) by renovate ([#16492](https://github.com/truecharts/charts/issues/16492))
 
 ## [radarr-18.0.11](https://github.com/truecharts/charts/compare/radarr-18.0.10...radarr-18.0.11) (2023-12-24)
-
-### Chore
