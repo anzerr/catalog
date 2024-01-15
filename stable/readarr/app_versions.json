@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/readarr/19.1.8",
-        "last_update": "2024-01-14 01:57:27",
+        "last_update": "2024-01-15 00:56:41",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration"
+            "definitions/gpuConfiguration",
+            "definitions/certificate"
         ],
         "human_version": "0.3.14.2358_19.1.8",
         "version": "19.1.8",
@@ -5110,13 +5110,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/readarr/19.1.7",
-        "last_update": "2024-01-14 01:57:27",
+        "last_update": "2024-01-15 00:56:41",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration"
+            "definitions/gpuConfiguration",
+            "definitions/certificate"
         ],
         "human_version": "0.3.14.2348_19.1.7",
         "version": "19.1.7",
@@ -10216,13 +10216,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/readarr/19.1.6",
-        "last_update": "2024-01-14 01:57:27",
+        "last_update": "2024-01-15 00:56:41",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "definitions/interface",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration"
+            "definitions/gpuConfiguration",
+            "definitions/certificate"
         ],
         "human_version": "0.3.14.2348_19.1.6",
         "version": "19.1.6",
