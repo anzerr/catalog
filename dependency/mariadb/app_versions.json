@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/12.1.7",
-        "last_update": "2024-01-15 00:56:41",
+        "last_update": "2024-01-15 18:33:04",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/interface"
         ],
         "human_version": "11.2.2_12.1.7",
         "version": "12.1.7",
@@ -4026,13 +4026,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/12.1.6",
-        "last_update": "2024-01-15 00:56:41",
+        "last_update": "2024-01-15 18:33:04",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/interface"
         ],
         "human_version": "11.2.2_12.1.6",
         "version": "12.1.6",

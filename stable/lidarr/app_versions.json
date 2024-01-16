@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/19.1.8",
-        "last_update": "2024-01-15 00:56:41",
+        "last_update": "2024-01-15 18:33:04",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/interface"
         ],
         "human_version": "2.1.1.3877_19.1.8",
         "version": "19.1.8",
@@ -5107,13 +5107,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/19.1.7",
-        "last_update": "2024-01-15 00:56:41",
+        "last_update": "2024-01-15 18:33:04",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/interface"
         ],
         "human_version": "2.1.1.3877_19.1.7",
         "version": "19.1.7",
@@ -10210,13 +10210,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/19.1.6",
-        "last_update": "2024-01-15 00:56:41",
+        "last_update": "2024-01-15 18:33:04",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/interface"
         ],
         "human_version": "2.1.0.3856_19.1.6",
         "version": "19.1.6",
