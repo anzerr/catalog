@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mongodb/11.1.11",
-        "last_update": "2024-01-19 18:40:17",
+        "last_update": "2024-01-21 00:34:43",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/interface"
@@ -4024,10 +4024,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mongodb/11.1.10",
-        "last_update": "2024-01-19 18:40:17",
+        "last_update": "2024-01-21 00:34:43",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/interface"
@@ -8044,10 +8044,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mongodb/11.1.9",
-        "last_update": "2024-01-19 18:40:17",
+        "last_update": "2024-01-21 00:34:43",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/interface"
@@ -12064,10 +12064,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mongodb/11.1.8",
-        "last_update": "2024-01-19 18:40:17",
+        "last_update": "2024-01-21 00:34:43",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/interface"
@@ -16084,10 +16084,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mongodb/11.1.7",
-        "last_update": "2024-01-19 18:40:17",
+        "last_update": "2024-01-21 00:34:43",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/timezone",
             "definitions/interface"
