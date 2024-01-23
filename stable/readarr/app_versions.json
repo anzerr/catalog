@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/readarr/19.1.12",
-        "last_update": "2024-01-22 00:49:03",
+        "last_update": "2024-01-23 00:52:31",
         "required_features": [
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "0.3.15.2376_19.1.12",
         "version": "19.1.12",
@@ -5111,13 +5111,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/readarr/19.1.11",
-        "last_update": "2024-01-22 00:49:03",
+        "last_update": "2024-01-23 00:52:31",
         "required_features": [
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "0.3.15.2376_19.1.11",
         "version": "19.1.11",
@@ -10218,13 +10218,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/readarr/19.1.10",
-        "last_update": "2024-01-22 00:49:03",
+        "last_update": "2024-01-23 00:52:31",
         "required_features": [
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "0.3.15.2376_19.1.10",
         "version": "19.1.10",
@@ -15325,13 +15325,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/readarr/19.1.9",
-        "last_update": "2024-01-22 00:49:03",
+        "last_update": "2024-01-23 00:52:31",
         "required_features": [
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "0.3.15.2376_19.1.9",
         "version": "19.1.9",
@@ -20432,13 +20432,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/readarr/19.1.8",
-        "last_update": "2024-01-22 00:49:03",
+        "last_update": "2024-01-23 00:52:31",
         "required_features": [
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "0.3.14.2358_19.1.8",
         "version": "19.1.8",
@@ -25538,13 +25538,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/readarr/19.1.7",
-        "last_update": "2024-01-22 00:49:03",
+        "last_update": "2024-01-23 00:52:31",
         "required_features": [
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "0.3.14.2348_19.1.7",
         "version": "19.1.7",
@@ -30644,13 +30644,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/readarr/19.1.6",
-        "last_update": "2024-01-22 00:49:03",
+        "last_update": "2024-01-23 00:52:31",
         "required_features": [
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "0.3.14.2348_19.1.6",
         "version": "19.1.6",

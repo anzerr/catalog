@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/bazarr/17.1.13",
-        "last_update": "2024-01-22 00:49:03",
+        "last_update": "2024-01-23 00:52:31",
         "required_features": [
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "1.4.0_17.1.13",
         "version": "17.1.13",
@@ -5083,13 +5083,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/bazarr/17.1.12",
-        "last_update": "2024-01-22 00:49:03",
+        "last_update": "2024-01-23 00:52:31",
         "required_features": [
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "1.4.0_17.1.12",
         "version": "17.1.12",
@@ -10162,13 +10162,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/bazarr/17.1.11",
-        "last_update": "2024-01-22 00:49:03",
+        "last_update": "2024-01-23 00:52:31",
         "required_features": [
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "1.4.0_17.1.11",
         "version": "17.1.11",
@@ -15241,13 +15241,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/bazarr/17.1.10",
-        "last_update": "2024-01-22 00:49:03",
+        "last_update": "2024-01-23 00:52:31",
         "required_features": [
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "1.4.0_17.1.10",
         "version": "17.1.10",
@@ -20319,13 +20319,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/bazarr/17.1.9",
-        "last_update": "2024-01-22 00:49:03",
+        "last_update": "2024-01-23 00:52:31",
         "required_features": [
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "1.4.0_17.1.9",
         "version": "17.1.9",
@@ -25378,13 +25378,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/bazarr/17.1.8",
-        "last_update": "2024-01-22 00:49:03",
+        "last_update": "2024-01-23 00:52:31",
         "required_features": [
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "1.4.0_17.1.8",
         "version": "17.1.8",
