@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/metube/11.0.5",
-        "last_update": "2024-01-23 00:52:31",
+        "last_update": "2024-01-24 09:13:14",
         "required_features": [
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
@@ -5548,11 +5548,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/metube/11.0.4",
-        "last_update": "2024-01-23 00:52:31",
+        "last_update": "2024-01-24 09:13:14",
         "required_features": [
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
@@ -11092,11 +11092,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/metube/11.0.3",
-        "last_update": "2024-01-23 00:52:31",
+        "last_update": "2024-01-24 09:13:14",
         "required_features": [
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
@@ -16636,11 +16636,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/metube/11.0.2",
-        "last_update": "2024-01-23 00:52:31",
+        "last_update": "2024-01-24 09:13:14",
         "required_features": [
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
@@ -22180,11 +22180,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/metube/11.0.1",
-        "last_update": "2024-01-23 00:52:31",
+        "last_update": "2024-01-24 09:13:14",
         "required_features": [
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
@@ -27724,11 +27724,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/metube/11.0.0",
-        "last_update": "2024-01-23 00:52:31",
+        "last_update": "2024-01-24 09:13:14",
         "required_features": [
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
@@ -33249,11 +33249,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/metube/10.1.6",
-        "last_update": "2024-01-23 00:52:31",
+        "last_update": "2024-01-24 09:13:14",
         "required_features": [
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],

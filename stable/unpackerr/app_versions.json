@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/12.2.4",
-        "last_update": "2024-01-23 00:52:31",
+        "last_update": "2024-01-24 09:13:14",
         "required_features": [
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
@@ -4395,11 +4395,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/12.2.3",
-        "last_update": "2024-01-23 00:52:31",
+        "last_update": "2024-01-24 09:13:14",
         "required_features": [
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
@@ -8786,11 +8786,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/12.2.2",
-        "last_update": "2024-01-23 00:52:31",
+        "last_update": "2024-01-24 09:13:14",
         "required_features": [
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
@@ -13177,11 +13177,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/12.2.1",
-        "last_update": "2024-01-23 00:52:31",
+        "last_update": "2024-01-24 09:13:14",
         "required_features": [
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
@@ -17568,11 +17568,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/12.2.0",
-        "last_update": "2024-01-23 00:52:31",
+        "last_update": "2024-01-24 09:13:14",
         "required_features": [
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
@@ -21959,11 +21959,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/12.1.7",
-        "last_update": "2024-01-23 00:52:31",
+        "last_update": "2024-01-24 09:13:14",
         "required_features": [
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
@@ -26350,11 +26350,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/12.1.6",
-        "last_update": "2024-01-23 00:52:31",
+        "last_update": "2024-01-24 09:13:14",
         "required_features": [
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
@@ -30722,11 +30722,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/12.1.5",
-        "last_update": "2024-01-23 00:52:31",
+        "last_update": "2024-01-24 09:13:14",
         "required_features": [
+            "definitions/timezone",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
