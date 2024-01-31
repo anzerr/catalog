@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/18.1.10",
-        "last_update": "2024-01-30 00:37:29",
+        "last_update": "2024-01-31 00:31:57",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "definitions/interface",
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
-            "definitions/certificate"
+            "definitions/gpuConfiguration",
+            "definitions/certificate",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "0.21.1155_18.1.10",
         "version": "18.1.10",
@@ -5016,13 +5016,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/18.1.9",
-        "last_update": "2024-01-30 00:37:29",
+        "last_update": "2024-01-31 00:31:57",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "definitions/interface",
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
-            "definitions/certificate"
+            "definitions/gpuConfiguration",
+            "definitions/certificate",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "0.21.1155_18.1.9",
         "version": "18.1.9",
@@ -10028,13 +10028,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/18.1.8",
-        "last_update": "2024-01-30 00:37:29",
+        "last_update": "2024-01-31 00:31:57",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "definitions/interface",
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
-            "definitions/certificate"
+            "definitions/gpuConfiguration",
+            "definitions/certificate",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "0.21.1155_18.1.8",
         "version": "18.1.8",
@@ -15040,13 +15040,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/18.1.7",
-        "last_update": "2024-01-30 00:37:29",
+        "last_update": "2024-01-31 00:31:57",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "definitions/interface",
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
-            "definitions/certificate"
+            "definitions/gpuConfiguration",
+            "definitions/certificate",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "0.21.1155_18.1.7",
         "version": "18.1.7",
@@ -20052,13 +20052,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/18.1.6",
-        "last_update": "2024-01-30 00:37:29",
+        "last_update": "2024-01-31 00:31:57",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "definitions/interface",
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
-            "definitions/certificate"
+            "definitions/gpuConfiguration",
+            "definitions/certificate",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "0.21.1155_18.1.6",
         "version": "18.1.6",
@@ -25064,13 +25064,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/18.1.5",
-        "last_update": "2024-01-30 00:37:29",
+        "last_update": "2024-01-31 00:31:57",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "definitions/interface",
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
-            "definitions/certificate"
+            "definitions/gpuConfiguration",
+            "definitions/certificate",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "0.21.1155_18.1.5",
         "version": "18.1.5",
