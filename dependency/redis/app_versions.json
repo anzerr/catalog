@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.1.16",
-        "last_update": "2024-01-31 00:31:57",
+        "last_update": "2024-01-31 02:22:52",
         "required_features": [
+            "definitions/interface",
             "definitions/timezone",
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "7.2.4_11.1.16",
         "version": "11.1.16",
@@ -3993,13 +3993,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.1.15",
-        "last_update": "2024-01-31 00:31:57",
+        "last_update": "2024-01-31 02:22:52",
         "required_features": [
+            "definitions/interface",
             "definitions/timezone",
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "7.2.4_11.1.15",
         "version": "11.1.15",
@@ -7982,13 +7982,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.1.14",
-        "last_update": "2024-01-31 00:31:57",
+        "last_update": "2024-01-31 02:22:52",
         "required_features": [
+            "definitions/interface",
             "definitions/timezone",
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "7.2.4_11.1.14",
         "version": "11.1.14",
@@ -11971,13 +11971,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.1.13",
-        "last_update": "2024-01-31 00:31:57",
+        "last_update": "2024-01-31 02:22:52",
         "required_features": [
+            "definitions/interface",
             "definitions/timezone",
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "7.2.4_11.1.13",
         "version": "11.1.13",
@@ -15960,13 +15960,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.1.12",
-        "last_update": "2024-01-31 00:31:57",
+        "last_update": "2024-01-31 02:22:52",
         "required_features": [
+            "definitions/interface",
             "definitions/timezone",
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "7.2.4_11.1.12",
         "version": "11.1.12",
@@ -19949,13 +19949,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.1.11",
-        "last_update": "2024-01-31 00:31:57",
+        "last_update": "2024-01-31 02:22:52",
         "required_features": [
+            "definitions/interface",
             "definitions/timezone",
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "7.2.4_11.1.11",
         "version": "11.1.11",
@@ -23938,13 +23938,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.1.10",
-        "last_update": "2024-01-31 00:31:57",
+        "last_update": "2024-01-31 02:22:52",
         "required_features": [
+            "definitions/interface",
             "definitions/timezone",
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "7.2.4_11.1.10",
         "version": "11.1.10",
@@ -27927,13 +27927,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.1.9",
-        "last_update": "2024-01-31 00:31:57",
+        "last_update": "2024-01-31 02:22:52",
         "required_features": [
+            "definitions/interface",
             "definitions/timezone",
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "7.2.4_11.1.9",
         "version": "11.1.9",
@@ -31916,13 +31916,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.1.8",
-        "last_update": "2024-01-31 00:31:57",
+        "last_update": "2024-01-31 02:22:52",
         "required_features": [
+            "definitions/interface",
             "definitions/timezone",
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "7.2.3_11.1.8",
         "version": "11.1.8",
@@ -35905,13 +35905,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.1.7",
-        "last_update": "2024-01-31 00:31:57",
+        "last_update": "2024-01-31 02:22:52",
         "required_features": [
+            "definitions/interface",
             "definitions/timezone",
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "7.2.3_11.1.7",
         "version": "11.1.7",
@@ -39894,13 +39894,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.1.6",
-        "last_update": "2024-01-31 00:31:57",
+        "last_update": "2024-01-31 02:22:52",
         "required_features": [
+            "definitions/interface",
             "definitions/timezone",
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "7.2.3_11.1.6",
         "version": "11.1.6",
