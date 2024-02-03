@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/radarr/19.1.11",
-        "last_update": "2024-02-01 18:20:19",
+        "last_update": "2024-02-03 00:49:09",
         "required_features": [
-            "definitions/certificate",
             "definitions/gpuConfiguration",
             "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone"
         ],
         "human_version": "5.2.6.8376_19.1.11",
@@ -5108,12 +5108,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/radarr/19.1.10",
-        "last_update": "2024-02-01 18:20:19",
+        "last_update": "2024-02-03 00:49:09",
         "required_features": [
-            "definitions/certificate",
             "definitions/gpuConfiguration",
             "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone"
         ],
         "human_version": "5.2.6.8376_19.1.10",
@@ -10212,12 +10212,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/radarr/19.1.9",
-        "last_update": "2024-02-01 18:20:19",
+        "last_update": "2024-02-03 00:49:09",
         "required_features": [
-            "definitions/certificate",
             "definitions/gpuConfiguration",
             "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone"
         ],
         "human_version": "5.2.6.8376_19.1.9",
@@ -15316,12 +15316,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/radarr/19.1.8",
-        "last_update": "2024-02-01 18:20:19",
+        "last_update": "2024-02-03 00:49:09",
         "required_features": [
-            "definitions/certificate",
             "definitions/gpuConfiguration",
             "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone"
         ],
         "human_version": "5.2.6.8376_19.1.8",
@@ -20420,12 +20420,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/radarr/19.1.7",
-        "last_update": "2024-02-01 18:20:19",
+        "last_update": "2024-02-03 00:49:09",
         "required_features": [
-            "definitions/certificate",
             "definitions/gpuConfiguration",
             "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone"
         ],
         "human_version": "5.2.6.8376_19.1.7",
@@ -25524,12 +25524,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/radarr/19.1.6",
-        "last_update": "2024-02-01 18:20:19",
+        "last_update": "2024-02-03 00:49:09",
         "required_features": [
-            "definitions/certificate",
             "definitions/gpuConfiguration",
             "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone"
         ],
         "human_version": "5.2.6.8376_19.1.6",
@@ -30627,12 +30627,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/radarr/19.1.5",
-        "last_update": "2024-02-01 18:20:19",
+        "last_update": "2024-02-03 00:49:09",
         "required_features": [
-            "definitions/certificate",
             "definitions/gpuConfiguration",
             "definitions/interface",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/timezone"
         ],
         "human_version": "5.2.6.8376_19.1.5",
