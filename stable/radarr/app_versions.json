@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/radarr/19.1.12",
-        "last_update": "2024-02-07 22:38:36",
+        "last_update": "2024-02-08 21:32:43",
         "required_features": [
+            "definitions/interface",
+            "definitions/certificate",
             "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/certificate",
-            "definitions/timezone",
-            "definitions/interface"
+            "definitions/timezone"
         ],
         "human_version": "5.2.6.8376_19.1.12",
         "version": "19.1.12",

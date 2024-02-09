@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/bazarr/17.1.17",
-        "last_update": "2024-02-07 22:38:36",
+        "last_update": "2024-02-08 21:32:43",
         "required_features": [
+            "definitions/interface",
+            "definitions/certificate",
             "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/certificate",
-            "definitions/timezone",
-            "definitions/interface"
+            "definitions/timezone"
         ],
         "human_version": "1.4.1_17.1.17",
         "version": "17.1.17",

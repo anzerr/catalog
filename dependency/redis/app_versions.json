@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.1.18",
-        "last_update": "2024-02-07 22:38:36",
+        "last_update": "2024-02-08 21:32:43",
         "required_features": [
+            "definitions/interface",
+            "definitions/certificate",
             "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/certificate",
-            "definitions/timezone",
-            "definitions/interface"
+            "definitions/timezone"
         ],
         "human_version": "7.2.4_11.1.18",
         "version": "11.1.18",

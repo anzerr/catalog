@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/nextcloud/28.1.40",
-        "last_update": "2024-02-07 22:38:36",
+        "last_update": "2024-02-08 21:32:43",
         "required_features": [
-            "definitions/timezone",
-            "definitions/gpuConfiguration",
             "definitions/nodeIP",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/timezone",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "28.0.2_28.1.40",
         "version": "28.1.40",
