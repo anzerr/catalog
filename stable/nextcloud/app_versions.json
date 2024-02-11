@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/nextcloud/28.1.40",
-        "last_update": "2024-02-08 21:32:43",
+        "last_update": "2024-02-10 16:31:58",
         "required_features": [
             "definitions/nodeIP",
             "definitions/certificate",
