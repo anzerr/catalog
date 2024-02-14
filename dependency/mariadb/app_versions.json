@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/12.1.17",
-        "last_update": "2024-02-12 18:41:21",
+        "last_update": "2024-02-14 00:50:37",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/interface",
-            "definitions/timezone"
+            "definitions/gpuConfiguration"
         ],
         "human_version": "11.2.3_12.1.17",
         "version": "12.1.17",
@@ -4030,13 +4030,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/12.1.16",
-        "last_update": "2024-02-12 18:41:21",
+        "last_update": "2024-02-14 00:50:37",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/interface",
-            "definitions/timezone"
+            "definitions/gpuConfiguration"
         ],
         "human_version": "11.2.3_12.1.16",
         "version": "12.1.16",
@@ -8056,13 +8056,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/12.1.15",
-        "last_update": "2024-02-12 18:41:21",
+        "last_update": "2024-02-14 00:50:37",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/interface",
-            "definitions/timezone"
+            "definitions/gpuConfiguration"
         ],
         "human_version": "11.2.3_12.1.15",
         "version": "12.1.15",
@@ -12082,13 +12082,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/12.1.14",
-        "last_update": "2024-02-12 18:41:21",
+        "last_update": "2024-02-14 00:50:37",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/interface",
-            "definitions/timezone"
+            "definitions/gpuConfiguration"
         ],
         "human_version": "11.2.2_12.1.14",
         "version": "12.1.14",
