@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/12.1.17",
-        "last_update": "2024-02-14 00:50:37",
+        "last_update": "2024-02-14 21:51:26",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
         "human_version": "11.2.3_12.1.17",
@@ -4030,12 +4030,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/12.1.16",
-        "last_update": "2024-02-14 00:50:37",
+        "last_update": "2024-02-14 21:51:26",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
         "human_version": "11.2.3_12.1.16",
@@ -8056,12 +8056,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/12.1.15",
-        "last_update": "2024-02-14 00:50:37",
+        "last_update": "2024-02-14 21:51:26",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
         "human_version": "11.2.3_12.1.15",
@@ -12082,12 +12082,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/12.1.14",
-        "last_update": "2024-02-14 00:50:37",
+        "last_update": "2024-02-14 21:51:26",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration"
         ],
         "human_version": "11.2.2_12.1.14",
