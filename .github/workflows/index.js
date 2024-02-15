@@ -27,7 +27,8 @@ class Sync {
         'tdarr',
         'tdarr-node',
         'qbittorrent',
-        'cloudnative-pg'
+        'cloudnative-pg',
+        'traefik'
     ];
 
     static exec(c, o) {
