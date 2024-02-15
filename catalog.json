@@ -1,7 +1,43 @@
 {
 	"charts": {},
 	"test": {},
-	"enterprise": {},
+	"enterprise": {
+		"traefik": {
+			"app_readme": "<p>Traefik is a flexible reverse proxy and Ingress Provider.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/enterprise/traefik\">https://truecharts.org/charts/enterprise/traefik</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+			"categories": [
+				"network"
+			],
+			"description": "Traefik is a flexible reverse proxy and Ingress Provider.",
+			"healthy": true,
+			"healthy_error": null,
+			"home": "https://truecharts.org/charts/enterprise/traefik",
+			"location": "/home/runner/work/catalog/catalog/enterprise/traefik",
+			"latest_version": "25.1.17",
+			"latest_app_version": "2.10.7",
+			"latest_human_version": "2.10.7_25.1.17",
+			"last_update": "2024-02-14 21:51:26",
+			"name": "traefik",
+			"recommended": false,
+			"title": "Traefik",
+			"maintainers": [
+				{
+					"name": "TrueCharts",
+					"email": "info@truecharts.org",
+					"url": "https://truecharts.org"
+				}
+			],
+			"tags": [],
+			"screenshots": [],
+			"sources": [
+				"https://github.com/traefik/traefik",
+				"https://github.com/traefik/traefik-helm-chart",
+				"https://traefik.io/",
+				"https://github.com/truecharts/charts/tree/master/charts/enterprise/traefik",
+				"https://github.com/truecharts/containers/tree/master/apps/traefik"
+			],
+			"icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png"
+		}
+	},
 	"operators": {
 		"cloudnative-pg": {
 			"app_readme": "<p>CloudNativePG is a clustered postgresql database operator</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/operators/cloudnative-pg\">https://truecharts.org/charts/operators/cloudnative-pg</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
