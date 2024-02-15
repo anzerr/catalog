@@ -26,7 +26,8 @@ class Sync {
         'prowlarr',
         'tdarr',
         'tdarr-node',
-        'qbittorrent'
+        'qbittorrent',
+        'cloudnative-pg'
     ];
 
     static exec(c, o) {
@@ -65,8 +66,10 @@ class Sync {
             await this.exec('git clone https://github.com/truecharts/catalog.git upstream');
             const list = {
                 'dependency': true,
+                'dev': true,
                 'enterprise': true,
                 'incubator': true,
+                'operators': true,
                 'stable': true,
                 '.helmdocsignore': false,
                 'README.md': false,
