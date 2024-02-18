@@ -1,19 +1,19 @@
 {
-    "11.0.8": {
+    "11.1.0": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/metube/11.0.8",
-        "last_update": "2024-02-14 21:51:26",
+        "location": "/home/runner/work/catalog/catalog/stable/metube/11.1.0",
+        "last_update": "2024-02-17 19:52:48",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
-            "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration"
+            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/timezone",
+            "definitions/interface"
         ],
-        "human_version": "2024.1.26_11.0.8",
-        "version": "11.0.8",
+        "human_version": "2024.1.26_11.1.0",
+        "version": "11.1.0",
         "chart_metadata": {
             "annotations": {
                 "max_scale_version": "23.10.2",
@@ -29,7 +29,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "17.2.30",
+                    "version": "17.4.2",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -60,7 +60,7 @@
                 "https://hub.docker.com/r/alexta69/metube"
             ],
             "type": "application",
-            "version": "11.0.8"
+            "version": "11.1.0"
         },
         "app_metadata": null,
         "schema": {
@@ -112,6 +112,10 @@
                 {
                     "name": "Addons",
                     "description": "Addon Configuration"
+                },
+                {
+                    "name": "Backup Configuration",
+                    "description": "Configure Velero Backup Schedule"
                 },
                 {
                     "name": "Advanced",
@@ -3103,31 +3107,6 @@
                                                                                     "type": "string",
                                                                                     "default": ""
                                                                                 }
-                                                                            },
-                                                                            {
-                                                                                "variable": "scaleCert",
-                                                                                "label": "Use TrueNAS SCALE Certificate (Deprecated)",
-                                                                                "schema": {
-                                                                                    "show_if": [
-                                                                                        [
-                                                                                            "certificateIssuer",
-                                                                                            "=",
-                                                                                            ""
-                                                                                        ]
-                                                                                    ],
-                                                                                    "type": "int",
-                                                                                    "$ref": [
-                                                                                        "definitions/certificate"
-                                                                                    ],
-                                                                                    "enum": [
-                                                                                        {
-                                                                                            "value": null,
-                                                                                            "description": "No Certificate"
-                                                                                        }
-                                                                                    ],
-                                                                                    "default": null,
-                                                                                    "null": true
-                                                                                }
                                                                             }
                                                                         ]
                                                                     }
@@ -3323,31 +3302,6 @@
                                                                     "schema": {
                                                                         "type": "string",
                                                                         "default": ""
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "variable": "scaleCert",
-                                                                    "label": "Use TrueNAS SCALE Certificate (Deprecated)",
-                                                                    "schema": {
-                                                                        "show_if": [
-                                                                            [
-                                                                                "certificateIssuer",
-                                                                                "=",
-                                                                                ""
-                                                                            ]
-                                                                        ],
-                                                                        "type": "int",
-                                                                        "$ref": [
-                                                                            "definitions/certificate"
-                                                                        ],
-                                                                        "enum": [
-                                                                            {
-                                                                                "value": null,
-                                                                                "description": "No Certificate"
-                                                                            }
-                                                                        ],
-                                                                        "default": null,
-                                                                        "null": true
                                                                     }
                                                                 },
                                                                 {
@@ -3789,6 +3743,30 @@
                                                 "type": "string",
                                                 "default": "8Gi",
                                                 "valid_chars": "^(?!^0(e[0-9]|[EPTGMK]i?|)$)([0-9]+)(|[EPTGMK]i?|e[0-9]+)$"
+                                            }
+                                        },
+                                        {
+                                            "variable": "intel.com/i915",
+                                            "label": "Add Intel i915 GPUs",
+                                            "schema": {
+                                                "type": "int",
+                                                "default": 0
+                                            }
+                                        },
+                                        {
+                                            "variable": "nvidia.com/gpu",
+                                            "label": "Add NVIDIA GPUs (Experimental)",
+                                            "schema": {
+                                                "type": "int",
+                                                "default": 0
+                                            }
+                                        },
+                                        {
+                                            "variable": "amd.com/gpu",
+                                            "label": "Add AMD GPUs",
+                                            "schema": {
+                                                "type": "int",
+                                                "default": 0
                                             }
                                         }
                                     ]
@@ -5541,6 +5519,6 @@
         },
         "app_readme": "<p>Web GUI for youtube-dl.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/metube\">https://truecharts.org/charts/stable/metube</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<hr />\n<h2>title: README</h2>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/metube\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.7...metube-11.0.8\">metube-11.0.8</a> (2024-02-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.30<a href=\"https://github.com/19ad5ec\">@19ad5ec</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17804\">#17804</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.6...metube-11.0.7\">metube-11.0.7</a> (2024-01-29)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image alexta69/metube to v2024-01-26<a href=\"https://github.com/7609e7d\">@7609e7d</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17659\">#17659</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.5...metube-11.0.6\">metube-11.0.6</a> (2024-01-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.29<a href=\"https://github.com/d7c41a3\">@d7c41a3</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17545\">#17545</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.4...metube-11.0.5\">metube-11.0.5</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.28<a href=\"https://github.com/918b4c5\">@918b4c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17478\">#17478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.3...metube-11.0.4\">metube-11.0.4</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.26<a href=\"https://github.com/24c98f7\">@24c98f7</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17409\">#17409</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.2...metube-11.0.3\">metube-11.0.3</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update metadata in chart.yaml (<a href=\"https://github.com/truecharts/charts/issues/17457\">#17457</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.1...metube-11.0.2\">metube-11.0.2</a> (2024-01-09)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.22<a href=\"https://github.com/e7c9056\">@e7c9056</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16986\">#16986</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.0...metube-11.0.1\">metube-11.0.1</a> (2024-01-08)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image alexta69/metube to v2024-01-05<a href=\"https://github.com/a9410ec\">@a9410ec</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16980\">#16980</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-10.1.6...metube-11.0.0\">metube-11.0.0</a> (2024-01-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image alexta69/metube to v2024-01-02<a href=\"https://github.com/9fefa40\">@9fefa40</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16813\">#16813</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-10.1.5...metube-10.1.6\">metube-10.1.6</a> (2024-01-02)</h2>\n<h3>Chore</h3>\n<ul>\n<li>force bump to ensure up-to-date catalogs</li>\n</ul>"
+        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.7...metube-11.0.8\">metube-11.0.8</a> (2024-02-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.30<a href=\"https://github.com/19ad5ec\">@19ad5ec</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17804\">#17804</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.6...metube-11.0.7\">metube-11.0.7</a> (2024-01-29)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image alexta69/metube to v2024-01-26<a href=\"https://github.com/7609e7d\">@7609e7d</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17659\">#17659</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.5...metube-11.0.6\">metube-11.0.6</a> (2024-01-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.29<a href=\"https://github.com/d7c41a3\">@d7c41a3</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17545\">#17545</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.4...metube-11.0.5\">metube-11.0.5</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.28<a href=\"https://github.com/918b4c5\">@918b4c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17478\">#17478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.3...metube-11.0.4\">metube-11.0.4</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.26<a href=\"https://github.com/24c98f7\">@24c98f7</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17409\">#17409</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.2...metube-11.0.3\">metube-11.0.3</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update metadata in chart.yaml (<a href=\"https://github.com/truecharts/charts/issues/17457\">#17457</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.1...metube-11.0.2\">metube-11.0.2</a> (2024-01-09)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.22<a href=\"https://github.com/e7c9056\">@e7c9056</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16986\">#16986</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-11.0.0...metube-11.0.1\">metube-11.0.1</a> (2024-01-08)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image alexta69/metube to v2024-01-05<a href=\"https://github.com/a9410ec\">@a9410ec</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16980\">#16980</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-10.1.6...metube-11.0.0\">metube-11.0.0</a> (2024-01-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image alexta69/metube to v2024-01-02<a href=\"https://github.com/9fefa40\">@9fefa40</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16813\">#16813</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/metube-10.1.5...metube-10.1.6\">metube-10.1.6</a> (2024-01-02)</h2>\n<h3>Chore</h3>"
     }
 }

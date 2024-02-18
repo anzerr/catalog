@@ -1,19 +1,19 @@
 {
-    "17.1.17": {
+    "17.2.0": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/bazarr/17.1.17",
-        "last_update": "2024-02-14 21:51:26",
+        "location": "/home/runner/work/catalog/catalog/stable/bazarr/17.2.0",
+        "last_update": "2024-02-17 19:52:48",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
-            "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration"
+            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/timezone",
+            "definitions/interface"
         ],
-        "human_version": "1.4.1_17.1.17",
-        "version": "17.1.17",
+        "human_version": "1.4.1_17.2.0",
+        "version": "17.2.0",
         "chart_metadata": {
             "annotations": {
                 "max_scale_version": "23.10.2",
@@ -29,7 +29,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "17.2.30",
+                    "version": "17.4.2",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -61,11 +61,11 @@
             "sources": [
                 "https://github.com/morpheus65535/bazarr",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/bazarr",
-                "https://ghcr.io/onedr0p/exportarr",
-                "https://ghcr.io/onedr0p/bazarr"
+                "https://ghcr.io/onedr0p/bazarr",
+                "https://ghcr.io/onedr0p/exportarr"
             ],
             "type": "application",
-            "version": "17.1.17"
+            "version": "17.2.0"
         },
         "app_metadata": null,
         "schema": {
@@ -117,6 +117,10 @@
                 {
                     "name": "Addons",
                     "description": "Addon Configuration"
+                },
+                {
+                    "name": "Backup Configuration",
+                    "description": "Configure Velero Backup Schedule"
                 },
                 {
                     "name": "Advanced",
@@ -2575,31 +2579,6 @@
                                                                                     "type": "string",
                                                                                     "default": ""
                                                                                 }
-                                                                            },
-                                                                            {
-                                                                                "variable": "scaleCert",
-                                                                                "label": "Use TrueNAS SCALE Certificate (Deprecated)",
-                                                                                "schema": {
-                                                                                    "show_if": [
-                                                                                        [
-                                                                                            "certificateIssuer",
-                                                                                            "=",
-                                                                                            ""
-                                                                                        ]
-                                                                                    ],
-                                                                                    "type": "int",
-                                                                                    "$ref": [
-                                                                                        "definitions/certificate"
-                                                                                    ],
-                                                                                    "enum": [
-                                                                                        {
-                                                                                            "value": null,
-                                                                                            "description": "No Certificate"
-                                                                                        }
-                                                                                    ],
-                                                                                    "default": null,
-                                                                                    "null": true
-                                                                                }
                                                                             }
                                                                         ]
                                                                     }
@@ -2795,31 +2774,6 @@
                                                                     "schema": {
                                                                         "type": "string",
                                                                         "default": ""
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "variable": "scaleCert",
-                                                                    "label": "Use TrueNAS SCALE Certificate (Deprecated)",
-                                                                    "schema": {
-                                                                        "show_if": [
-                                                                            [
-                                                                                "certificateIssuer",
-                                                                                "=",
-                                                                                ""
-                                                                            ]
-                                                                        ],
-                                                                        "type": "int",
-                                                                        "$ref": [
-                                                                            "definitions/certificate"
-                                                                        ],
-                                                                        "enum": [
-                                                                            {
-                                                                                "value": null,
-                                                                                "description": "No Certificate"
-                                                                            }
-                                                                        ],
-                                                                        "default": null,
-                                                                        "null": true
                                                                     }
                                                                 },
                                                                 {
@@ -3261,6 +3215,30 @@
                                                 "type": "string",
                                                 "default": "8Gi",
                                                 "valid_chars": "^(?!^0(e[0-9]|[EPTGMK]i?|)$)([0-9]+)(|[EPTGMK]i?|e[0-9]+)$"
+                                            }
+                                        },
+                                        {
+                                            "variable": "intel.com/i915",
+                                            "label": "Add Intel i915 GPUs",
+                                            "schema": {
+                                                "type": "int",
+                                                "default": 0
+                                            }
+                                        },
+                                        {
+                                            "variable": "nvidia.com/gpu",
+                                            "label": "Add NVIDIA GPUs (Experimental)",
+                                            "schema": {
+                                                "type": "int",
+                                                "default": 0
+                                            }
+                                        },
+                                        {
+                                            "variable": "amd.com/gpu",
+                                            "label": "Add AMD GPUs",
+                                            "schema": {
+                                                "type": "int",
+                                                "default": 0
                                             }
                                         }
                                     ]
@@ -5076,6 +5054,6 @@
         },
         "app_readme": "<p>Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/bazarr\">https://truecharts.org/charts/stable/bazarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<hr />\n<h2>title: README</h2>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/bazarr\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.16...bazarr-17.1.17\">bazarr-17.1.17</a> (2024-02-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image ghcr.io/onedr0p/bazarr to v1.4.1<a href=\"https://github.com/4a95844\">@4a95844</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17913\">#17913</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.15...bazarr-17.1.16\">bazarr-17.1.16</a> (2024-02-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.30<a href=\"https://github.com/19ad5ec\">@19ad5ec</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17804\">#17804</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.14...bazarr-17.1.15\">bazarr-17.1.15</a> (2024-01-29)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image ghcr.io/onedr0p/exportarr to v1.6.1<a href=\"https://github.com/60cf3d4\">@60cf3d4</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17725\">#17725</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.13...bazarr-17.1.14\">bazarr-17.1.14</a> (2024-01-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.29<a href=\"https://github.com/d7c41a3\">@d7c41a3</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17545\">#17545</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.12...bazarr-17.1.13\">bazarr-17.1.13</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.28<a href=\"https://github.com/918b4c5\">@918b4c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17478\">#17478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.11...bazarr-17.1.12\">bazarr-17.1.12</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.26<a href=\"https://github.com/24c98f7\">@24c98f7</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17409\">#17409</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.10...bazarr-17.1.11\">bazarr-17.1.11</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update metadata in chart.yaml (<a href=\"https://github.com/truecharts/charts/issues/17457\">#17457</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.9...bazarr-17.1.10\">bazarr-17.1.10</a> (2024-01-09)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.22<a href=\"https://github.com/e7c9056\">@e7c9056</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16986\">#16986</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.8...bazarr-17.1.9\">bazarr-17.1.9</a> (2024-01-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image ghcr.io/onedr0p/exportarr to v1.6.0<a href=\"https://github.com/b522e12\">@b522e12</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16770\">#16770</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.7...bazarr-17.1.8\">bazarr-17.1.8</a> (2024-01-02)</h2>\n<h3>Chore</h3>\n<ul>\n<li>force bump to ensure up-to-date catalogs</li>\n</ul>"
+        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><strong>Important:</strong>\n<em>for the complete changelog, please refer to the website</em></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.16...bazarr-17.1.17\">bazarr-17.1.17</a> (2024-02-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image ghcr.io/onedr0p/bazarr to v1.4.1<a href=\"https://github.com/4a95844\">@4a95844</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17913\">#17913</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.15...bazarr-17.1.16\">bazarr-17.1.16</a> (2024-02-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.30<a href=\"https://github.com/19ad5ec\">@19ad5ec</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17804\">#17804</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.14...bazarr-17.1.15\">bazarr-17.1.15</a> (2024-01-29)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image ghcr.io/onedr0p/exportarr to v1.6.1<a href=\"https://github.com/60cf3d4\">@60cf3d4</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17725\">#17725</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.13...bazarr-17.1.14\">bazarr-17.1.14</a> (2024-01-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.29<a href=\"https://github.com/d7c41a3\">@d7c41a3</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17545\">#17545</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.12...bazarr-17.1.13\">bazarr-17.1.13</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.28<a href=\"https://github.com/918b4c5\">@918b4c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17478\">#17478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.11...bazarr-17.1.12\">bazarr-17.1.12</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.26<a href=\"https://github.com/24c98f7\">@24c98f7</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17409\">#17409</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.10...bazarr-17.1.11\">bazarr-17.1.11</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update metadata in chart.yaml (<a href=\"https://github.com/truecharts/charts/issues/17457\">#17457</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.9...bazarr-17.1.10\">bazarr-17.1.10</a> (2024-01-09)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.22<a href=\"https://github.com/e7c9056\">@e7c9056</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16986\">#16986</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.8...bazarr-17.1.9\">bazarr-17.1.9</a> (2024-01-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image ghcr.io/onedr0p/exportarr to v1.6.0<a href=\"https://github.com/b522e12\">@b522e12</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/16770\">#16770</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/bazarr-17.1.7...bazarr-17.1.8\">bazarr-17.1.8</a> (2024-01-02)</h2>\n<h3>Chore</h3>"
     }
 }

@@ -1,19 +1,19 @@
 {
-    "19.1.12": {
+    "19.2.0": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/radarr/19.1.12",
-        "last_update": "2024-02-14 21:51:26",
+        "location": "/home/runner/work/catalog/catalog/stable/radarr/19.2.0",
+        "last_update": "2024-02-17 19:52:48",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
-            "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/gpuConfiguration"
+            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/timezone",
+            "definitions/interface"
         ],
-        "human_version": "5.2.6.8376_19.1.12",
-        "version": "19.1.12",
+        "human_version": "5.2.6.8376_19.2.0",
+        "version": "19.2.0",
         "chart_metadata": {
             "annotations": {
                 "max_scale_version": "23.10.2",
@@ -29,7 +29,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "17.2.30",
+                    "version": "17.4.2",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -58,11 +58,11 @@
             "sources": [
                 "https://github.com/Radarr/Radarr",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/radarr",
-                "https://ghcr.io/onedr0p/exportarr",
-                "https://ghcr.io/onedr0p/radarr"
+                "https://ghcr.io/onedr0p/radarr",
+                "https://ghcr.io/onedr0p/exportarr"
             ],
             "type": "application",
-            "version": "19.1.12"
+            "version": "19.2.0"
         },
         "app_metadata": null,
         "schema": {
@@ -114,6 +114,10 @@
                 {
                     "name": "Addons",
                     "description": "Addon Configuration"
+                },
+                {
+                    "name": "Backup Configuration",
+                    "description": "Configure Velero Backup Schedule"
                 },
                 {
                     "name": "Advanced",
@@ -2610,31 +2614,6 @@
                                                                                     "type": "string",
                                                                                     "default": ""
                                                                                 }
-                                                                            },
-                                                                            {
-                                                                                "variable": "scaleCert",
-                                                                                "label": "Use TrueNAS SCALE Certificate (Deprecated)",
-                                                                                "schema": {
-                                                                                    "show_if": [
-                                                                                        [
-                                                                                            "certificateIssuer",
-                                                                                            "=",
-                                                                                            ""
-                                                                                        ]
-                                                                                    ],
-                                                                                    "type": "int",
-                                                                                    "$ref": [
-                                                                                        "definitions/certificate"
-                                                                                    ],
-                                                                                    "enum": [
-                                                                                        {
-                                                                                            "value": null,
-                                                                                            "description": "No Certificate"
-                                                                                        }
-                                                                                    ],
-                                                                                    "default": null,
-                                                                                    "null": true
-                                                                                }
                                                                             }
                                                                         ]
                                                                     }
@@ -2830,31 +2809,6 @@
                                                                     "schema": {
                                                                         "type": "string",
                                                                         "default": ""
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "variable": "scaleCert",
-                                                                    "label": "Use TrueNAS SCALE Certificate (Deprecated)",
-                                                                    "schema": {
-                                                                        "show_if": [
-                                                                            [
-                                                                                "certificateIssuer",
-                                                                                "=",
-                                                                                ""
-                                                                            ]
-                                                                        ],
-                                                                        "type": "int",
-                                                                        "$ref": [
-                                                                            "definitions/certificate"
-                                                                        ],
-                                                                        "enum": [
-                                                                            {
-                                                                                "value": null,
-                                                                                "description": "No Certificate"
-                                                                            }
-                                                                        ],
-                                                                        "default": null,
-                                                                        "null": true
                                                                     }
                                                                 },
                                                                 {
@@ -3296,6 +3250,30 @@
                                                 "type": "string",
                                                 "default": "8Gi",
                                                 "valid_chars": "^(?!^0(e[0-9]|[EPTGMK]i?|)$)([0-9]+)(|[EPTGMK]i?|e[0-9]+)$"
+                                            }
+                                        },
+                                        {
+                                            "variable": "intel.com/i915",
+                                            "label": "Add Intel i915 GPUs",
+                                            "schema": {
+                                                "type": "int",
+                                                "default": 0
+                                            }
+                                        },
+                                        {
+                                            "variable": "nvidia.com/gpu",
+                                            "label": "Add NVIDIA GPUs (Experimental)",
+                                            "schema": {
+                                                "type": "int",
+                                                "default": 0
+                                            }
+                                        },
+                                        {
+                                            "variable": "amd.com/gpu",
+                                            "label": "Add AMD GPUs",
+                                            "schema": {
+                                                "type": "int",
+                                                "default": 0
                                             }
                                         }
                                     ]
