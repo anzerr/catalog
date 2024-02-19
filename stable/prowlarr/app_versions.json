@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/14.4.0",
-        "last_update": "2024-02-17 19:52:48",
+        "last_update": "2024-02-18 08:48:18",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/certificate",
+            "definitions/interface",
             "definitions/gpuConfiguration",
             "definitions/timezone",
-            "definitions/interface"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "1.13.3.4273_14.4.0",
         "version": "14.4.0",
