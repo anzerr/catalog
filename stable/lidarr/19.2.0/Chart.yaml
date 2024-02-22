@@ -1,5 +1,5 @@
 annotations:
-  max_scale_version: 23.10.2
+  max_scale_version: 24.04.0
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
   truecharts.org/category: media
@@ -33,7 +33,7 @@ name: lidarr
 sources:
   - https://github.com/Lidarr/Lidarr
   - https://github.com/truecharts/charts/tree/master/charts/stable/lidarr
-  - https://ghcr.io/onedr0p/lidarr-develop
   - https://ghcr.io/onedr0p/exportarr
+  - https://ghcr.io/onedr0p/lidarr-develop
 type: application
 version: 19.2.0

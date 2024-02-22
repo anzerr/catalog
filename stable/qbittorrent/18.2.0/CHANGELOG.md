@@ -2,9 +2,10 @@
 title: Changelog
 ---
 
-**Important:**
+
 *for the complete changelog, please refer to the website*
 
+**Important:**
 
 
 
@@ -96,4 +97,3 @@ title: Changelog
 ## [qbittorrent-18.1.3](https://github.com/truecharts/charts/compare/qbittorrent-18.1.0...qbittorrent-18.1.3) (2024-01-01)
 
 ### Chore
-
