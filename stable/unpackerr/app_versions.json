@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/12.4.0",
-        "last_update": "2024-02-22 14:02:27",
+        "last_update": "2024-02-24 01:50:00",
         "required_features": [
-            "definitions/certificate",
-            "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/certificate",
+            "definitions/interface"
         ],
         "human_version": "0.13.1_12.4.0",
         "version": "12.4.0",
@@ -4423,13 +4423,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/12.3.0",
-        "last_update": "2024-02-22 14:02:27",
+        "last_update": "2024-02-24 01:50:00",
         "required_features": [
-            "definitions/certificate",
-            "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/certificate",
+            "definitions/interface"
         ],
         "human_version": "0.13.1_12.3.0",
         "version": "12.3.0",

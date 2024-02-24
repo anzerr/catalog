@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/19.3.0",
-        "last_update": "2024-02-22 14:02:27",
+        "last_update": "2024-02-24 01:50:00",
         "required_features": [
-            "definitions/certificate",
-            "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/certificate",
+            "definitions/interface"
         ],
         "human_version": "2.1.7.4030_19.3.0",
         "version": "19.3.0",
@@ -58,8 +58,8 @@
             "sources": [
                 "https://github.com/Lidarr/Lidarr",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/lidarr",
-                "https://ghcr.io/onedr0p/exportarr",
-                "https://ghcr.io/onedr0p/lidarr-develop"
+                "https://ghcr.io/onedr0p/lidarr-develop",
+                "https://ghcr.io/onedr0p/exportarr"
             ],
             "type": "application",
             "version": "19.3.0"
@@ -5086,13 +5086,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/lidarr/19.2.0",
-        "last_update": "2024-02-22 14:02:27",
+        "last_update": "2024-02-24 01:50:00",
         "required_features": [
-            "definitions/certificate",
-            "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/certificate",
+            "definitions/interface"
         ],
         "human_version": "2.1.7.4030_19.2.0",
         "version": "19.2.0",

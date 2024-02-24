@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mongodb/11.3.0",
-        "last_update": "2024-02-22 14:02:27",
+        "last_update": "2024-02-24 01:50:00",
         "required_features": [
-            "definitions/certificate",
-            "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/certificate",
+            "definitions/interface"
         ],
         "human_version": "7.0.5_11.3.0",
         "version": "11.3.0",
@@ -4052,13 +4052,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mongodb/11.2.2",
-        "last_update": "2024-02-22 14:02:27",
+        "last_update": "2024-02-24 01:50:00",
         "required_features": [
-            "definitions/certificate",
-            "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/certificate",
+            "definitions/interface"
         ],
         "human_version": "7.0.5_11.2.2",
         "version": "11.2.2",
@@ -8100,13 +8100,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mongodb/11.2.1",
-        "last_update": "2024-02-22 14:02:27",
+        "last_update": "2024-02-24 01:50:00",
         "required_features": [
-            "definitions/certificate",
-            "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/certificate",
+            "definitions/interface"
         ],
         "human_version": "7.0.5_11.2.1",
         "version": "11.2.1",
@@ -12148,13 +12148,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mongodb/11.2.0",
-        "last_update": "2024-02-22 14:02:27",
+        "last_update": "2024-02-24 01:50:00",
         "required_features": [
-            "definitions/certificate",
-            "definitions/timezone",
             "definitions/gpuConfiguration",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/certificate",
+            "definitions/interface"
         ],
         "human_version": "7.0.5_11.2.0",
         "version": "11.2.0",
