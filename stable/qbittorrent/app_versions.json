@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/19.1.3",
-        "last_update": "2024-02-26 21:44:16",
+        "last_update": "2024-02-27 23:28:07",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
             "definitions/timezone",
+            "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/certificate"
         ],
         "human_version": "4.6.3_19.1.3",
@@ -20,7 +20,7 @@
                 "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "media",
                 "truecharts.org/max_helm_version": "3.14",
-                "truecharts.org/min_helm_version": "3.12",
+                "truecharts.org/min_helm_version": "3.11",
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
@@ -5077,11 +5077,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/19.1.2",
-        "last_update": "2024-02-26 21:44:16",
+        "last_update": "2024-02-27 23:28:07",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
             "definitions/timezone",
+            "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/certificate"
         ],
         "human_version": "4.6.3_19.1.2",
@@ -10150,11 +10150,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/19.1.1",
-        "last_update": "2024-02-26 21:44:16",
+        "last_update": "2024-02-27 23:28:07",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
             "definitions/timezone",
+            "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/certificate"
         ],
         "human_version": "4.6.3_19.1.1",
@@ -15223,11 +15223,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/19.1.0",
-        "last_update": "2024-02-26 21:44:16",
+        "last_update": "2024-02-27 23:28:07",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
             "definitions/timezone",
+            "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/certificate"
         ],
         "human_version": "4.6.3_19.1.0",
@@ -20296,13 +20296,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/18.3.0",
-        "last_update": "2024-02-26 21:44:16",
+        "last_update": "2024-02-27 23:28:07",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/certificate",
             "definitions/gpuConfiguration",
             "definitions/interface",
-            "definitions/timezone",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "4.6.3_18.3.0",
         "version": "18.3.0",
@@ -25412,13 +25412,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/18.2.0",
-        "last_update": "2024-02-26 21:44:16",
+        "last_update": "2024-02-27 23:28:07",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/certificate",
             "definitions/gpuConfiguration",
             "definitions/interface",
-            "definitions/timezone",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "4.6.3_18.2.0",
         "version": "18.2.0",
