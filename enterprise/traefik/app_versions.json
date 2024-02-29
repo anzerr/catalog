@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.2.2",
-        "last_update": "2024-02-27 23:28:07",
+        "last_update": "2024-02-28 23:25:53",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/timezone"
         ],
         "human_version": "2.11.0_26.2.2",
         "version": "26.2.2",
@@ -5681,10 +5681,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.2.1",
-        "last_update": "2024-02-27 23:28:07",
+        "last_update": "2024-02-28 23:25:53",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/timezone"
         ],
         "human_version": "2.11.0_26.2.1",
         "version": "26.2.1",
@@ -11358,10 +11358,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.2.0",
-        "last_update": "2024-02-27 23:28:07",
+        "last_update": "2024-02-28 23:25:53",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/timezone"
         ],
         "human_version": "2.11.0_26.2.0",
         "version": "26.2.0",
@@ -17035,10 +17035,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.1.3",
-        "last_update": "2024-02-27 23:28:07",
+        "last_update": "2024-02-28 23:25:53",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/timezone"
         ],
         "human_version": "2.11.0_26.1.3",
         "version": "26.1.3",
@@ -22712,10 +22712,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.4.0",
-        "last_update": "2024-02-27 23:28:07",
+        "last_update": "2024-02-28 23:25:53",
         "required_features": [
-            "definitions/timezone",
             "definitions/gpuConfiguration",
+            "definitions/timezone",
             "definitions/certificate"
         ],
         "human_version": "2.11.0_25.4.0",
@@ -28432,10 +28432,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.3.0",
-        "last_update": "2024-02-27 23:28:07",
+        "last_update": "2024-02-28 23:25:53",
         "required_features": [
-            "definitions/timezone",
             "definitions/gpuConfiguration",
+            "definitions/timezone",
             "definitions/certificate"
         ],
         "human_version": "2.11.0_25.3.0",
@@ -34152,10 +34152,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.2.1",
-        "last_update": "2024-02-27 23:28:07",
+        "last_update": "2024-02-28 23:25:53",
         "required_features": [
-            "definitions/timezone",
             "definitions/gpuConfiguration",
+            "definitions/timezone",
             "definitions/certificate"
         ],
         "human_version": "2.10.7_25.2.1",
@@ -39872,10 +39872,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.2.0",
-        "last_update": "2024-02-27 23:28:07",
+        "last_update": "2024-02-28 23:25:53",
         "required_features": [
-            "definitions/timezone",
             "definitions/gpuConfiguration",
+            "definitions/timezone",
             "definitions/certificate"
         ],
         "human_version": "2.10.7_25.2.0",

@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/15.3.1",
-        "last_update": "2024-02-27 23:28:07",
+        "last_update": "2024-02-28 23:25:53",
         "required_features": [
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "1.14.0.4286_15.3.1",
         "version": "15.3.1",
@@ -5044,12 +5044,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/15.3.0",
-        "last_update": "2024-02-27 23:28:07",
+        "last_update": "2024-02-28 23:25:53",
         "required_features": [
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "1.14.0.4286_15.3.0",
         "version": "15.3.0",
@@ -10084,12 +10084,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/15.2.1",
-        "last_update": "2024-02-27 23:28:07",
+        "last_update": "2024-02-28 23:25:53",
         "required_features": [
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "1.14.0.4286_15.2.1",
         "version": "15.2.1",
@@ -15124,12 +15124,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/15.2.0",
-        "last_update": "2024-02-27 23:28:07",
+        "last_update": "2024-02-28 23:25:53",
         "required_features": [
-            "definitions/timezone",
             "definitions/interface",
-            "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "1.14.0.4286_15.2.0",
         "version": "15.2.0",
@@ -20164,13 +20164,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/14.5.0",
-        "last_update": "2024-02-27 23:28:07",
+        "last_update": "2024-02-28 23:25:53",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/gpuConfiguration",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/certificate"
         ],
         "human_version": "1.13.3.4273_14.5.0",
         "version": "14.5.0",
@@ -25247,13 +25247,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/14.4.0",
-        "last_update": "2024-02-27 23:28:07",
+        "last_update": "2024-02-28 23:25:53",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
-            "definitions/gpuConfiguration",
             "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/gpuConfiguration",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/certificate"
         ],
         "human_version": "1.13.3.4273_14.4.0",
         "version": "14.4.0",
