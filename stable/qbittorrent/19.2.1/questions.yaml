@@ -195,6 +195,7 @@ questions:
                 description: qBittorrent WebUI Password
                 schema:
                   type: string
+                  private: true
                   default: "adminadmin"
   - variable: podOptions
     group: "General Settings"
