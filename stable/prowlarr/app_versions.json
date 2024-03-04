@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/15.4.0",
-        "last_update": "2024-03-02 17:36:19",
+        "last_update": "2024-03-03 20:28:21",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
-            "definitions/interface"
+            "definitions/certificate"
         ],
         "human_version": "1.14.0.4286_15.4.0",
         "version": "15.4.0",
@@ -58,8 +58,8 @@
                 "https://github.com/Prowlarr/Prowlarr",
                 "https://github.com/k8s-at-home/container-images",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/prowlarr",
-                "https://ghcr.io/onedr0p/exportarr",
-                "https://ghcr.io/onedr0p/prowlarr-develop"
+                "https://ghcr.io/onedr0p/prowlarr-develop",
+                "https://ghcr.io/onedr0p/exportarr"
             ],
             "type": "application",
             "version": "15.4.0"
@@ -5044,12 +5044,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/15.3.1",
-        "last_update": "2024-03-02 17:36:19",
+        "last_update": "2024-03-03 20:28:21",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
-            "definitions/interface"
+            "definitions/certificate"
         ],
         "human_version": "1.14.0.4286_15.3.1",
         "version": "15.3.1",
@@ -10084,12 +10084,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/15.3.0",
-        "last_update": "2024-03-02 17:36:19",
+        "last_update": "2024-03-03 20:28:21",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
-            "definitions/interface"
+            "definitions/certificate"
         ],
         "human_version": "1.14.0.4286_15.3.0",
         "version": "15.3.0",
@@ -15124,12 +15124,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/15.2.1",
-        "last_update": "2024-03-02 17:36:19",
+        "last_update": "2024-03-03 20:28:21",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/timezone",
-            "definitions/interface"
+            "definitions/certificate"
         ],
         "human_version": "1.14.0.4286_15.2.1",
         "version": "15.2.1",
@@ -20164,12 +20164,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/14.5.0",
-        "last_update": "2024-03-02 17:36:19",
+        "last_update": "2024-03-03 20:28:21",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
             "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/interface",
             "definitions/gpuConfiguration"
         ],
         "human_version": "1.13.3.4273_14.5.0",
@@ -25247,12 +25247,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/14.4.0",
-        "last_update": "2024-03-02 17:36:19",
+        "last_update": "2024-03-03 20:28:21",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
             "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/interface",
             "definitions/gpuConfiguration"
         ],
         "human_version": "1.13.3.4273_14.4.0",

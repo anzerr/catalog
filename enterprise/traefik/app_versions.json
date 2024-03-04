@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.3.0",
-        "last_update": "2024-03-02 17:36:19",
+        "last_update": "2024-03-03 20:28:21",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone"
@@ -5681,7 +5681,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.2.2",
-        "last_update": "2024-03-02 17:36:19",
+        "last_update": "2024-03-03 20:28:21",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone"
@@ -11358,7 +11358,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.2.1",
-        "last_update": "2024-03-02 17:36:19",
+        "last_update": "2024-03-03 20:28:21",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone"
@@ -17035,7 +17035,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.2.0",
-        "last_update": "2024-03-02 17:36:19",
+        "last_update": "2024-03-03 20:28:21",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone"
@@ -22712,11 +22712,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.4.0",
-        "last_update": "2024-03-02 17:36:19",
+        "last_update": "2024-03-03 20:28:21",
         "required_features": [
-            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/certificate"
         ],
         "human_version": "2.11.0_25.4.0",
         "version": "25.4.0",
@@ -28432,11 +28432,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.3.0",
-        "last_update": "2024-03-02 17:36:19",
+        "last_update": "2024-03-03 20:28:21",
         "required_features": [
-            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/certificate"
         ],
         "human_version": "2.11.0_25.3.0",
         "version": "25.3.0",
@@ -34152,11 +34152,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.2.1",
-        "last_update": "2024-03-02 17:36:19",
+        "last_update": "2024-03-03 20:28:21",
         "required_features": [
-            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/certificate"
         ],
         "human_version": "2.10.7_25.2.1",
         "version": "25.2.1",
@@ -39872,11 +39872,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.2.0",
-        "last_update": "2024-03-02 17:36:19",
+        "last_update": "2024-03-03 20:28:21",
         "required_features": [
-            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/certificate"
         ],
         "human_version": "2.10.7_25.2.0",
         "version": "25.2.0",
