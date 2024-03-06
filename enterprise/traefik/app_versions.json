@@ -1,16 +1,16 @@
 {
-    "26.4.8": {
+    "26.4.14": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.4.8",
-        "last_update": "2024-03-04 21:58:50",
+        "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.4.14",
+        "last_update": "2024-03-05 22:11:21",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate"
         ],
-        "human_version": "2.11.0_26.4.8",
-        "version": "26.4.8",
+        "human_version": "2.11.0_26.4.14",
+        "version": "26.4.14",
         "chart_metadata": {
             "annotations": {
                 "max_scale_version": "24.04.0",
@@ -18,7 +18,7 @@
                 "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "network",
                 "truecharts.org/max_helm_version": "3.14",
-                "truecharts.org/min_helm_version": "3.11",
+                "truecharts.org/min_helm_version": "3.12",
                 "truecharts.org/train": "enterprise"
             },
             "apiVersion": "v2",
@@ -26,7 +26,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "18.1.2",
+                    "version": "18.1.8",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -59,7 +59,7 @@
                 "https://github.com/truecharts/containers/tree/master/apps/traefik"
             ],
             "type": "application",
-            "version": "26.4.8"
+            "version": "26.4.14"
         },
         "app_metadata": null,
         "schema": {
@@ -5674,20 +5674,20 @@
         },
         "app_readme": "<p>Traefik is a flexible reverse proxy and Ingress Provider.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/enterprise/traefik\">https://truecharts.org/charts/enterprise/traefik</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<hr />\n<h2>title: README</h2>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/enterprise/traefik\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.16...traefik-25.1.17\">traefik-25.1.17</a> (2024-02-12)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.10.7<a href=\"https://github.com/ec52218\">@ec52218</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/18109\">#18109</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.15...traefik-25.1.16\">traefik-25.1.16</a> (2024-02-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.30<a href=\"https://github.com/19ad5ec\">@19ad5ec</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17804\">#17804</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.14...traefik-25.1.15\">traefik-25.1.15</a> (2024-01-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.29<a href=\"https://github.com/d7c41a3\">@d7c41a3</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17545\">#17545</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.13...traefik-25.1.14\">traefik-25.1.14</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.28<a href=\"https://github.com/918b4c5\">@918b4c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17478\">#17478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.12...traefik-25.1.13\">traefik-25.1.13</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.10.7<a href=\"https://github.com/1a1f160\">@1a1f160</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17471\">#17471</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.11...traefik-25.1.12\">traefik-25.1.12</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.26<a href=\"https://github.com/24c98f7\">@24c98f7</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17409\">#17409</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.10...traefik-25.1.11\">traefik-25.1.11</a> (2024-01-21)</h2>\n<h3>Chore</h3>"
+        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-26.4.13...traefik-26.4.14\">traefik-26.4.14</a> (2024-03-05)</h2>\n<h3>Fix</h3>\n<ul>\n<li>bump common to fix some loadbalancer issues with metallb</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-26.4.12...traefik-26.4.13\">traefik-26.4.13</a> (2024-03-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>bump everything to force helm release again</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-26.4.11...traefik-26.4.12\">traefik-26.4.12</a> (2024-03-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.11.0<a href=\"https://github.com/bc60726\">@bc60726</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/18928\">#18928</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-26.4.9...traefik-26.4.11\">traefik-26.4.11</a> (2024-03-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>force rereleases</p>\n</li>\n<li>\n<p>update container image common to v18.1.6<a href=\"https://github.com/904d84b\">@904d84b</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/18835\">#18835</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.16...traefik-25.1.17\">traefik-25.1.17</a> (2024-02-12)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.10.7<a href=\"https://github.com/ec52218\">@ec52218</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/18109\">#18109</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.15...traefik-25.1.16\">traefik-25.1.16</a> (2024-02-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.30<a href=\"https://github.com/19ad5ec\">@19ad5ec</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17804\">#17804</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.14...traefik-25.1.15\">traefik-25.1.15</a> (2024-01-26)</h2>"
     },
-    "26.4.7": {
+    "26.4.13": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.4.7",
-        "last_update": "2024-03-04 21:58:50",
+        "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.4.13",
+        "last_update": "2024-03-05 22:11:21",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate"
         ],
-        "human_version": "2.11.0_26.4.7",
-        "version": "26.4.7",
+        "human_version": "2.11.0_26.4.13",
+        "version": "26.4.13",
         "chart_metadata": {
             "annotations": {
                 "max_scale_version": "24.04.0",
@@ -5695,7 +5695,7 @@
                 "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "network",
                 "truecharts.org/max_helm_version": "3.14",
-                "truecharts.org/min_helm_version": "3.11",
+                "truecharts.org/min_helm_version": "3.12",
                 "truecharts.org/train": "enterprise"
             },
             "apiVersion": "v2",
@@ -5703,7 +5703,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "18.1.2",
+                    "version": "18.1.6",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -5736,7 +5736,7 @@
                 "https://github.com/truecharts/containers/tree/master/apps/traefik"
             ],
             "type": "application",
-            "version": "26.4.7"
+            "version": "26.4.13"
         },
         "app_metadata": null,
         "schema": {
@@ -11351,20 +11351,20 @@
         },
         "app_readme": "<p>Traefik is a flexible reverse proxy and Ingress Provider.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/enterprise/traefik\">https://truecharts.org/charts/enterprise/traefik</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<hr />\n<h2>title: README</h2>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/enterprise/traefik\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.16...traefik-25.1.17\">traefik-25.1.17</a> (2024-02-12)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.10.7<a href=\"https://github.com/ec52218\">@ec52218</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/18109\">#18109</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.15...traefik-25.1.16\">traefik-25.1.16</a> (2024-02-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.30<a href=\"https://github.com/19ad5ec\">@19ad5ec</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17804\">#17804</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.14...traefik-25.1.15\">traefik-25.1.15</a> (2024-01-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.29<a href=\"https://github.com/d7c41a3\">@d7c41a3</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17545\">#17545</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.13...traefik-25.1.14\">traefik-25.1.14</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.28<a href=\"https://github.com/918b4c5\">@918b4c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17478\">#17478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.12...traefik-25.1.13\">traefik-25.1.13</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.10.7<a href=\"https://github.com/1a1f160\">@1a1f160</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17471\">#17471</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.11...traefik-25.1.12\">traefik-25.1.12</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.26<a href=\"https://github.com/24c98f7\">@24c98f7</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17409\">#17409</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.10...traefik-25.1.11\">traefik-25.1.11</a> (2024-01-21)</h2>\n<h3>Chore</h3>"
+        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-26.4.12...traefik-26.4.13\">traefik-26.4.13</a> (2024-03-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>bump everything to force helm release again</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-26.4.11...traefik-26.4.12\">traefik-26.4.12</a> (2024-03-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.11.0<a href=\"https://github.com/bc60726\">@bc60726</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/18928\">#18928</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-26.4.9...traefik-26.4.11\">traefik-26.4.11</a> (2024-03-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>force rereleases</p>\n</li>\n<li>\n<p>update container image common to v18.1.6<a href=\"https://github.com/904d84b\">@904d84b</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/18835\">#18835</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.16...traefik-25.1.17\">traefik-25.1.17</a> (2024-02-12)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.10.7<a href=\"https://github.com/ec52218\">@ec52218</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/18109\">#18109</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.15...traefik-25.1.16\">traefik-25.1.16</a> (2024-02-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.30<a href=\"https://github.com/19ad5ec\">@19ad5ec</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17804\">#17804</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.14...traefik-25.1.15\">traefik-25.1.15</a> (2024-01-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.29<a href=\"https://github.com/d7c41a3\">@d7c41a3</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17545\">#17545</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.13...traefik-25.1.14\">traefik-25.1.14</a> (2024-01-21)</h2>"
     },
-    "26.4.6": {
+    "26.4.12": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.4.6",
-        "last_update": "2024-03-04 21:58:50",
+        "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.4.12",
+        "last_update": "2024-03-05 22:11:21",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate"
         ],
-        "human_version": "2.11.0_26.4.6",
-        "version": "26.4.6",
+        "human_version": "2.11.0_26.4.12",
+        "version": "26.4.12",
         "chart_metadata": {
             "annotations": {
                 "max_scale_version": "24.04.0",
@@ -11380,7 +11380,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "18.1.2",
+                    "version": "18.1.6",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -11413,7 +11413,7 @@
                 "https://github.com/truecharts/containers/tree/master/apps/traefik"
             ],
             "type": "application",
-            "version": "26.4.6"
+            "version": "26.4.12"
         },
         "app_metadata": null,
         "schema": {
@@ -17028,20 +17028,20 @@
         },
         "app_readme": "<p>Traefik is a flexible reverse proxy and Ingress Provider.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/enterprise/traefik\">https://truecharts.org/charts/enterprise/traefik</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<hr />\n<h2>title: README</h2>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/enterprise/traefik\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.16...traefik-25.1.17\">traefik-25.1.17</a> (2024-02-12)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.10.7<a href=\"https://github.com/ec52218\">@ec52218</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/18109\">#18109</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.15...traefik-25.1.16\">traefik-25.1.16</a> (2024-02-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.30<a href=\"https://github.com/19ad5ec\">@19ad5ec</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17804\">#17804</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.14...traefik-25.1.15\">traefik-25.1.15</a> (2024-01-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.29<a href=\"https://github.com/d7c41a3\">@d7c41a3</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17545\">#17545</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.13...traefik-25.1.14\">traefik-25.1.14</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.28<a href=\"https://github.com/918b4c5\">@918b4c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17478\">#17478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.12...traefik-25.1.13\">traefik-25.1.13</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.10.7<a href=\"https://github.com/1a1f160\">@1a1f160</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17471\">#17471</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.11...traefik-25.1.12\">traefik-25.1.12</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.26<a href=\"https://github.com/24c98f7\">@24c98f7</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17409\">#17409</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.10...traefik-25.1.11\">traefik-25.1.11</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update metadata in chart.yaml (<a href=\"https://github.com/truecharts/charts/issues/17457\">#17457</a>)</li>\n</ul>"
+        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-26.4.11...traefik-26.4.12\">traefik-26.4.12</a> (2024-03-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.11.0<a href=\"https://github.com/bc60726\">@bc60726</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/18928\">#18928</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-26.4.9...traefik-26.4.11\">traefik-26.4.11</a> (2024-03-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>force rereleases</p>\n</li>\n<li>\n<p>update container image common to v18.1.6<a href=\"https://github.com/904d84b\">@904d84b</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/18835\">#18835</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.16...traefik-25.1.17\">traefik-25.1.17</a> (2024-02-12)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.10.7<a href=\"https://github.com/ec52218\">@ec52218</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/18109\">#18109</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.15...traefik-25.1.16\">traefik-25.1.16</a> (2024-02-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.30<a href=\"https://github.com/19ad5ec\">@19ad5ec</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17804\">#17804</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.14...traefik-25.1.15\">traefik-25.1.15</a> (2024-01-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.29<a href=\"https://github.com/d7c41a3\">@d7c41a3</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17545\">#17545</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.13...traefik-25.1.14\">traefik-25.1.14</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.28<a href=\"https://github.com/918b4c5\">@918b4c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17478\">#17478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.12...traefik-25.1.13\">traefik-25.1.13</a> (2024-01-21)</h2>"
     },
-    "26.4.5": {
+    "26.4.11": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.4.5",
-        "last_update": "2024-03-04 21:58:50",
+        "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.4.11",
+        "last_update": "2024-03-05 22:11:21",
         "required_features": [
             "definitions/timezone",
             "definitions/certificate"
         ],
-        "human_version": "2.11.0_26.4.5",
-        "version": "26.4.5",
+        "human_version": "2.11.0_26.4.11",
+        "version": "26.4.11",
         "chart_metadata": {
             "annotations": {
                 "max_scale_version": "24.04.0",
@@ -17049,7 +17049,7 @@
                 "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "network",
                 "truecharts.org/max_helm_version": "3.14",
-                "truecharts.org/min_helm_version": "3.11",
+                "truecharts.org/min_helm_version": "3.12",
                 "truecharts.org/train": "enterprise"
             },
             "apiVersion": "v2",
@@ -17057,7 +17057,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "18.1.2",
+                    "version": "18.1.6",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -17090,7 +17090,7 @@
                 "https://github.com/truecharts/containers/tree/master/apps/traefik"
             ],
             "type": "application",
-            "version": "26.4.5"
+            "version": "26.4.11"
         },
         "app_metadata": null,
         "schema": {
@@ -22705,14 +22705,14 @@
         },
         "app_readme": "<p>Traefik is a flexible reverse proxy and Ingress Provider.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/enterprise/traefik\">https://truecharts.org/charts/enterprise/traefik</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<hr />\n<h2>title: README</h2>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/enterprise/traefik\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.16...traefik-25.1.17\">traefik-25.1.17</a> (2024-02-12)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.10.7<a href=\"https://github.com/ec52218\">@ec52218</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/18109\">#18109</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.15...traefik-25.1.16\">traefik-25.1.16</a> (2024-02-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.30<a href=\"https://github.com/19ad5ec\">@19ad5ec</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17804\">#17804</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.14...traefik-25.1.15\">traefik-25.1.15</a> (2024-01-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.29<a href=\"https://github.com/d7c41a3\">@d7c41a3</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17545\">#17545</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.13...traefik-25.1.14\">traefik-25.1.14</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.28<a href=\"https://github.com/918b4c5\">@918b4c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17478\">#17478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.12...traefik-25.1.13\">traefik-25.1.13</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.10.7<a href=\"https://github.com/1a1f160\">@1a1f160</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17471\">#17471</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.11...traefik-25.1.12\">traefik-25.1.12</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.26<a href=\"https://github.com/24c98f7\">@24c98f7</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17409\">#17409</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.10...traefik-25.1.11\">traefik-25.1.11</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update metadata in chart.yaml (<a href=\"https://github.com/truecharts/charts/issues/17457\">#17457</a>)</li>\n</ul>"
+        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-26.4.9...traefik-26.4.11\">traefik-26.4.11</a> (2024-03-05)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>force rereleases</p>\n</li>\n<li>\n<p>update container image common to v18.1.6<a href=\"https://github.com/904d84b\">@904d84b</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/18835\">#18835</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.16...traefik-25.1.17\">traefik-25.1.17</a> (2024-02-12)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.10.7<a href=\"https://github.com/ec52218\">@ec52218</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/18109\">#18109</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.15...traefik-25.1.16\">traefik-25.1.16</a> (2024-02-03)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.30<a href=\"https://github.com/19ad5ec\">@19ad5ec</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17804\">#17804</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.14...traefik-25.1.15\">traefik-25.1.15</a> (2024-01-26)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.29<a href=\"https://github.com/d7c41a3\">@d7c41a3</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17545\">#17545</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.13...traefik-25.1.14\">traefik-25.1.14</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image common to v17.2.28<a href=\"https://github.com/918b4c5\">@918b4c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17478\">#17478</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.12...traefik-25.1.13\">traefik-25.1.13</a> (2024-01-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update container image tccr.io/tccr/traefik to v2.10.7<a href=\"https://github.com/1a1f160\">@1a1f160</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/17471\">#17471</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/traefik-25.1.11...traefik-25.1.12\">traefik-25.1.12</a> (2024-01-21)</h2>"
     },
     "25.4.0": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.4.0",
-        "last_update": "2024-03-04 21:58:50",
+        "last_update": "2024-03-05 22:11:21",
         "required_features": [
             "definitions/timezone",
             "definitions/gpuConfiguration",
@@ -28432,7 +28432,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.3.0",
-        "last_update": "2024-03-04 21:58:50",
+        "last_update": "2024-03-05 22:11:21",
         "required_features": [
             "definitions/timezone",
             "definitions/gpuConfiguration",
@@ -34152,7 +34152,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.2.1",
-        "last_update": "2024-03-04 21:58:50",
+        "last_update": "2024-03-05 22:11:21",
         "required_features": [
             "definitions/timezone",
             "definitions/gpuConfiguration",
@@ -39872,7 +39872,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.2.0",
-        "last_update": "2024-03-04 21:58:50",
+        "last_update": "2024-03-05 22:11:21",
         "required_features": [
             "definitions/timezone",
             "definitions/gpuConfiguration",
