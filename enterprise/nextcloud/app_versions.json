@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/29.5.5",
-        "last_update": "2024-03-13 21:12:26",
+        "last_update": "2024-03-14 21:05:20",
         "required_features": [
-            "definitions/nodeIP",
             "definitions/certificate",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/nodeIP"
         ],
         "human_version": "28.0.3_29.5.5",
         "version": "29.5.5",
@@ -68,11 +68,11 @@
                 "https://github.com/nextcloud/docker",
                 "https://github.com/nextcloud/helm",
                 "https://github.com/truecharts/charts/tree/master/charts/enterprise/nextcloud",
+                "https://github.com/truecharts/containers/tree/master/apps/nextcloud-fpm",
                 "https://github.com/truecharts/containers/tree/master/apps/nextcloud-imaginary",
-                "https://hub.docker.com/r/nginxinc/nginx-unprivileged",
                 "https://hub.docker.com/r/clamav/clamav",
                 "https://hub.docker.com/r/collabora/code",
-                "https://github.com/truecharts/containers/tree/master/apps/nextcloud-fpm",
+                "https://hub.docker.com/r/nginxinc/nginx-unprivileged",
                 "https://github.com/truecharts/containers/tree/master/apps/nextcloud-push-notify"
             ],
             "type": "application",
@@ -7214,11 +7214,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/29.5.4",
-        "last_update": "2024-03-13 21:12:26",
+        "last_update": "2024-03-14 21:05:20",
         "required_features": [
-            "definitions/nodeIP",
             "definitions/certificate",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/nodeIP"
         ],
         "human_version": "28.0.3_29.5.4",
         "version": "29.5.4",
@@ -14424,11 +14424,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/29.5.3",
-        "last_update": "2024-03-13 21:12:26",
+        "last_update": "2024-03-14 21:05:20",
         "required_features": [
-            "definitions/nodeIP",
             "definitions/certificate",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/nodeIP"
         ],
         "human_version": "28.0.3_29.5.3",
         "version": "29.5.3",
@@ -21634,11 +21634,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/29.5.2",
-        "last_update": "2024-03-13 21:12:26",
+        "last_update": "2024-03-14 21:05:20",
         "required_features": [
-            "definitions/nodeIP",
             "definitions/certificate",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/nodeIP"
         ],
         "human_version": "28.0.3_29.5.2",
         "version": "29.5.2",
@@ -28844,12 +28844,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/28.5.0",
-        "last_update": "2024-03-13 21:12:26",
+        "last_update": "2024-03-14 21:05:20",
         "required_features": [
-            "definitions/nodeIP",
             "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/nodeIP",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "28.0.2_28.5.0",
         "version": "28.5.0",
@@ -36151,12 +36151,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/28.4.0",
-        "last_update": "2024-03-13 21:12:26",
+        "last_update": "2024-03-14 21:05:20",
         "required_features": [
-            "definitions/nodeIP",
             "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/nodeIP",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "28.0.2_28.4.0",
         "version": "28.4.0",
@@ -43458,12 +43458,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/28.3.4",
-        "last_update": "2024-03-13 21:12:26",
+        "last_update": "2024-03-14 21:05:20",
         "required_features": [
-            "definitions/nodeIP",
             "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/nodeIP",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "28.0.2_28.3.4",
         "version": "28.3.4",
