@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.7.3",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone"
@@ -5681,7 +5681,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.7.2",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone"
@@ -11358,7 +11358,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.7.1",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone"
@@ -17035,7 +17035,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/26.7.0",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone"
@@ -22712,7 +22712,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.4.0",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -28432,7 +28432,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.3.0",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -34152,7 +34152,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.2.1",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -39872,7 +39872,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/traefik/25.2.0",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",

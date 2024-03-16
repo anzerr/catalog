@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/13.0.4",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -3978,7 +3978,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/13.0.3",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -7952,7 +7952,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/13.0.2",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -11926,7 +11926,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/13.0.1",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -15900,7 +15900,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/12.4.1",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -19874,7 +19874,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/12.4.0",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -23848,7 +23848,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/12.3.0",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -27822,7 +27822,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/12.2.3",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -31796,13 +31796,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.3.0",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
-            "definitions/timezone",
+            "definitions/interface",
             "definitions/certificate",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/timezone",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "7.2.4_11.3.0",
         "version": "11.3.0",
@@ -35813,13 +35813,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.2.1",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
-            "definitions/timezone",
+            "definitions/interface",
             "definitions/certificate",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/timezone",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "7.2.4_11.2.1",
         "version": "11.2.1",
@@ -39830,13 +39830,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/redis/11.2.0",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
-            "definitions/timezone",
+            "definitions/interface",
             "definitions/certificate",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/timezone",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "7.2.4_11.2.0",
         "version": "11.2.0",

@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/metube/12.6.2",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -5483,7 +5483,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/metube/12.6.1",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -10962,7 +10962,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/metube/12.6.0",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -16441,7 +16441,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/metube/12.5.0",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -21920,13 +21920,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/metube/11.2.0",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
-            "definitions/timezone",
+            "definitions/interface",
             "definitions/certificate",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/timezone",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "2024.1.26_11.2.0",
         "version": "11.2.0",
@@ -27442,13 +27442,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/metube/11.1.0",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
-            "definitions/timezone",
+            "definitions/interface",
             "definitions/certificate",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/timezone",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "2024.1.26_11.1.0",
         "version": "11.1.0",

@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/13.5.2",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -4380,7 +4380,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/13.5.1",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -8756,7 +8756,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/13.5.0",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -13132,7 +13132,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/13.4.1",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone",
@@ -17508,13 +17508,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/12.4.0",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
-            "definitions/timezone",
+            "definitions/interface",
             "definitions/certificate",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/timezone",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "0.13.1_12.4.0",
         "version": "12.4.0",
@@ -21927,13 +21927,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/unpackerr/12.3.0",
-        "last_update": "2024-03-14 21:05:20",
+        "last_update": "2024-03-15 22:42:18",
         "required_features": [
-            "definitions/timezone",
+            "definitions/interface",
             "definitions/certificate",
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/timezone",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "0.13.1_12.3.0",
         "version": "12.3.0",
