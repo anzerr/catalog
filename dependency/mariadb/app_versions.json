@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/13.5.3",
-        "last_update": "2024-03-17 21:01:59",
+        "last_update": "2024-03-18 18:46:14",
         "required_features": [
-            "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/timezone",
-            "normalize/interfaceConfiguration"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "11.2.3_13.5.3",
         "version": "13.5.3",
@@ -4011,12 +4011,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/13.5.2",
-        "last_update": "2024-03-17 21:01:59",
+        "last_update": "2024-03-18 18:46:14",
         "required_features": [
-            "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/timezone",
-            "normalize/interfaceConfiguration"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "11.2.3_13.5.2",
         "version": "13.5.2",
@@ -8018,12 +8018,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/13.5.1",
-        "last_update": "2024-03-17 21:01:59",
+        "last_update": "2024-03-18 18:46:14",
         "required_features": [
-            "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/timezone",
-            "normalize/interfaceConfiguration"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "11.2.3_13.5.1",
         "version": "13.5.1",
@@ -12025,12 +12025,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/13.5.0",
-        "last_update": "2024-03-17 21:01:59",
+        "last_update": "2024-03-18 18:46:14",
         "required_features": [
-            "definitions/interface",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/timezone",
-            "normalize/interfaceConfiguration"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "11.2.3_13.5.0",
         "version": "13.5.0",
@@ -16032,12 +16032,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/12.3.0",
-        "last_update": "2024-03-17 21:01:59",
+        "last_update": "2024-03-18 18:46:14",
         "required_features": [
             "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/gpuConfiguration",
             "definitions/interface"
         ],
         "human_version": "11.2.3_12.3.0",
@@ -20082,12 +20082,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/12.2.1",
-        "last_update": "2024-03-17 21:01:59",
+        "last_update": "2024-03-18 18:46:14",
         "required_features": [
             "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/gpuConfiguration",
             "definitions/interface"
         ],
         "human_version": "11.2.3_12.2.1",
@@ -24132,12 +24132,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/dependency/mariadb/12.2.0",
-        "last_update": "2024-03-17 21:01:59",
+        "last_update": "2024-03-18 18:46:14",
         "required_features": [
             "definitions/certificate",
-            "definitions/gpuConfiguration",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
+            "definitions/timezone",
+            "definitions/gpuConfiguration",
             "definitions/interface"
         ],
         "human_version": "11.2.3_12.2.0",
