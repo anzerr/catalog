@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/19.7.1",
-        "last_update": "2024-03-18 18:46:14",
+        "last_update": "2024-03-19 18:46:59",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/timezone",
             "definitions/certificate",
             "definitions/interface",
-            "definitions/timezone"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "0.21.1155_19.7.1",
         "version": "19.7.1",
@@ -5055,12 +5055,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/19.7.0",
-        "last_update": "2024-03-18 18:46:14",
+        "last_update": "2024-03-19 18:46:59",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/timezone",
             "definitions/certificate",
             "definitions/interface",
-            "definitions/timezone"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "0.21.1155_19.7.0",
         "version": "19.7.0",
@@ -10106,12 +10106,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/19.6.0",
-        "last_update": "2024-03-18 18:46:14",
+        "last_update": "2024-03-19 18:46:59",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/timezone",
             "definitions/certificate",
             "definitions/interface",
-            "definitions/timezone"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "0.21.1155_19.6.0",
         "version": "19.6.0",
@@ -15157,12 +15157,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/19.5.2",
-        "last_update": "2024-03-18 18:46:14",
+        "last_update": "2024-03-19 18:46:59",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/timezone",
             "definitions/certificate",
             "definitions/interface",
-            "definitions/timezone"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "0.21.1155_19.5.2",
         "version": "19.5.2",
@@ -20208,12 +20208,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/18.3.0",
-        "last_update": "2024-03-18 18:46:14",
+        "last_update": "2024-03-19 18:46:59",
         "required_features": [
-            "definitions/certificate",
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/gpuConfiguration",
+            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface"
         ],
         "human_version": "0.21.1155_18.3.0",
@@ -25302,12 +25302,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/18.2.3",
-        "last_update": "2024-03-18 18:46:14",
+        "last_update": "2024-03-19 18:46:59",
         "required_features": [
-            "definitions/certificate",
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/gpuConfiguration",
+            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface"
         ],
         "human_version": "0.21.1155_18.2.3",
@@ -30396,12 +30396,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jackett/18.2.0",
-        "last_update": "2024-03-18 18:46:14",
+        "last_update": "2024-03-19 18:46:59",
         "required_features": [
-            "definitions/certificate",
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
             "definitions/gpuConfiguration",
+            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface"
         ],
         "human_version": "0.21.1155_18.2.0",
