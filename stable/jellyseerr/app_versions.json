@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jellyseerr/9.7.1",
-        "last_update": "2024-03-19 18:46:59",
+        "last_update": "2024-03-20 22:36:59",
         "required_features": [
-            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/timezone",
+            "definitions/interface"
         ],
         "human_version": "1.7.0_9.7.1",
         "version": "9.7.1",
@@ -4997,12 +4997,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jellyseerr/9.7.0",
-        "last_update": "2024-03-19 18:46:59",
+        "last_update": "2024-03-20 22:36:59",
         "required_features": [
-            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/timezone",
+            "definitions/interface"
         ],
         "human_version": "1.7.0_9.7.0",
         "version": "9.7.0",
@@ -9990,12 +9990,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jellyseerr/9.6.0",
-        "last_update": "2024-03-19 18:46:59",
+        "last_update": "2024-03-20 22:36:59",
         "required_features": [
-            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/timezone",
+            "definitions/interface"
         ],
         "human_version": "1.7.0_9.6.0",
         "version": "9.6.0",
@@ -14983,12 +14983,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jellyseerr/9.5.2",
-        "last_update": "2024-03-19 18:46:59",
+        "last_update": "2024-03-20 22:36:59",
         "required_features": [
-            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/timezone",
+            "definitions/interface"
         ],
         "human_version": "1.7.0_9.5.2",
         "version": "9.5.2",
@@ -19976,13 +19976,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jellyseerr/8.3.0",
-        "last_update": "2024-03-19 18:46:59",
+        "last_update": "2024-03-20 22:36:59",
         "required_features": [
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/certificate",
-            "definitions/interface"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "1.7.0_8.3.0",
         "version": "8.3.0",
@@ -25012,13 +25012,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/jellyseerr/8.2.0",
-        "last_update": "2024-03-19 18:46:59",
+        "last_update": "2024-03-20 22:36:59",
         "required_features": [
             "definitions/timezone",
             "definitions/gpuConfiguration",
-            "normalize/interfaceConfiguration",
+            "definitions/interface",
             "definitions/certificate",
-            "definitions/interface"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "1.7.0_8.2.0",
         "version": "8.2.0",

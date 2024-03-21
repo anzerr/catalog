@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/29.5.5",
-        "last_update": "2024-03-19 18:46:59",
+        "last_update": "2024-03-20 22:36:59",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/nodeIP"
         ],
         "human_version": "28.0.3_29.5.5",
@@ -7214,10 +7214,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/29.5.4",
-        "last_update": "2024-03-19 18:46:59",
+        "last_update": "2024-03-20 22:36:59",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/nodeIP"
         ],
         "human_version": "28.0.3_29.5.4",
@@ -14424,10 +14424,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/29.5.3",
-        "last_update": "2024-03-19 18:46:59",
+        "last_update": "2024-03-20 22:36:59",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/nodeIP"
         ],
         "human_version": "28.0.3_29.5.3",
@@ -21634,10 +21634,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/29.5.2",
-        "last_update": "2024-03-19 18:46:59",
+        "last_update": "2024-03-20 22:36:59",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/nodeIP"
         ],
         "human_version": "28.0.3_29.5.2",
@@ -28844,10 +28844,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/28.5.0",
-        "last_update": "2024-03-19 18:46:59",
+        "last_update": "2024-03-20 22:36:59",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/gpuConfiguration",
             "definitions/nodeIP"
         ],
@@ -36151,10 +36151,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/28.4.0",
-        "last_update": "2024-03-19 18:46:59",
+        "last_update": "2024-03-20 22:36:59",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/gpuConfiguration",
             "definitions/nodeIP"
         ],
@@ -43458,10 +43458,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/28.3.4",
-        "last_update": "2024-03-19 18:46:59",
+        "last_update": "2024-03-20 22:36:59",
         "required_features": [
-            "definitions/timezone",
             "definitions/certificate",
+            "definitions/timezone",
             "definitions/gpuConfiguration",
             "definitions/nodeIP"
         ],
