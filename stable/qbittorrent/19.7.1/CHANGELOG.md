@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [qbittorrent-19.7.1](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.7.1) (2024-03-17)
+## [qbittorrent-19.7.1](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.7.1) (2024-03-21)
 
 ### Chore
 
@@ -21,7 +21,7 @@ title: Changelog
 - update container image ghcr.io/onedr0p/qbittorrent to 4.6.3[@f2895e6](https://github.com/f2895e6) by renovate ([#19256](https://github.com/truecharts/charts/issues/19256))
 
 
-## [qbittorrent-19.7.1](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.7.1) (2024-03-17)
+## [qbittorrent-19.7.1](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.7.1) (2024-03-21)
 
 ### Chore
 
@@ -34,7 +34,7 @@ title: Changelog
 - update container image ghcr.io/onedr0p/qbittorrent to 4.6.3[@f2895e6](https://github.com/f2895e6) by renovate ([#19256](https://github.com/truecharts/charts/issues/19256))
 
 
-## [qbittorrent-19.7.1](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.7.1) (2024-03-17)
+## [qbittorrent-19.7.1](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.7.1) (2024-03-21)
 
 ### Chore
 
@@ -47,7 +47,7 @@ title: Changelog
 - update container image ghcr.io/onedr0p/qbittorrent to 4.6.3[@f2895e6](https://github.com/f2895e6) by renovate ([#19256](https://github.com/truecharts/charts/issues/19256))
 
 
-## [qbittorrent-19.7.1](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.7.1) (2024-03-17)
+## [qbittorrent-19.7.1](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.7.1) (2024-03-21)
 
 ### Chore
 
@@ -60,7 +60,7 @@ title: Changelog
 - update container image ghcr.io/onedr0p/qbittorrent to 4.6.3[@f2895e6](https://github.com/f2895e6) by renovate ([#19256](https://github.com/truecharts/charts/issues/19256))
 
 
-## [qbittorrent-19.7.1](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.7.1) (2024-03-17)
+## [qbittorrent-19.7.1](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.7.1) (2024-03-21)
 
 ### Chore
 
@@ -73,7 +73,7 @@ title: Changelog
 - update container image ghcr.io/onedr0p/qbittorrent to 4.6.3[@f2895e6](https://github.com/f2895e6) by renovate ([#19256](https://github.com/truecharts/charts/issues/19256))
 
 
-## [qbittorrent-19.7.1](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.7.1) (2024-03-17)
+## [qbittorrent-19.7.1](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.7.1) (2024-03-21)
 
 ### Chore
 
@@ -86,7 +86,7 @@ title: Changelog
 - update container image ghcr.io/onedr0p/qbittorrent to 4.6.3[@f2895e6](https://github.com/f2895e6) by renovate ([#19256](https://github.com/truecharts/charts/issues/19256))
 
 
-## [qbittorrent-19.7.1](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.7.1) (2024-03-17)
+## [qbittorrent-19.7.1](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.7.1) (2024-03-21)
 
 ### Chore
 

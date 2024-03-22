@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/16.5.3",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
             "normalize/interfaceConfiguration",
-            "definitions/certificate",
             "definitions/timezone",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/certificate"
         ],
         "human_version": "1.14.3.4333_16.5.3",
         "version": "16.5.3",
@@ -58,8 +58,8 @@
                 "https://github.com/Prowlarr/Prowlarr",
                 "https://github.com/k8s-at-home/container-images",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/prowlarr",
-                "https://ghcr.io/onedr0p/exportarr",
-                "https://ghcr.io/onedr0p/prowlarr-develop"
+                "https://ghcr.io/onedr0p/prowlarr-develop",
+                "https://ghcr.io/onedr0p/exportarr"
             ],
             "type": "application",
             "version": "16.5.3"
@@ -5037,19 +5037,19 @@
         },
         "app_readme": "<p>Indexer manager/proxy built on the popular arr net base stack to integrate with your various PVR apps.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/prowlarr\">https://truecharts.org/charts/stable/prowlarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<hr />\n<h2>title: README</h2>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/prowlarr\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.5.3\">prowlarr-16.5.3</a> (2024-03-19)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.3.4333<a href=\"https://github.com/af90aa4\">@af90aa4</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19425\">#19425</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.2.4318<a href=\"https://github.com/78e4f3a\">@78e4f3a</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19405\">#19405</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to 1.14.1.4316<a href=\"https://github.com/882daa1\">@882daa1</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19255\">#19255</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.5.3\">prowlarr-16.5.3</a> (2024-03-19)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.3.4333<a href=\"https://github.com/af90aa4\">@af90aa4</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19425\">#19425</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.2.4318<a href=\"https://github.com/78e4f3a\">@78e4f3a</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19405\">#19405</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to 1.14.1.4316<a href=\"https://github.com/882daa1\">@882daa1</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19255\">#19255</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.5.3\">prowlarr-16.5.3</a> (2024-03-19)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.3.4333<a href=\"https://github.com/af90aa4\">@af90aa4</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19425\">#19425</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.2.4318<a href=\"https://github.com/78e4f3a\">@78e4f3a</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19405\">#19405</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to 1.14.1.4316<a href=\"https://github.com/882daa1\">@882daa1</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19255\">#19255</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.5.3\">prowlarr-16.5.3</a> (2024-03-19)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.3.4333<a href=\"https://github.com/af90aa4\">@af90aa4</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19425\">#19425</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.2.4318<a href=\"https://github.com/78e4f3a\">@78e4f3a</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19405\">#19405</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to 1.14.1.4316<a href=\"https://github.com/882daa1\">@882daa1</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19255\">#19255</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.5.3\">prowlarr-16.5.3</a> (2024-03-19)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.3.4333<a href=\"https://github.com/af90aa4\">@af90aa4</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19425\">#19425</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.2.4318<a href=\"https://github.com/78e4f3a\">@78e4f3a</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19405\">#19405</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to 1.14.1.4316<a href=\"https://github.com/882daa1\">@882daa1</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19255\">#19255</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.5.3\">prowlarr-16.5.3</a> (2024-03-19)</h2>\n<h3>Chore</h3>"
+        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.5.3\">prowlarr-16.5.3</a> (2024-03-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.3.4333<a href=\"https://github.com/af90aa4\">@af90aa4</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19425\">#19425</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.2.4318<a href=\"https://github.com/78e4f3a\">@78e4f3a</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19405\">#19405</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to 1.14.1.4316<a href=\"https://github.com/882daa1\">@882daa1</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19255\">#19255</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.5.3\">prowlarr-16.5.3</a> (2024-03-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.3.4333<a href=\"https://github.com/af90aa4\">@af90aa4</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19425\">#19425</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.2.4318<a href=\"https://github.com/78e4f3a\">@78e4f3a</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19405\">#19405</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to 1.14.1.4316<a href=\"https://github.com/882daa1\">@882daa1</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19255\">#19255</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.5.3\">prowlarr-16.5.3</a> (2024-03-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.3.4333<a href=\"https://github.com/af90aa4\">@af90aa4</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19425\">#19425</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.2.4318<a href=\"https://github.com/78e4f3a\">@78e4f3a</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19405\">#19405</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to 1.14.1.4316<a href=\"https://github.com/882daa1\">@882daa1</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19255\">#19255</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.5.3\">prowlarr-16.5.3</a> (2024-03-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.3.4333<a href=\"https://github.com/af90aa4\">@af90aa4</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19425\">#19425</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.2.4318<a href=\"https://github.com/78e4f3a\">@78e4f3a</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19405\">#19405</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to 1.14.1.4316<a href=\"https://github.com/882daa1\">@882daa1</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19255\">#19255</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.5.3\">prowlarr-16.5.3</a> (2024-03-21)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.3.4333<a href=\"https://github.com/af90aa4\">@af90aa4</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19425\">#19425</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to v1.14.2.4318<a href=\"https://github.com/78e4f3a\">@78e4f3a</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19405\">#19405</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n<li>\n<p>update container image ghcr.io/onedr0p/prowlarr-develop to 1.14.1.4316<a href=\"https://github.com/882daa1\">@882daa1</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19255\">#19255</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.5.3\">prowlarr-16.5.3</a> (2024-03-21)</h2>\n<h3>Chore</h3>"
     },
     "16.5.2": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/16.5.2",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
             "normalize/interfaceConfiguration",
-            "definitions/certificate",
             "definitions/timezone",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/certificate"
         ],
         "human_version": "1.14.3.4333_16.5.2",
         "version": "16.5.2",
@@ -10084,12 +10084,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/16.5.1",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
             "normalize/interfaceConfiguration",
-            "definitions/certificate",
             "definitions/timezone",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/certificate"
         ],
         "human_version": "1.14.2.4318_16.5.1",
         "version": "16.5.1",
@@ -15124,12 +15124,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/16.5.0",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
             "normalize/interfaceConfiguration",
-            "definitions/certificate",
             "definitions/timezone",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/certificate"
         ],
         "human_version": "1.14.1.4316_16.5.0",
         "version": "16.5.0",
@@ -20164,12 +20164,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/15.4.1",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
             "normalize/interfaceConfiguration",
-            "definitions/certificate",
             "definitions/timezone",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/certificate"
         ],
         "human_version": "1.14.0.4286_15.4.1",
         "version": "15.4.1",
@@ -25204,12 +25204,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/15.4.0",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
             "normalize/interfaceConfiguration",
-            "definitions/certificate",
             "definitions/timezone",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/certificate"
         ],
         "human_version": "1.14.0.4286_15.4.0",
         "version": "15.4.0",
@@ -30244,12 +30244,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/15.3.1",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
             "normalize/interfaceConfiguration",
-            "definitions/certificate",
             "definitions/timezone",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/certificate"
         ],
         "human_version": "1.14.0.4286_15.3.1",
         "version": "15.3.1",
@@ -35284,12 +35284,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/15.3.0",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
             "normalize/interfaceConfiguration",
-            "definitions/certificate",
             "definitions/timezone",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/certificate"
         ],
         "human_version": "1.14.0.4286_15.3.0",
         "version": "15.3.0",
@@ -40324,13 +40324,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/14.5.0",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
-            "definitions/timezone",
             "definitions/gpuConfiguration",
+            "normalize/interfaceConfiguration",
+            "definitions/timezone",
             "definitions/interface",
-            "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "1.13.3.4273_14.5.0",
         "version": "14.5.0",
@@ -45407,13 +45407,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/prowlarr/14.4.0",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
-            "definitions/timezone",
             "definitions/gpuConfiguration",
+            "normalize/interfaceConfiguration",
+            "definitions/timezone",
             "definitions/interface",
-            "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "1.13.3.4273_14.4.0",
         "version": "14.4.0",

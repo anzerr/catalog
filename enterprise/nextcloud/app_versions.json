@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/29.5.5",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
-            "definitions/nodeIP"
+            "definitions/nodeIP",
+            "definitions/certificate"
         ],
         "human_version": "28.0.3_29.5.5",
         "version": "29.5.5",
@@ -7214,11 +7214,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/29.5.4",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
-            "definitions/nodeIP"
+            "definitions/nodeIP",
+            "definitions/certificate"
         ],
         "human_version": "28.0.3_29.5.4",
         "version": "29.5.4",
@@ -14424,11 +14424,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/29.5.3",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
-            "definitions/nodeIP"
+            "definitions/nodeIP",
+            "definitions/certificate"
         ],
         "human_version": "28.0.3_29.5.3",
         "version": "29.5.3",
@@ -21634,11 +21634,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/29.5.2",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
-            "definitions/nodeIP"
+            "definitions/nodeIP",
+            "definitions/certificate"
         ],
         "human_version": "28.0.3_29.5.2",
         "version": "29.5.2",
@@ -28844,12 +28844,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/28.5.0",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/nodeIP",
             "definitions/gpuConfiguration",
-            "definitions/nodeIP"
+            "definitions/certificate"
         ],
         "human_version": "28.0.2_28.5.0",
         "version": "28.5.0",
@@ -36151,12 +36151,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/28.4.0",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/nodeIP",
             "definitions/gpuConfiguration",
-            "definitions/nodeIP"
+            "definitions/certificate"
         ],
         "human_version": "28.0.2_28.4.0",
         "version": "28.4.0",
@@ -43458,12 +43458,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/enterprise/nextcloud/28.3.4",
-        "last_update": "2024-03-20 22:36:59",
+        "last_update": "2024-03-21 23:25:47",
         "required_features": [
-            "definitions/certificate",
             "definitions/timezone",
+            "definitions/nodeIP",
             "definitions/gpuConfiguration",
-            "definitions/nodeIP"
+            "definitions/certificate"
         ],
         "human_version": "28.0.2_28.3.4",
         "version": "28.3.4",
