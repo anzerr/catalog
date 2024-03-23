@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/19.7.1",
-        "last_update": "2024-03-21 23:25:47",
+        "last_update": "2024-03-22 19:20:56",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "4.6.3_19.7.1",
         "version": "19.7.1",
@@ -5078,12 +5078,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/19.7.0",
-        "last_update": "2024-03-21 23:25:47",
+        "last_update": "2024-03-22 19:20:56",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "4.6.3_19.7.0",
         "version": "19.7.0",
@@ -10152,12 +10152,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/19.6.1",
-        "last_update": "2024-03-21 23:25:47",
+        "last_update": "2024-03-22 19:20:56",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "4.6.3_19.6.1",
         "version": "19.6.1",
@@ -15226,12 +15226,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/19.6.0",
-        "last_update": "2024-03-21 23:25:47",
+        "last_update": "2024-03-22 19:20:56",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "4.6.3_19.6.0",
         "version": "19.6.0",
@@ -20300,13 +20300,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/18.3.0",
-        "last_update": "2024-03-21 23:25:47",
+        "last_update": "2024-03-22 19:20:56",
         "required_features": [
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
-            "definitions/certificate"
+            "definitions/timezone",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "4.6.3_18.3.0",
         "version": "18.3.0",
@@ -25416,13 +25416,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/qbittorrent/18.2.0",
-        "last_update": "2024-03-21 23:25:47",
+        "last_update": "2024-03-22 19:20:56",
         "required_features": [
-            "definitions/gpuConfiguration",
             "normalize/interfaceConfiguration",
-            "definitions/timezone",
+            "definitions/certificate",
             "definitions/interface",
-            "definitions/certificate"
+            "definitions/timezone",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "4.6.3_18.2.0",
         "version": "18.2.0",
