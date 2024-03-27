@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/mariadb/13.7.4",
-        "last_update": "2024-03-25 18:47:09",
+        "last_update": "2024-03-26 19:07:57",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "11.2.3_13.7.4",
         "version": "13.7.4",
@@ -4011,12 +4011,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/mariadb/13.7.3",
-        "last_update": "2024-03-25 18:47:09",
+        "last_update": "2024-03-26 19:07:57",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "11.2.3_13.7.3",
         "version": "13.7.3",
@@ -8018,12 +8018,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/mariadb/13.7.2",
-        "last_update": "2024-03-25 18:47:09",
+        "last_update": "2024-03-26 19:07:57",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "11.2.3_13.7.2",
         "version": "13.7.2",
@@ -12025,12 +12025,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/mariadb/13.7.1",
-        "last_update": "2024-03-25 18:47:09",
+        "last_update": "2024-03-26 19:07:57",
         "required_features": [
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "11.2.3_13.7.1",
         "version": "13.7.1",
